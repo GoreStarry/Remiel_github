@@ -1,11 +1,11 @@
-
 $(function () {
 
 
     var browserPass;
     var nowPage = 0;
     var $runPage = $("article").find(".page");
-    var lastPage = ($runPage.length) - 1;
+    var lastPage = ($runPage.length) - 1,
+        screenState = window.innerWidth > window.innerHeight ? "land" : "port";
 
     deviceDetect();
     //啟動倒數--------------
@@ -25,9 +25,9 @@ $(function () {
             cTime--;
 
             if (cTime < 0) {
-                    clearInterval(countDown);
-                    $(".loading").css("display", "none");
-                    opening();
+                clearInterval(countDown);
+                $(".loading").css("display", "none");
+                opening();
             }
         }, 1500);
     })
@@ -104,7 +104,7 @@ $(function () {
 
 
 
-//    分享留言安三秒歸位
+    //    分享留言安三秒歸位
     function hov() {
         var i = 0;
 
@@ -134,7 +134,7 @@ $(function () {
                 "bottom": "-10vh"
             }, "swing");
             $(".sticker").stop(true).animate({
-                "left": "50vw"
+                "left": "40vw"
             });
         },
         function () {
@@ -155,23 +155,6 @@ $(function () {
         });
 
 
-
-    //--------------
-
-    //------CSS配置--------
-    var $udMho = $(".under").find(".udMho");
-    $udMho.each(function (i) {
-        $(this).css({
-            "left": 20 * i + "vw",
-            "left": 15 + 22 * i + "vh",
-            "top": -7 + (-5 * i) + "rem",
-            "z-index": 3 - i
-        });
-        i++;
-    });
-
-
-    //-------------
 
 
     //-----選單效果----
@@ -261,13 +244,44 @@ $(function () {
     });
 
     $(window).resize(function () {
+        screenState = window.innerWidth > window.innerHeight ? "land" : "port";
         $(".pageM").css({
             "font-size": "1.1rem",
             "line-height": "2rem"
         });
-        $("article").find(".page").each(function () {
-            var i = 0;
-            while ($(this).find(".pageM").innerWidth() > $("body").innerWidth()) {
+        if (screenState == "land") {
+            breakPrevent()
+        }
+    })
+
+
+    //瀏覽器偵測
+    function deviceDetect() {
+        if (/Firefox|MSIE|Trident\/7\./i.test(navigator.userAgent)) {
+            alert("抱歉，Firefox瀏覽器一直不支援中文直式排版，所以我放棄它了... 麻煩改用Chrome或Safari謝謝！");
+        }else if(navigator.userAgent.match(/FB/i)){
+            alert("抱歉，FB內建瀏覽器太過陽春了～ 請使用其他瀏覽器嘗試。");
+        }
+        else {
+
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                alert("建議使用桌上平台以獲得最佳瀏覽體驗。");
+            }
+            var browserPass = true;
+            if (screenState == "land") {
+                breakPrevent()
+            }
+        }
+    }
+
+
+    //-----破頁保險----
+    function breakPrevent() {
+        var bodyWidth = ($("body").innerWidth()) - 170;
+        var i = 0;
+
+        $runPage.each(function () {
+            while ($(this).find(".pageM").innerWidth() > bodyWidth) {
                 $(this).find(".pageM").css({
                     "font-size": 20 - i + "px",
                     "line-height": 30 - i + "px"
@@ -275,34 +289,8 @@ $(function () {
                 i++;
             }
         });
-    })
-
-    //瀏覽器偵測
-    function deviceDetect() {
-        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-            alert("未提供最佳閱讀品質，抱歉目前不提供手機裝置瀏覽。");
-        } else if (/Firefox|MSIE|Trident\/7\./i.test(navigator.userAgent)) {
-            alert("抱歉，Firefox瀏覽器一直不支援中文直式排版，所以我放棄它了... 麻煩改用Chrome或Safari謝謝！");
-        } else {
-            var browserPass = true;
-            //-----破頁保險----
-            var bodyWidth = ($("body").innerWidth()) - 170;
-            var i = 0;
-
-            $runPage.each(function () {
-                while ($(this).find(".pageM").innerWidth() > bodyWidth) {
-                    $(this).find(".pageM").css({
-                        "font-size": 20 - i + "px",
-                        "line-height": 30 - i + "px"
-                    });
-                    i++;
-                }
-            });
-
-            //--------------
-        }
     }
-
+    //--------------
 
 
 
