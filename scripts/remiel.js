@@ -1,7 +1,7 @@
 $(function () {
 
 
-    var browserPass,
+    var browserPass = false,
         nowPage = 0,
         $article = $("article"),
         $runPage = $article.find(".page"),
@@ -38,7 +38,7 @@ $(function () {
 
     //-----進入動態----
     $('#logoa').bind('click', function (event) {
-        if (browserPass = true) {
+        if (browserPass == true) {
             $("#article").show();
             $("#LOGO2L,#LOGO2R").addClass("LOGOtran");
             $("#logoa").css({
@@ -73,7 +73,8 @@ $(function () {
                 });
             }, 14500);
         } else {
-            alert("拜託換Chrome或Safari瀏覽器啦～！");
+            swal("拜託換Chrome或Safari瀏覽器啦～！","(´ﾟдﾟ`)");
+//            alert("拜託換Chrome或Safari瀏覽器啦～！");
         }
 
     });
@@ -117,10 +118,10 @@ $(function () {
         var hovtest = setInterval(function () {
             if (i == 3) {
                 $(".sticker").stop(true).animate({
-                    "left": "100vw"
+                    "left": "150vw"
                 });
                 $(".shareB").stop(true).animate({
-                    "bottom": "-10vh"
+                    "bottom": "-15vh"
                 });
                 clearInterval(hovtest);
             } else {
@@ -133,7 +134,7 @@ $(function () {
     $(".callSti").hover(
         function () {
             $(".shareB").stop(true).animate({
-                "bottom": "-10vh"
+                "bottom": "-15vh"
             }, "swing");
             $(".sticker").stop(true).animate({
                 "left": "40vw"
@@ -146,7 +147,7 @@ $(function () {
     $(".share").hover(
         function () {
             $(".sticker").stop(true).animate({
-                "left": "100vw"
+                "left": "150vw"
             });
             $(".shareB").stop(true).animate({
                 "bottom": "45vh"
@@ -281,14 +282,18 @@ $(function () {
     //瀏覽器偵測
     function deviceDetect() {
         if (/Firefox|MSIE|Trident\/7\./i.test(navigator.userAgent)) {
-            alert("抱歉，Firefox瀏覽器一直不支援中文直式排版，所以我放棄它了... 麻煩改用Chrome或Safari謝謝！");
+            swal("抱歉，Firefox瀏覽器一直不支援中文直式排版，所以我放棄它了...", "麻煩改用Chrome或Safari拜託～！", "warning");
+//            alert("抱歉，Firefox瀏覽器一直不支援中文直式排版，所以我放棄它了... 麻煩改用Chrome或Safari謝謝！");
         } else if (navigator.userAgent.match(/FB/i)) {
-            alert("抱歉，FB內建瀏覽器太過陽春了～ 請使用其他瀏覽器嘗試。");
+            swal("抱歉，FB內建瀏覽器太過陽春了～", "請擊點右上角改以Chrome或Safari開啟喔～", "warning");
+//            alert("抱歉，FB內建瀏覽器太過陽春了～ 請使用其他瀏覽器嘗試。");
         } else {
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                alert("建議使用桌上平台以獲得最佳瀏覽體驗。");
+                swal("桌上平台以獲得更佳瀏覽體驗喔!");
+//                alert("建議使用桌上平台以獲得最佳瀏覽體驗。");
             }
-            var browserPass = true;
+//            swal("抱歉，FB內建瀏覽器太過陽春了～", "請擊點右上角改以Chrome或Safari開啟喔～");
+            browserPass = true;
             if (screenState == "land") {
                 breakPrevent();
             }
