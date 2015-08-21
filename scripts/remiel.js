@@ -1,17 +1,20 @@
 $(function () {
 
 
-    var browserPass;
-    var nowPage = 0;
-    var $runPage = $("article").find(".page");
-    var lastPage = ($runPage.length) - 1,
-        screenState = window.innerWidth > window.innerHeight ? "land" : "port";
+    var browserPass,
+        nowPage = 0,
+        $article = $("article"),
+        $runPage = $article.find(".page"),
+        lastPage = ($runPage.length) - 1,
+        vw = window.innerWidth,
+        vh = window.innerHeight,
+        screenState = vw > vh ? "land" : "port";
 
     deviceDetect();
     //啟動倒數--------------
 
     $(window).load(function () {
-        var cTime = 5;
+        var cTime = 1;
         $('.opBoxBR').addClass('starBR');
         $('.opBoxBL').addClass('starBL');
         $('.whitelineL').addClass('rowLine');
@@ -36,7 +39,7 @@ $(function () {
     //-----進入動態----
     $('#logoa').bind('click', function (event) {
         if (browserPass = true) {
-            $("#article").css("display", "block");
+            $("#article").show();
             $("#LOGO2L,#LOGO2R").addClass("LOGOtran");
             $("#logoa").css({
                 "-webkit-animation": "0",
@@ -47,7 +50,6 @@ $(function () {
                 "-moz-animation": "2.3s inka ease-out  forwards"
             });
             $('html, body').stop();
-
             setTimeout(function () {
                 $('html, body').stop().animate({
                     scrollTop: $("#article").offset().top
@@ -196,16 +198,28 @@ $(function () {
 
 
     //-----翻頁區----
+
     function nextpage() {
         if (nowPage != lastPage) {
             $runPage.eq(lastPage - nowPage).css("left", "100vw");
 
             nowPage++;
-            $runPage.eq(lastPage - nowPage).css("opacity", "1");
-            //            $("#page"+nowPage).css("left","100vw");
-            //            nowPage++;
-            //            //alert(nowPage);
-            //            $("#page"+nowPage).css("display","block");
+            var $newPage = $runPage.eq(lastPage - nowPage),
+                nowPageHeigt = $newPage.innerHeight();
+            $newPage.css("opacity", "1");
+            window.location.href = "#article";
+            if (nowPageHeigt > $article.innerHeight()) {
+                $article.innerHeight(nowPageHeigt);
+            } else {
+                $article.innerHeight(vh);
+            }
+        } else {
+            var $under = $(".under");
+            $under.show();
+            $('html, body').stop().animate({
+                scrollTop: $under.offset().top
+            }, 1000, 'easeInOutExpo');
+            event.preventDefault();
         }
     };
 
@@ -213,11 +227,18 @@ $(function () {
         if (nowPage != 0) {
             $runPage.eq(lastPage - nowPage).css("opacity", "0");
             nowPage--;
+            var $newPage = $runPage.eq(lastPage - nowPage),
+                nowPageHeigt = $newPage.innerHeight();
             $runPage.eq(lastPage - nowPage).css("left", "0");
-
-            //            $("#page"+nowPage).css("left","0");
+            window.location.href = "#article";
+            if (nowPageHeigt > $article.innerHeight()) {
+                $article.innerHeight(nowPageHeigt);
+            } else {
+                $article.innerHeight(vh);
+            }
         }
     };
+
 
     document.onkeydown = function () {
         var keycode = event.which || event.keyCode;
@@ -244,7 +265,9 @@ $(function () {
     });
 
     $(window).resize(function () {
-        screenState = window.innerWidth > window.innerHeight ? "land" : "port";
+        vw = window.innerWidth,
+            vh = window.innerHeight,
+            screenState = vw > vh ? "land" : "port";
         $(".pageM").css({
             "font-size": "1.1rem",
             "line-height": "2rem"
@@ -259,17 +282,15 @@ $(function () {
     function deviceDetect() {
         if (/Firefox|MSIE|Trident\/7\./i.test(navigator.userAgent)) {
             alert("抱歉，Firefox瀏覽器一直不支援中文直式排版，所以我放棄它了... 麻煩改用Chrome或Safari謝謝！");
-        }else if(navigator.userAgent.match(/FB/i)){
+        } else if (navigator.userAgent.match(/FB/i)) {
             alert("抱歉，FB內建瀏覽器太過陽春了～ 請使用其他瀏覽器嘗試。");
-        }
-        else {
-
+        } else {
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
                 alert("建議使用桌上平台以獲得最佳瀏覽體驗。");
             }
             var browserPass = true;
             if (screenState == "land") {
-                breakPrevent()
+                breakPrevent();
             }
         }
     }
@@ -291,7 +312,6 @@ $(function () {
         });
     }
     //--------------
-
 
 
 })

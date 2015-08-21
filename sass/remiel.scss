@@ -41,8 +41,10 @@ p {
 }
 
 .page {
+    width: 100vw;
     position: absolute;
     opacity: 0;
+    left: 0;
     z-index: 10;
     transition: 1s ease-out;
 }
@@ -162,8 +164,7 @@ p {
 }
 
 #article {
-    /*    display: none;*/
-
+    display: none;
     position: relative;
 }
 
@@ -272,7 +273,7 @@ p {
     position: absolute;
     display: none;
     width: 45vw;
-    height: 100vh;
+    height: 100%;
     z-index: 15;
     cursor: pointer;
 }
@@ -354,17 +355,7 @@ p {
 
 
 
-@keyframes knows {
-    0% {
-        top: 10vh;
-    }
-    50% {
-        top: 12vh;
-    }
-    100% {
-        top: -50vh;
-    }
-}
+
 
 #keyup {
     display: block;
@@ -456,6 +447,7 @@ p {
 }
 
 .under {
+    display: none;
     position: relative;
     min-height: 100vh;
     width: 100vw;
@@ -528,6 +520,7 @@ p {
     background: #92341f;
     width: 100%;
     height: 100vh;
+    overflow: hidden;
 }
 
 .whitelineH {
@@ -933,7 +926,6 @@ p {
 }
 
 .pageM {
-    background: black;
     font-size: 1.1rem;
     text-indent: 2.6rem;
     letter-spacing: .2rem;
