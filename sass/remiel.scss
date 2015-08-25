@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+@-ms-viewport{
+  width: device-width;
+}
+
+a {
+    text-decoration: none;
+}
+
 body {
     background-color: black;
     width: 100vw;
@@ -12,7 +20,7 @@ body {
 
 .title {
     position: absolute;
-    height: 100vh;
+    height: 100%;
     margin: auto;
     left: 0;
     right: 0;
@@ -24,10 +32,12 @@ body {
     position: relative;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow: hidden !important;
     background-size: cover;
+    -webkit-background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    -webkit-background-position: center;
 }
 
 article {
@@ -41,7 +51,7 @@ p {
 }
 
 .page {
-    width: 100vw;
+    width: 100%;
     position: absolute;
     opacity: 0;
     left: 0;
@@ -49,7 +59,9 @@ p {
     transition: 1s ease-out;
 }
 
-#page0 {}
+#page0 {
+    opacity: 1;
+}
 
 .paperH {
     position: absolute;
@@ -71,8 +83,8 @@ p {
     position: absolute;
     right: 1rem;
     top: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-image: -webkit-linear-gradient(gray 0.15rem, transparent 0px);
     background-image: linear-gradient(gray 0.15rem, transparent 0px);
     background-size: 2rem 2.1rem;
@@ -93,9 +105,9 @@ p {
 
 .bgLine {
     position: absolute;
-    width: 300vw;
+    width: 300%;
     height: 100%;
-    right: -200vw;
+    right: -200%;
     background: linear-gradient(240deg, transparent 50%, black 50%);
     z-index: -1;
 }
@@ -112,13 +124,12 @@ p {
 
 #bgLineMask {
     position: absolute;
-    z-index: -1;
     width: 100%;
     height: 100%;
-    background: -webkit-radial-gradient(left bottom, black 0%, black 85%, transparent 100%);
-    background: radial-gradient(left bottom, black 0%, black 85%, transparent 100%);
-    background: -webkit-radial-gradient(left bottom, black 0%, black 85%, transparent 100%);
-    background: -moz-radial-gradient(left bottom, black 0%, black 85%, transparent 100%);
+//    background: -webkit-radial-gradient(left bottom, #000 0, #000 85%, rgba(0, 0, 0, 0) 100%);
+    background: radial-gradient(left bottom, #000 0, #000 85%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-radial-gradient(left bottom, #000 0, #000 85%, transparent 100%);
+    background: -moz-radial-gradient(left bottom, #000 0, #000 85%, transparent 100%);
     opacity: 0;
     -webkit-transition: 1.5s linear 6s;
     transition: 1.5s linear 6s;
@@ -156,31 +167,27 @@ p {
     }
 }
 
-
-
 .tran {
     -webkit-transition: 1s ease-out;
     transition: 1s ease-out;
 }
 
 #article {
-    display: none;
+//    display: none;
     position: relative;
 }
 
 #logoa {
     cursor: pointer;
     position: absolute;
-    display: none;
+//    display: none;
     text-align: center;
     width: 28vh;
     margin: auto;
-    top: 57vh;
+    top: 57%;
     right: 0;
     left: 0;
     animation: logo 2.3s linear infinite;
-    -webkit-animation: logo 2.3s linear infinite;
-    -moz-animation: logo 2.3s linear infinite;
     z-index: 7;
 }
 
@@ -194,7 +201,6 @@ p {
     height: 15vh;
     margin: -2.5px;
     z-index: 6;
-    -webkit-transition: 1.5s linear;
     transition: 1.5s linear;
 }
 
@@ -241,38 +247,21 @@ p {
 #ink {
     position: absolute;
     top: 3vh;
+    width: 0.5vh;
     margin: auto;
     left: 0;
     right: 0;
-    width: 0.5vh;
     height: 0;
-    background-image: -webkit-linear-gradient(#4cc8ff 20%, black 80%);
     background-image: linear-gradient(#4cc8ff 20%, black 80%);
     z-index: -1;
 }
 
-@keyframes inka {
-    0% {
-        height: 0;
-    }
-    100% {
-        height: 7.5vh;
-    }
-}
 
-@-webkit-keyframes inka {
-    0% {
-        height: 0;
-    }
-    100% {
-        height: 7.5vh;
-    }
-}
 
 .touch {
     position: absolute;
     display: none;
-    width: 45vw;
+    width: 45%;
     height: 100%;
     z-index: 15;
     cursor: pointer;
@@ -336,10 +325,8 @@ p {
     width: 100%;
     cursor: pointer;
     background: rgba(0, 0, 0, .3);
-    -webkit-animation: knowf 3s linear infinite;
-    -moz-animation: knowf 3s linear infinite;
+    animation: knowf 3s linear infinite;
 }
-
 
 @keyframes knowf {
     0% {
@@ -352,10 +339,6 @@ p {
         color: black;
     }
 }
-
-
-
-
 
 #keyup {
     display: block;
@@ -447,7 +430,7 @@ p {
 }
 
 .under {
-    display: none;
+//    display: none;
     position: relative;
     min-height: 100vh;
     width: 100vw;
@@ -466,7 +449,6 @@ p {
     top:0;
     bottom: 0;
 */
-
     padding: 2rem 1rem;
     width: 30vw;
     border: solid .5rem white;
@@ -474,9 +456,7 @@ p {
     line-height: 2rem;
 }
 
-@media screen and (max-width: 1200px) {
-
-}
+@media screen and (max-width: 1200px) {}
 
 .imgrotate {
     background: red;
@@ -489,15 +469,12 @@ p {
     position: relative;
     left: -12rem;
     /*    left: -12rem;*/
-
     padding-right: 2rem;
     /*    background-image: -webkit-linear-gradient(165deg, brown 50%, rgba(0, 0, 0, 0.6) 50%, transparent 70%);*/
-
     background-image: -webkit-linear-gradient(165deg, #908b0c 5%, #c6c14e 12%, #7b7e1d 35%, #908b0c 45%, #908b0c 50%, rgba(0, 0, 0, 0.6) 50%, transparent 70%);
     background-image: linear-gradient(-75deg, #908b0c 5%, #c6c14e 12%, #7b7e1d 35%, #908b0c 45%, #908b0c 50%, rgba(0, 0, 0, 0.6) 50%, transparent 70%);
     color: white;
     /*	font-weight: bold;*/
-
     text-shadow: 1px 1px 2px black, -1px -1px 2px black;
     text-align: right;
     cursor: pointer;
@@ -515,10 +492,11 @@ p {
 }
 
 .loading {
+//    display: none;
     position: absolute;
     z-index: 25;
     background: #1d241f;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
@@ -574,7 +552,6 @@ p {
     -moz-animation: countBig 1.5s linear infinite;
 }
 
-
 @keyframes countBig {
     0% {
         -webkit-transform: scale(1);
@@ -606,7 +583,7 @@ p {
     transform-origin: center bottom;
 }
 
-.rowLine{
+.rowLine {
     -webkit-animation: countRow 1.5s linear infinite;
     animation: countRow 1.5s linear infinite;
 }
@@ -629,7 +606,6 @@ p {
     height: 100vh;
 }
 
-
 @keyframes boxRight {
     0% {
         -webkit-transform: rotate(0deg);
@@ -644,7 +620,6 @@ p {
         transform: rotate(180deg);
     }
 }
-
 
 @keyframes boxLeft {
     0% {
@@ -684,7 +659,7 @@ p {
     transform-origin: left center;
 }
 
-.starBL{
+.starBL {
     animation: boxLeft 1.5s linear infinite;
     -webkit-animation: boxLeft 1.5s linear infinite;
     -moz-animation: boxLeft 1.5s linear infinite;
@@ -697,7 +672,7 @@ p {
     transform-origin: right center;
 }
 
-.starBR{
+.starBR {
     animation: boxRight 1.5s linear infinite;
     -webkit-animation: boxRight 1.5s linear infinite;
     -moz-animation: boxRight 1.5s linear infinite;
@@ -719,7 +694,6 @@ p {
     bottom: 0;
     z-index: 10;
     /*    display: none;*/
-
     transform-origin: left;
     transform: scale(0.8);
 }
@@ -798,7 +772,7 @@ p {
 
 .card {
     position: absolute;
-    height: 50vh;
+    height: 50%;
     width: 15vh;
     background-image: linear-gradient(#ad3939 0%, brown 50%, #6c0d0d 100%);
     z-index: 20;
@@ -812,7 +786,6 @@ p {
     bottom: 0;
     display: none;
 }
-
 
 @keyframes bCards {
     0% {
@@ -830,21 +803,21 @@ p {
 }
 
 .cardtext {
-    font-size: 13vh;
-    line-height: 12vh;
-    writing-mode: vertical-rl;
-    -webkit-writing-mode: vertical-rl;
-    -moz-writing-mode: vertical-rl;
+    font-size: 8vh;
+    line-height: 11vh;
+    transform-origin: 40% 90%;
+    transform: rotate(90deg);
+//    writing-mode: vertical-rl;
+//    -webkit-writing-mode: vertical-rl;
+//    -moz-writing-mode: vertical-rl;
 }
 
 .cardtext2 {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 40%;
+    right: -5%;
     color: black;
 }
-
-
 
 .udMt {
     background-color: orange;
@@ -862,7 +835,7 @@ p {
     width: 350px;
     left: 0;
     right: 0;
-    bottom: -10vh;
+    bottom: -15vh;
 }
 
 .soc {
@@ -915,6 +888,7 @@ p {
 .soc-line {
     width: 100%;
 }
+
 #nextChapter {
     cursor: pointer;
 }
@@ -924,4 +898,35 @@ p {
     text-indent: 2.6rem;
     letter-spacing: .2rem;
     line-height: 2.5rem;
+}
+.udMho {
+    a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        &:visited {
+            color: white;
+        }
+        /* visited link */
+        &:hover {
+            font-weight: bold;
+        }
+        &:active {
+            color: #49b3f5;
+        }
+    }
+}
+
+.stickerSuc{
+    animation: stickerOut 1s 2 alternate;
+}
+
+@keyframes stickerOut{
+    from{
+
+    }
+    to{
+        bottom: 150vh;
+        transform: scale(0.3);
+    }
 }

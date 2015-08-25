@@ -1,0 +1,1005 @@
+/* line 1, ../sass/remiel.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+/* line 10, ../sass/remiel.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 14, ../sass/remiel.scss */
+body {
+  background-color: black;
+  width: 100vw;
+  overflow-x: hidden;
+  /*    overflow:hidden;*/
+}
+
+/* line 21, ../sass/remiel.scss */
+.title {
+  position: absolute;
+  height: 100%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: 6;
+  display: none;
+}
+
+/* line 31, ../sass/remiel.scss */
+#frame {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden !important;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-position: center;
+}
+
+/* line 43, ../sass/remiel.scss */
+article {
+  color: gray;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+/* line 49, ../sass/remiel.scss */
+p {
+  margin: 0 .5rem;
+}
+
+/* line 53, ../sass/remiel.scss */
+.page {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  z-index: 10;
+  transition: 1s ease-out;
+}
+
+/* line 62, ../sass/remiel.scss */
+#page0 {
+  opacity: 1;
+}
+
+/* line 66, ../sass/remiel.scss */
+.paperH {
+  position: absolute;
+  right: 1rem;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(0deg, transparent 2.05rem, black 2.05rem, black 2.45rem, gray 2.45rem), -webkit-linear-gradient(0deg, transparent 2.45rem, gray 2.45rem);
+  background-image: linear-gradient(90deg, transparent 2.05rem, black 2.05rem, black 2.45rem, gray 2.45rem), linear-gradient(90deg, transparent 2.45rem, gray 2.45rem);
+  background-size: 2.6rem 2rem, 2.6rem 2em;
+  background-position: 100% 100%, calc(100% - 0.5rem) 0;
+  z-index: -1;
+}
+
+/* line 82, ../sass/remiel.scss */
+.paperS {
+  position: absolute;
+  right: 1rem;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(gray 0.15rem, transparent 0px);
+  background-image: linear-gradient(gray 0.15rem, transparent 0px);
+  background-size: 2rem 2.1rem;
+  background-position: 0px 0px;
+  z-index: -1;
+}
+
+/* line 95, ../sass/remiel.scss */
+.bc {
+  position: absolute;
+  background: -webkit-radial-gradient(left bottom, black 0%, black 78%, transparent 90%);
+  background: radial-gradient(left bottom, #000000 0%, #000000 78%, rgba(0, 0, 0, 0) 90%);
+  background: -webkit-radial-gradient(left bottom, black 0%, black 78%, transparent 90%);
+  background: -moz-radial-gradient(left bottom, black 0%, black 78%, transparent 90%);
+  width: 70vw;
+  height: 70vw;
+  z-index: -1;
+}
+
+/* line 106, ../sass/remiel.scss */
+.bgLine {
+  position: absolute;
+  width: 300%;
+  height: 100%;
+  right: -200%;
+  background: linear-gradient(240deg, transparent 50%, black 50%);
+  z-index: -1;
+}
+
+/* line 115, ../sass/remiel.scss */
+#bgLineH {
+  -webkit-transition: 1.5s ease-out 1.5s;
+  transition: 1.5s ease-out 1.5s;
+}
+
+/* line 120, ../sass/remiel.scss */
+#bgLineS {
+  -webkit-transition: 1.5s ease-out 3s;
+  transition: 1.5s ease-out 3s;
+}
+
+/* line 125, ../sass/remiel.scss */
+#bgLineMask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(left bottom, #000000 0%, #000000 85%, rgba(0, 0, 0, 0) 100%);
+  background: -webkit-radial-gradient(left bottom, #000 0, #000 85%, transparent 100%);
+  background: -moz-radial-gradient(left bottom, #000 0, #000 85%, transparent 100%);
+  opacity: 0;
+  -webkit-transition: 1.5s linear 6s;
+  transition: 1.5s linear 6s;
+}
+
+/* line 138, ../sass/remiel.scss */
+#LOGO {
+  position: absolute;
+  height: 16vh;
+  top: 57vh;
+  display: none;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: 6;
+  animation: logo 2.3s linear infinite;
+  -webkit-animation: logo 2.3s linear infinite;
+  -moz-animation: logo 2.3s linear infinite;
+}
+
+/* line 152, ../sass/remiel.scss */
+#LOGO:hover {
+  animation: 0;
+  -webkit-animation: 0;
+  -moz-animation: 0;
+}
+
+@keyframes logo {
+  0% {
+    opacity: .1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .1;
+  }
+}
+/* line 170, ../sass/remiel.scss */
+.tran {
+  -webkit-transition: 1s ease-out;
+  transition: 1s ease-out;
+}
+
+/* line 175, ../sass/remiel.scss */
+#article {
+  position: relative;
+}
+
+/* line 180, ../sass/remiel.scss */
+#logoa {
+  cursor: pointer;
+  position: absolute;
+  text-align: center;
+  width: 28vh;
+  margin: auto;
+  top: 57%;
+  right: 0;
+  left: 0;
+  animation: logo 2.3s linear infinite;
+  z-index: 7;
+}
+
+/* line 194, ../sass/remiel.scss */
+#logoa:hover {
+  animation: 0;
+  -webkit-animation: 0;
+  -moz-animation: 0;
+}
+
+/* line 200, ../sass/remiel.scss */
+.LOGO2 {
+  height: 15vh;
+  margin: -2.5px;
+  z-index: 6;
+  transition: 1.5s linear;
+}
+
+/* line 207, ../sass/remiel.scss */
+#LOGO2L {
+  -webkit-transform-origin: 100%;
+  -ms-transform-origin: 100%;
+  transform-origin: 100%;
+}
+
+/* line 213, ../sass/remiel.scss */
+#LOGO2R {
+  -ms-transform-origin: 0 center 0;
+  transform-origin: 0 center 0;
+  -webkit-transform-origin: 0 center 0;
+  -moz-transform-origin: 0 center 0;
+}
+
+@keyframes logotran {
+  100% {
+    -webkit-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+  }
+}
+@-webkit-keyframes logotran {
+  100% {
+    -webkit-transform: rotateY(90deg);
+  }
+}
+/* line 235, ../sass/remiel.scss */
+.LOGOtran {
+  animation: 2s logotran linear forwards;
+  -webkit-animation: 2s logotran linear forwards;
+  -moz-animation: 2s logotran linear forwards;
+}
+
+/* line 241, ../sass/remiel.scss */
+#LOGO2b {
+  position: relative;
+  top: -4vh;
+  height: 4vh;
+}
+
+/* line 247, ../sass/remiel.scss */
+#ink {
+  position: absolute;
+  top: 3vh;
+  width: 0.5vh;
+  margin: auto;
+  left: 0;
+  right: 0;
+  height: 0;
+  background-image: linear-gradient(#4cc8ff 20%, black 80%);
+  z-index: -1;
+}
+
+/* line 261, ../sass/remiel.scss */
+.touch {
+  position: absolute;
+  display: none;
+  width: 45%;
+  height: 100%;
+  z-index: 15;
+  cursor: pointer;
+}
+
+/* line 270, ../sass/remiel.scss */
+#touchN {
+  right: 0;
+}
+
+/* line 274, ../sass/remiel.scss */
+#touchL {
+  left: 0;
+}
+
+/* line 278, ../sass/remiel.scss */
+.tip {
+  left: 10vw;
+  text-align: center;
+  transform-origin: center top;
+  line-height: 5vh;
+  font-size: 3vh;
+}
+
+/* line 286, ../sass/remiel.scss */
+.hole {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: black;
+  border-radius: 100%;
+  width: 3.5vh;
+  height: 3.5vh;
+  margin: 0.8vw auto;
+}
+
+/* line 297, ../sass/remiel.scss */
+.rebon {
+  position: absolute;
+  width: 18%;
+  height: 20vh;
+  top: -17vh;
+  left: 41%;
+  background-image: -webkit-linear-gradient(90deg, #3e2800 0%, orange 5%, orange 60%, #ffa500 60%, #2e1e00 100%);
+  background-image: linear-gradient(0deg, #3e2800 0%, orange 5%, orange 60%, #ffa500 60%, #2e1e00 100%);
+}
+
+/* line 307, ../sass/remiel.scss */
+.keypic {
+  display: inline-block;
+  width: 3.5vh;
+  height: 3.5vh;
+  line-height: 3vh;
+  border: solid .5vh #888;
+}
+
+/* line 315, ../sass/remiel.scss */
+.keyb {
+  background: #acacac;
+  color: black;
+  font-size: 2vh;
+  border-radius: .5vh;
+}
+
+/* line 322, ../sass/remiel.scss */
+.know {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.3);
+  animation: knowf 3s linear infinite;
+}
+
+@keyframes knowf {
+  0% {
+    color: black;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+/* line 343, ../sass/remiel.scss */
+#keyup {
+  display: block;
+  margin: auto;
+  margin-bottom: .7vh;
+}
+
+/* line 349, ../sass/remiel.scss */
+.clicLR {
+  background: #d4d4d4;
+  width: 10vh;
+  height: 6vh;
+  border-radius: .5vh;
+  border: solid black .8vh;
+  font-size: 1vh;
+  color: black;
+}
+
+/* line 359, ../sass/remiel.scss */
+.pc {
+  display: block;
+  margin: auto;
+}
+
+/* line 364, ../sass/remiel.scss */
+.pcb {
+  background: black;
+  width: 5vh;
+  height: 1vh;
+  border-radius: 1vh 1vh 0 0;
+}
+
+/* line 371, ../sass/remiel.scss */
+.ccr {
+  float: right;
+  background: yellow;
+}
+
+/* line 376, ../sass/remiel.scss */
+.cc {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  line-height: 6vh;
+}
+
+/* line 383, ../sass/remiel.scss */
+.ccl {
+  float: left;
+  background: green;
+}
+
+/* line 388, ../sass/remiel.scss */
+.or {
+  font-weight: bold;
+  font-size: 4vh;
+  color: black;
+}
+
+/* line 394, ../sass/remiel.scss */
+.pcpaper {
+  position: absolute;
+  top: 0;
+  opacity: .2;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/p34.jpg);
+  background-position: top;
+}
+
+/* line 404, ../sass/remiel.scss */
+.key {
+  margin-top: 7vh;
+}
+
+/* line 408, ../sass/remiel.scss */
+.menu {
+  font-family: Microsoft JhengHei;
+  position: absolute;
+  top: 0;
+  left: 0rem;
+  opacity: .7;
+  z-index: 16;
+  width: 8rem;
+  display: none;
+}
+
+/* line 419, ../sass/remiel.scss */
+.menuimg {
+  opacity: .6;
+  position: absolute;
+  padding: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+  z-index: 15;
+  -webkit-transform-origin: center;
+  display: none;
+}
+
+/* line 432, ../sass/remiel.scss */
+.under {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Microsoft JhengHei;
+  color: white;
+  overflow: hidden;
+}
+
+/* line 446, ../sass/remiel.scss */
+.after {
+  color: white;
+    /*
+    top:0;
+    bottom: 0;
+*/
+  padding: 2rem 1rem;
+  width: 30vw;
+  border: solid .5rem white;
+  border-radius: 3rem;
+  line-height: 2rem;
+}
+
+/* line 461, ../sass/remiel.scss */
+.imgrotate {
+  background: red;
+  left: -8rem;
+}
+
+/* line 466, ../sass/remiel.scss */
+.menu li {
+  width: 8rem;
+  margin: 1rem;
+  position: relative;
+  left: -12rem;
+  /*    left: -12rem;*/
+  padding-right: 2rem;
+  /*    background-image: -webkit-linear-gradient(165deg, brown 50%, rgba(0, 0, 0, 0.6) 50%, transparent 70%);*/
+  background-image: -webkit-linear-gradient(165deg, #908b0c 5%, #c6c14e 12%, #7b7e1d 35%, #908b0c 45%, #908b0c 50%, rgba(0, 0, 0, 0.6) 50%, transparent 70%);
+  background-image: linear-gradient(-75deg, #908b0c 5%, #c6c14e 12%, #7b7e1d 35%, #908b0c 45%, #908b0c 50%, rgba(0, 0, 0, 0.6) 50%, transparent 70%);
+  color: white;
+  /*	font-weight: bold;*/
+  text-shadow: 1px 1px 2px black, -1px -1px 2px black;
+  text-align: right;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: solid #7c7812;
+}
+
+/* line 485, ../sass/remiel.scss */
+.menu li:hover {
+  background-color: #c12f2f;
+  -webkit-transform: scale(1.1);
+}
+
+/* line 490, ../sass/remiel.scss */
+.menu ul {
+  padding-top: 5rem;
+}
+
+/* line 494, ../sass/remiel.scss */
+.loading {
+  position: absolute;
+  z-index: 25;
+  background: #1d241f;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* line 504, ../sass/remiel.scss */
+.whitelineH {
+  height: 100vh;
+  left: 50%;
+  width: 5px;
+}
+
+/* line 510, ../sass/remiel.scss */
+.whitelineS {
+  width: 100%;
+  top: 50%;
+  height: 5px;
+}
+
+/* line 516, ../sass/remiel.scss */
+.Mcircl {
+  position: absolute;
+  border-radius: 100%;
+  border: solid 2vh white;
+}
+
+/* line 522, ../sass/remiel.scss */
+.McirclOut {
+  width: 90vh;
+  height: 90vh;
+  left: calc(50vw - 45vh - 3vh);
+  top: calc(50vh - 45vh - 2vh);
+}
+
+/* line 529, ../sass/remiel.scss */
+.McirclIn {
+  width: 74vh;
+  height: 74vh;
+  left: calc(50vw - 37vh - 3vh);
+  top: calc(50vh - 37vh - 2vh);
+}
+
+/* line 536, ../sass/remiel.scss */
+.countDown {
+  position: absolute;
+  text-align: center;
+  font-size: 70vh;
+  line-height: 85vh;
+  height: 80vh;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* line 549, ../sass/remiel.scss */
+.countStart {
+  animation: countBig 1.5s linear infinite;
+  -webkit-animation: countBig 1.5s linear infinite;
+  -moz-animation: countBig 1.5s linear infinite;
+}
+
+@keyframes countBig {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  95% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+/* line 571, ../sass/remiel.scss */
+.whiteline {
+  position: absolute;
+  background-color: black;
+}
+
+/* line 576, ../sass/remiel.scss */
+.whitelineL {
+  height: 100vh;
+  width: 5px;
+  left: 50%;
+  bottom: 50%;
+  -webkit-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+/* line 586, ../sass/remiel.scss */
+.rowLine {
+  -webkit-animation: countRow 1.5s linear infinite;
+  animation: countRow 1.5s linear infinite;
+}
+
+@keyframes countRow {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* line 602, ../sass/remiel.scss */
+.opBox {
+  position: absolute;
+  overflow: hidden;
+  width: 50vw;
+  height: 100vh;
+}
+
+@keyframes boxRight {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+@keyframes boxLeft {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+/* line 639, ../sass/remiel.scss */
+.opBoxR {
+  left: 50%;
+}
+
+/* line 643, ../sass/remiel.scss */
+.opBoxL {
+  right: 50%;
+}
+
+/* line 647, ../sass/remiel.scss */
+.opBoxB {
+  position: absolute;
+  width: 3000px;
+  height: 3000px;
+  bottom: calc( -1500px + 50vh);
+  background-color: #556c5c;
+}
+
+/* line 655, ../sass/remiel.scss */
+.opBoxBL {
+  left: 50vw;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+
+/* line 662, ../sass/remiel.scss */
+.starBL {
+  animation: boxLeft 1.5s linear infinite;
+  -webkit-animation: boxLeft 1.5s linear infinite;
+  -moz-animation: boxLeft 1.5s linear infinite;
+}
+
+/* line 668, ../sass/remiel.scss */
+.opBoxBR {
+  right: 50vw;
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+}
+
+/* line 675, ../sass/remiel.scss */
+.starBR {
+  animation: boxRight 1.5s linear infinite;
+  -webkit-animation: boxRight 1.5s linear infinite;
+  -moz-animation: boxRight 1.5s linear infinite;
+}
+
+/* line 681, ../sass/remiel.scss */
+.liChoise {
+  background-color: #c12f2f;
+  -webkit-transform: scale(1.1);
+}
+
+/* line 686, ../sass/remiel.scss */
+.sticker {
+  width: 30rem;
+  height: 25rem;
+  position: absolute;
+  background-image: linear-gradient(135deg, #ffe164 0%, #ffe164 86%, transparent 86%);
+  background-size: cover;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  /*    display: none;*/
+  transform-origin: left;
+  transform: scale(0.8);
+}
+
+/* line 701, ../sass/remiel.scss */
+.kickstick {
+  position: absolute;
+  width: 7.6rem;
+  height: 7.6rem;
+  right: 0;
+  bottom: 0;
+  background-image: -webkit-linear-gradient(315deg, #e8ad28 0%, #9a731e 50%, transparent 50%);
+  background-image: linear-gradient(135deg, #e8ad28 0%, #9a731e 50%, transparent 50%);
+  background-size: cover;
+}
+
+/* line 712, ../sass/remiel.scss */
+.sticker2 {
+  width: 30rem;
+  height: 2rem;
+  position: absolute;
+  background-image: -webkit-linear-gradient(#cbb24d 0%, transparent 100%);
+  background-image: linear-gradient(#cbb24d 0%, transparent 100%);
+  background-size: cover;
+}
+
+/* line 721, ../sass/remiel.scss */
+.formName {
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 2px black;
+  font-size: 2.5rem;
+  width: 12.5rem;
+  color: #00006a;
+  text-align: center;
+}
+
+/* line 731, ../sass/remiel.scss */
+.formS {
+  position: absolute;
+  height: 25rem;
+}
+
+/* line 736, ../sass/remiel.scss */
+#textStick {
+  margin-top: 1rem;
+  width: 28rem;
+  height: 13rem;
+  background: transparent;
+  border: none;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #00006a;
+}
+
+/* line 747, ../sass/remiel.scss */
+.formSub {
+  background: none;
+  border: none;
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  right: 2.5rem;
+  top: 17.8rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 2px #000;
+}
+
+/* line 765, ../sass/remiel.scss */
+.name {
+  position: absolute;
+  font-size: 1.5rem;
+  bottom: 2rem;
+  padding-left: 1rem;
+  color: black;
+}
+
+/* line 773, ../sass/remiel.scss */
+.card {
+  position: absolute;
+  height: 50%;
+  width: 15vh;
+  background-image: linear-gradient(#ad3939 0%, brown 50%, #6c0d0d 100%);
+  z-index: 20;
+}
+
+/* line 781, ../sass/remiel.scss */
+.bCard {
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+}
+
+@keyframes bCards {
+  0% {
+    -webkit-transform: scale(1.5) rotate(15deg);
+    transform: scale(1.5) rotate(15deg);
+  }
+  100% {
+    -webkit-transform: scale(0.8) rotate(10deg);
+    transform: scale(0.8) rotate(10deg);
+  }
+}
+/* line 801, ../sass/remiel.scss */
+.cardimg {
+  width: 100%;
+}
+
+/* line 805, ../sass/remiel.scss */
+.cardtext {
+  font-size: 8vh;
+  line-height: 11vh;
+  transform-origin: 40% 90%;
+  transform: rotate(90deg);
+}
+
+/* line 815, ../sass/remiel.scss */
+.cardtext2 {
+  position: absolute;
+  bottom: 40%;
+  right: -5%;
+  color: black;
+}
+
+/* line 822, ../sass/remiel.scss */
+.udMt {
+  background-color: orange;
+}
+
+/* line 826, ../sass/remiel.scss */
+.udMhoho {
+  cursor: pointer;
+  text-align: center;
+}
+
+/* line 831, ../sass/remiel.scss */
+.shareB {
+  position: absolute;
+  color: white;
+  margin: auto;
+  width: 350px;
+  left: 0;
+  right: 0;
+  bottom: -15vh;
+}
+
+/* line 841, ../sass/remiel.scss */
+.soc {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 848, ../sass/remiel.scss */
+.soc li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+/* line 854, ../sass/remiel.scss */
+.soc li a {
+  font-family: si !important;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 44px;
+  border-radius: 10px;
+  margin-right: 30px;
+  color: #ffffff;
+  background-color: none;
+}
+
+/* line 879, ../sass/remiel.scss */
+.soc-icon-last {
+  margin: 0 !important;
+}
+
+/* line 883, ../sass/remiel.scss */
+.section {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* line 888, ../sass/remiel.scss */
+.soc-line {
+  width: 100%;
+}
+
+/* line 892, ../sass/remiel.scss */
+#nextChapter {
+  cursor: pointer;
+}
+
+/* line 896, ../sass/remiel.scss */
+.pageM {
+  font-size: 1.1rem;
+  text-indent: 2.6rem;
+  letter-spacing: .2rem;
+  line-height: 2.5rem;
+}
+
+/* line 903, ../sass/remiel.scss */
+.udMho a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  /* visited link */
+}
+/* line 907, ../sass/remiel.scss */
+.udMho a:visited {
+  color: white;
+}
+/* line 911, ../sass/remiel.scss */
+.udMho a:hover {
+  font-weight: bold;
+}
+/* line 914, ../sass/remiel.scss */
+.udMho a:active {
+  color: #49b3f5;
+}
+
+/* line 920, ../sass/remiel.scss */
+.stickerSuc {
+  animation: stickerOut 1s 2 alternate;
+}
+
+@keyframes stickerOut {
+  to {
+    bottom: 150vh;
+    transform: scale(0.3);
+  }
+}
