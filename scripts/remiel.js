@@ -1,8 +1,10 @@
 $(function () {
 
 
+
     var browserPass = false,
         nowPage = 0,
+        loadingState = false,
         $article = $("article"),
         $runPage = $article.find(".page"),
         lastPage = ($runPage.length) - 1,
@@ -10,30 +12,35 @@ $(function () {
         vh = window.innerHeight,
         screenState = vw > vh ? "land" : "port";
 
+
+
     deviceDetect();
     //啟動倒數--------------
 
     $(window).load(function () {
-        var cTime = 1;
-        $('.opBoxBR').addClass('starBR');
-        $('.opBoxBL').addClass('starBL');
-        $('.whitelineL').addClass('rowLine');
+        loadingState = true;
+    });
 
-        var countDown = setInterval(function () {
-            $(".countDown")
-                .removeClass('countStart')
-                .html(cTime)
-                .addClass('countStart');
+    var cTime = 1;
+    $('.opBoxBR').addClass('starBR');
+    $('.opBoxBL').addClass('starBL');
+    $('.whitelineL').addClass('rowLine');
 
-            cTime--;
-
-            if (cTime < 0) {
+    var countDown = setInterval(function () {
+        $(".countDown")
+            .removeClass('countStart')
+            .html(cTime)
+            .addClass('countStart');
+        if (cTime < 0) {
+            if (loadingState == true) {
                 clearInterval(countDown);
                 $(".loading").css("display", "none");
                 opening();
             }
-        }, 1500);
-    })
+        } else {
+            cTime--;
+        }
+    }, 1500);
 
 
     //-----進入動態----
@@ -73,8 +80,8 @@ $(function () {
                 });
             }, 14500);
         } else {
-            swal("拜託換Chrome或Safari瀏覽器啦～！","(´ﾟдﾟ`)");
-//            alert("拜託換Chrome或Safari瀏覽器啦～！");
+            swal("拜託換Chrome或Safari瀏覽器啦～！", "(´ﾟдﾟ`)");
+            //            alert("拜託換Chrome或Safari瀏覽器啦～！");
         }
 
     });
@@ -154,7 +161,7 @@ $(function () {
             }, "swing");
         },
         function () {
-            hov();
+
         });
 
 
@@ -195,6 +202,8 @@ $(function () {
 
     //--------------
 
+    //    port首頁破圖保險
+    //    alert($runPage.eq(0).innerHeight() +"x/" +$runPage.eq(0).outerHeight(true)+"/" +$runPage.eq(0).height());
 
 
 
@@ -209,11 +218,12 @@ $(function () {
                 nowPageHeigt = $newPage.innerHeight();
             $newPage.css("opacity", "1");
             window.location.href = "#article";
-            if (nowPageHeigt > $article.innerHeight()) {
+//            alert(nowPageHeigt);
+//            if (nowPageHeigt > $article.innerHeight()) {
                 $article.innerHeight(nowPageHeigt);
-            } else {
-                $article.innerHeight(vh);
-            }
+//            } else {
+//                $article.innerHeight(vh);
+//            }
         } else {
             var $under = $(".under");
             $under.show();
@@ -278,24 +288,43 @@ $(function () {
         }
     })
 
+    //    alert(navigator.userAgent);
 
     //瀏覽器偵測
     function deviceDetect() {
         if (/Firefox|MSIE|Trident\/7\./i.test(navigator.userAgent)) {
             swal("抱歉，Firefox瀏覽器一直不支援中文直式排版，所以我放棄它了...", "麻煩改用Chrome或Safari拜託～！", "warning");
-//            alert("抱歉，Firefox瀏覽器一直不支援中文直式排版，所以我放棄它了... 麻煩改用Chrome或Safari謝謝！");
+            //            alert("抱歉，Firefox瀏覽器一直不支援中文直式排版，所以我放棄它了... 麻煩改用Chrome或Safari謝謝！");
         } else if (navigator.userAgent.match(/FB/i)) {
             swal("抱歉，FB內建瀏覽器太過陽春了～", "請擊點右上角改以Chrome或Safari開啟喔～", "warning");
-//            alert("抱歉，FB內建瀏覽器太過陽春了～ 請使用其他瀏覽器嘗試。");
+            //            alert("抱歉，FB內建瀏覽器太過陽春了～ 請使用其他瀏覽器嘗試。");
         } else {
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
                 swal("桌上平台以獲得更佳瀏覽體驗喔!");
-//                alert("建議使用桌上平台以獲得最佳瀏覽體驗。");
+                //                alert("建議使用桌上平台以獲得最佳瀏覽體驗。");
             }
-//            swal("抱歉，FB內建瀏覽器太過陽春了～", "請擊點右上角改以Chrome或Safari開啟喔～");
+            //            swal("抱歉，FB內建瀏覽器太過陽春了～", "請擊點右上角改以Chrome或Safari開啟喔～");
             browserPass = true;
             if (screenState == "land") {
                 breakPrevent();
+            } else {
+                $("#frame,.loading,article,.under").css({
+                    width: vw,
+                    height: vh,
+                    "min-height": vh
+                });
+                $(".LOGO2").css({
+                    height: 0.15 * vh
+                });
+                $(".countDown").css({
+                    "font-size": 0.7 * vh,
+                    "line-height": 0.85 * vh
+                });
+
+                if ($runPage.eq(lastPage).innerHeight() > $article.innerHeight()) {
+                    var thisHeight = $runPage.eq(lastPage).innerHeight();
+                    $article.innerHeight(thisHeight);
+                }
             }
         }
     }
@@ -317,6 +346,35 @@ $(function () {
         });
     }
     //--------------
+
+
+    (function () {
+        //-----line分享----
+        var title = document.title,
+            url = "http://" + location.hostname + location.pathname,
+            lineHref = "http://line.naver.jp/R/msg/text/?" + title + " " + url + "&nbsp;",
+            fbHerf = "https://www.facebook.com/sharer/sharer.php?u=" + url,
+            twiHerf = "https://twitter.com/intent/tweet?text=" + title + " " + url;
+        //        alert(fbHerf);
+        $("#lineShare").attr("href", lineHref);
+        $("#fbShare").attr("href", fbHerf);
+        $("#twitterShare").attr("href", twiHerf);
+        //--------------
+
+        //-----下一章----
+        $("#nextChapter").click(function () {
+            if ($(this).attr("href") == false) {
+                event.preventDefault();
+                swal("～待續～");
+            }
+        });
+        //--------------
+
+    })();
+
+
+
+
 
 
 })

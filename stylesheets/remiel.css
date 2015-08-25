@@ -4,7 +4,19 @@
   padding: 0;
 }
 
+<<<<<<< HEAD
 /* line 6, ../sass/remiel.scss */
+=======
+@-ms-viewport {
+  width: device-width;
+}
+/* line 10, ../sass/remiel.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 14, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 body {
   background-color: black;
   width: 100vw;
@@ -12,10 +24,17 @@ body {
   /*    overflow:hidden;*/
 }
 
+<<<<<<< HEAD
 /* line 13, ../sass/remiel.scss */
 .title {
   position: absolute;
   height: 100vh;
+=======
+/* line 21, ../sass/remiel.scss */
+.title {
+  position: absolute;
+  height: 100%;
+>>>>>>> 留言板大小校正
   margin: auto;
   left: 0;
   right: 0;
@@ -23,11 +42,16 @@ body {
   display: none;
 }
 
+<<<<<<< HEAD
 /* line 23, ../sass/remiel.scss */
+=======
+/* line 31, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 #frame {
   position: relative;
   height: 100vh;
   width: 100vw;
+<<<<<<< HEAD
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -35,20 +59,41 @@ body {
 }
 
 /* line 33, ../sass/remiel.scss */
+=======
+  overflow: hidden !important;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-position: center;
+}
+
+/* line 43, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 article {
   color: gray;
   font-size: 1.2rem;
   line-height: 2rem;
 }
 
+<<<<<<< HEAD
 /* line 39, ../sass/remiel.scss */
+=======
+/* line 49, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 p {
   margin: 0 .5rem;
 }
 
+<<<<<<< HEAD
 /* line 43, ../sass/remiel.scss */
 .page {
   width: 100vw;
+=======
+/* line 53, ../sass/remiel.scss */
+.page {
+  width: 100%;
+>>>>>>> 留言板大小校正
   position: absolute;
   opacity: 0;
   left: 0;
@@ -56,7 +101,16 @@ p {
   transition: 1s ease-out;
 }
 
+<<<<<<< HEAD
 /* line 54, ../sass/remiel.scss */
+=======
+/* line 62, ../sass/remiel.scss */
+#page0 {
+  opacity: 1;
+}
+
+/* line 66, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .paperH {
   position: absolute;
   right: 1rem;
@@ -70,13 +124,22 @@ p {
   z-index: -1;
 }
 
+<<<<<<< HEAD
 /* line 70, ../sass/remiel.scss */
+=======
+/* line 82, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .paperS {
   position: absolute;
   right: 1rem;
   top: 0;
+<<<<<<< HEAD
   width: 100vw;
   height: 100vh;
+=======
+  width: 100%;
+  height: 100%;
+>>>>>>> 留言板大小校正
   background-image: -webkit-linear-gradient(gray 0.15rem, transparent 0px);
   background-image: linear-gradient(gray 0.15rem, transparent 0px);
   background-size: 2rem 2.1rem;
@@ -84,7 +147,11 @@ p {
   z-index: -1;
 }
 
+<<<<<<< HEAD
 /* line 83, ../sass/remiel.scss */
+=======
+/* line 95, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .bc {
   position: absolute;
   background: -webkit-radial-gradient(left bottom, black 0%, black 78%, transparent 90%);
@@ -96,28 +163,46 @@ p {
   z-index: -1;
 }
 
+<<<<<<< HEAD
 /* line 94, ../sass/remiel.scss */
 .bgLine {
   position: absolute;
   width: 300vw;
   height: 100%;
   right: -200vw;
+=======
+/* line 106, ../sass/remiel.scss */
+.bgLine {
+  position: absolute;
+  width: 300%;
+  height: 100%;
+  right: -200%;
+>>>>>>> 留言板大小校正
   background: linear-gradient(240deg, transparent 50%, black 50%);
   z-index: -1;
 }
 
+<<<<<<< HEAD
 /* line 103, ../sass/remiel.scss */
+=======
+/* line 115, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 #bgLineH {
   -webkit-transition: 1.5s ease-out 1.5s;
   transition: 1.5s ease-out 1.5s;
 }
 
+<<<<<<< HEAD
 /* line 108, ../sass/remiel.scss */
+=======
+/* line 120, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 #bgLineS {
   -webkit-transition: 1.5s ease-out 3s;
   transition: 1.5s ease-out 3s;
 }
 
+<<<<<<< HEAD
 /* line 113, ../sass/remiel.scss */
 #bgLineMask {
   position: absolute;
@@ -128,12 +213,26 @@ p {
   background: radial-gradient(left bottom, #000000 0%, #000000 85%, rgba(0, 0, 0, 0) 100%);
   background: -webkit-radial-gradient(left bottom, black 0%, black 85%, transparent 100%);
   background: -moz-radial-gradient(left bottom, black 0%, black 85%, transparent 100%);
+=======
+/* line 125, ../sass/remiel.scss */
+#bgLineMask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(left bottom, #000000 0%, #000000 85%, rgba(0, 0, 0, 0) 100%);
+  background: -webkit-radial-gradient(left bottom, #000 0, #000 85%, transparent 100%);
+  background: -moz-radial-gradient(left bottom, #000 0, #000 85%, transparent 100%);
+>>>>>>> 留言板大小校正
   opacity: 0;
   -webkit-transition: 1.5s linear 6s;
   transition: 1.5s linear 6s;
 }
 
+<<<<<<< HEAD
 /* line 127, ../sass/remiel.scss */
+=======
+/* line 138, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 #LOGO {
   position: absolute;
   height: 16vh;
@@ -148,7 +247,11 @@ p {
   -moz-animation: logo 2.3s linear infinite;
 }
 
+<<<<<<< HEAD
 /* line 141, ../sass/remiel.scss */
+=======
+/* line 152, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 #LOGO:hover {
   animation: 0;
   -webkit-animation: 0;
@@ -166,12 +269,17 @@ p {
     opacity: .1;
   }
 }
+<<<<<<< HEAD
 /* line 161, ../sass/remiel.scss */
+=======
+/* line 170, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .tran {
   -webkit-transition: 1s ease-out;
   transition: 1s ease-out;
 }
 
+<<<<<<< HEAD
 /* line 166, ../sass/remiel.scss */
 #article {
   display: none;
@@ -196,29 +304,66 @@ p {
 }
 
 /* line 187, ../sass/remiel.scss */
+=======
+/* line 175, ../sass/remiel.scss */
+#article {
+  position: relative;
+}
+
+/* line 180, ../sass/remiel.scss */
+#logoa {
+  cursor: pointer;
+  position: absolute;
+  text-align: center;
+  width: 28vh;
+  margin: auto;
+  top: 57%;
+  right: 0;
+  left: 0;
+  animation: logo 2.3s linear infinite;
+  z-index: 7;
+}
+
+/* line 194, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 #logoa:hover {
   animation: 0;
   -webkit-animation: 0;
   -moz-animation: 0;
 }
 
+<<<<<<< HEAD
 /* line 193, ../sass/remiel.scss */
+=======
+/* line 200, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .LOGO2 {
   height: 15vh;
   margin: -2.5px;
   z-index: 6;
+<<<<<<< HEAD
   -webkit-transition: 1.5s linear;
   transition: 1.5s linear;
 }
 
 /* line 201, ../sass/remiel.scss */
+=======
+  transition: 1.5s linear;
+}
+
+/* line 207, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 #LOGO2L {
   -webkit-transform-origin: 100%;
   -ms-transform-origin: 100%;
   transform-origin: 100%;
 }
 
+<<<<<<< HEAD
 /* line 207, ../sass/remiel.scss */
+=======
+/* line 213, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 #LOGO2R {
   -ms-transform-origin: 0 center 0;
   transform-origin: 0 center 0;
@@ -237,20 +382,29 @@ p {
     -webkit-transform: rotateY(90deg);
   }
 }
+<<<<<<< HEAD
 /* line 229, ../sass/remiel.scss */
+=======
+/* line 235, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .LOGOtran {
   animation: 2s logotran linear forwards;
   -webkit-animation: 2s logotran linear forwards;
   -moz-animation: 2s logotran linear forwards;
 }
 
+<<<<<<< HEAD
 /* line 235, ../sass/remiel.scss */
+=======
+/* line 241, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 #LOGO2b {
   position: relative;
   top: -4vh;
   height: 4vh;
 }
 
+<<<<<<< HEAD
 /* line 241, ../sass/remiel.scss */
 #ink {
   position: absolute;
@@ -261,10 +415,22 @@ p {
   width: 0.5vh;
   height: 0;
   background-image: -webkit-linear-gradient(#4cc8ff 20%, black 80%);
+=======
+/* line 247, ../sass/remiel.scss */
+#ink {
+  position: absolute;
+  top: 3vh;
+  width: 0.5vh;
+  margin: auto;
+  left: 0;
+  right: 0;
+  height: 0;
+>>>>>>> 留言板大小校正
   background-image: linear-gradient(#4cc8ff 20%, black 80%);
   z-index: -1;
 }
 
+<<<<<<< HEAD
 @keyframes inka {
   0% {
     height: 0;
@@ -286,22 +452,41 @@ p {
   position: absolute;
   display: none;
   width: 45vw;
+=======
+/* line 261, ../sass/remiel.scss */
+.touch {
+  position: absolute;
+  display: none;
+  width: 45%;
+>>>>>>> 留言板大小校正
   height: 100%;
   z-index: 15;
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 /* line 281, ../sass/remiel.scss */
+=======
+/* line 270, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 #touchN {
   right: 0;
 }
 
+<<<<<<< HEAD
 /* line 285, ../sass/remiel.scss */
+=======
+/* line 274, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 #touchL {
   left: 0;
 }
 
+<<<<<<< HEAD
 /* line 289, ../sass/remiel.scss */
+=======
+/* line 278, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .tip {
   left: 10vw;
   text-align: center;
@@ -310,7 +495,11 @@ p {
   font-size: 3vh;
 }
 
+<<<<<<< HEAD
 /* line 297, ../sass/remiel.scss */
+=======
+/* line 286, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .hole {
   position: absolute;
   left: 0;
@@ -322,7 +511,11 @@ p {
   margin: 0.8vw auto;
 }
 
+<<<<<<< HEAD
 /* line 308, ../sass/remiel.scss */
+=======
+/* line 297, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .rebon {
   position: absolute;
   width: 18%;
@@ -333,7 +526,11 @@ p {
   background-image: linear-gradient(0deg, #3e2800 0%, orange 5%, orange 60%, #ffa500 60%, #2e1e00 100%);
 }
 
+<<<<<<< HEAD
 /* line 318, ../sass/remiel.scss */
+=======
+/* line 307, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .keypic {
   display: inline-block;
   width: 3.5vh;
@@ -342,7 +539,11 @@ p {
   border: solid .5vh #888;
 }
 
+<<<<<<< HEAD
 /* line 326, ../sass/remiel.scss */
+=======
+/* line 315, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .keyb {
   background: #acacac;
   color: black;
@@ -350,15 +551,23 @@ p {
   border-radius: .5vh;
 }
 
+<<<<<<< HEAD
 /* line 333, ../sass/remiel.scss */
+=======
+/* line 322, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .know {
   position: absolute;
   bottom: 0;
   width: 100%;
   cursor: pointer;
   background: rgba(0, 0, 0, 0.3);
+<<<<<<< HEAD
   -webkit-animation: knowf 3s linear infinite;
   -moz-animation: knowf 3s linear infinite;
+=======
+  animation: knowf 3s linear infinite;
+>>>>>>> 留言板大小校正
 }
 
 @keyframes knowf {
@@ -372,14 +581,22 @@ p {
     color: black;
   }
 }
+<<<<<<< HEAD
 /* line 360, ../sass/remiel.scss */
+=======
+/* line 343, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 #keyup {
   display: block;
   margin: auto;
   margin-bottom: .7vh;
 }
 
+<<<<<<< HEAD
 /* line 366, ../sass/remiel.scss */
+=======
+/* line 349, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .clicLR {
   background: #d4d4d4;
   width: 10vh;
@@ -390,13 +607,21 @@ p {
   color: black;
 }
 
+<<<<<<< HEAD
 /* line 376, ../sass/remiel.scss */
+=======
+/* line 359, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .pc {
   display: block;
   margin: auto;
 }
 
+<<<<<<< HEAD
 /* line 381, ../sass/remiel.scss */
+=======
+/* line 364, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .pcb {
   background: black;
   width: 5vh;
@@ -404,13 +629,21 @@ p {
   border-radius: 1vh 1vh 0 0;
 }
 
+<<<<<<< HEAD
 /* line 388, ../sass/remiel.scss */
+=======
+/* line 371, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .ccr {
   float: right;
   background: yellow;
 }
 
+<<<<<<< HEAD
 /* line 393, ../sass/remiel.scss */
+=======
+/* line 376, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .cc {
   display: inline-block;
   height: 100%;
@@ -418,20 +651,32 @@ p {
   line-height: 6vh;
 }
 
+<<<<<<< HEAD
 /* line 400, ../sass/remiel.scss */
+=======
+/* line 383, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .ccl {
   float: left;
   background: green;
 }
 
+<<<<<<< HEAD
 /* line 405, ../sass/remiel.scss */
+=======
+/* line 388, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .or {
   font-weight: bold;
   font-size: 4vh;
   color: black;
 }
 
+<<<<<<< HEAD
 /* line 411, ../sass/remiel.scss */
+=======
+/* line 394, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .pcpaper {
   position: absolute;
   top: 0;
@@ -442,12 +687,20 @@ p {
   background-position: top;
 }
 
+<<<<<<< HEAD
 /* line 421, ../sass/remiel.scss */
+=======
+/* line 404, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .key {
   margin-top: 7vh;
 }
 
+<<<<<<< HEAD
 /* line 425, ../sass/remiel.scss */
+=======
+/* line 408, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .menu {
   font-family: Microsoft JhengHei;
   position: absolute;
@@ -459,7 +712,11 @@ p {
   display: none;
 }
 
+<<<<<<< HEAD
 /* line 436, ../sass/remiel.scss */
+=======
+/* line 419, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .menuimg {
   opacity: .6;
   position: absolute;
@@ -473,9 +730,14 @@ p {
   display: none;
 }
 
+<<<<<<< HEAD
 /* line 449, ../sass/remiel.scss */
 .under {
   display: none;
+=======
+/* line 432, ../sass/remiel.scss */
+.under {
+>>>>>>> 留言板大小校正
   position: relative;
   min-height: 100vh;
   width: 100vw;
@@ -488,7 +750,11 @@ p {
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 /* line 463, ../sass/remiel.scss */
+=======
+/* line 446, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .after {
   color: white;
     /*
@@ -502,13 +768,21 @@ p {
   line-height: 2rem;
 }
 
+<<<<<<< HEAD
 /* line 481, ../sass/remiel.scss */
+=======
+/* line 461, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .imgrotate {
   background: red;
   left: -8rem;
 }
 
+<<<<<<< HEAD
 /* line 486, ../sass/remiel.scss */
+=======
+/* line 466, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .menu li {
   width: 8rem;
   margin: 1rem;
@@ -528,49 +802,81 @@ p {
   border: solid #7c7812;
 }
 
+<<<<<<< HEAD
 /* line 508, ../sass/remiel.scss */
+=======
+/* line 485, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .menu li:hover {
   background-color: #c12f2f;
   -webkit-transform: scale(1.1);
 }
 
+<<<<<<< HEAD
 /* line 513, ../sass/remiel.scss */
+=======
+/* line 490, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .menu ul {
   padding-top: 5rem;
 }
 
+<<<<<<< HEAD
 /* line 517, ../sass/remiel.scss */
+=======
+/* line 494, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .loading {
   position: absolute;
   z-index: 25;
   background: #1d241f;
+<<<<<<< HEAD
   width: 100%;
+=======
+  width: 100vw;
+>>>>>>> 留言板大小校正
   height: 100vh;
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 /* line 526, ../sass/remiel.scss */
+=======
+/* line 504, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .whitelineH {
   height: 100vh;
   left: 50%;
   width: 5px;
 }
 
+<<<<<<< HEAD
 /* line 532, ../sass/remiel.scss */
+=======
+/* line 510, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .whitelineS {
   width: 100%;
   top: 50%;
   height: 5px;
 }
 
+<<<<<<< HEAD
 /* line 538, ../sass/remiel.scss */
+=======
+/* line 516, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .Mcircl {
   position: absolute;
   border-radius: 100%;
   border: solid 2vh white;
 }
 
+<<<<<<< HEAD
 /* line 544, ../sass/remiel.scss */
+=======
+/* line 522, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .McirclOut {
   width: 90vh;
   height: 90vh;
@@ -578,7 +884,11 @@ p {
   top: calc(50vh - 45vh - 2vh);
 }
 
+<<<<<<< HEAD
 /* line 551, ../sass/remiel.scss */
+=======
+/* line 529, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .McirclIn {
   width: 74vh;
   height: 74vh;
@@ -586,7 +896,11 @@ p {
   top: calc(50vh - 37vh - 2vh);
 }
 
+<<<<<<< HEAD
 /* line 558, ../sass/remiel.scss */
+=======
+/* line 536, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .countDown {
   position: absolute;
   text-align: center;
@@ -600,7 +914,11 @@ p {
   right: 0;
 }
 
+<<<<<<< HEAD
 /* line 571, ../sass/remiel.scss */
+=======
+/* line 549, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .countStart {
   animation: countBig 1.5s linear infinite;
   -webkit-animation: countBig 1.5s linear infinite;
@@ -622,13 +940,21 @@ p {
     opacity: 0;
   }
 }
+<<<<<<< HEAD
 /* line 594, ../sass/remiel.scss */
+=======
+/* line 571, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .whiteline {
   position: absolute;
   background-color: black;
 }
 
+<<<<<<< HEAD
 /* line 599, ../sass/remiel.scss */
+=======
+/* line 576, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .whitelineL {
   height: 100vh;
   width: 5px;
@@ -639,7 +965,11 @@ p {
   transform-origin: center bottom;
 }
 
+<<<<<<< HEAD
 /* line 609, ../sass/remiel.scss */
+=======
+/* line 586, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .rowLine {
   -webkit-animation: countRow 1.5s linear infinite;
   animation: countRow 1.5s linear infinite;
@@ -655,7 +985,11 @@ p {
     transform: rotate(360deg);
   }
 }
+<<<<<<< HEAD
 /* line 625, ../sass/remiel.scss */
+=======
+/* line 602, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .opBox {
   position: absolute;
   overflow: hidden;
@@ -691,17 +1025,29 @@ p {
     transform: rotate(180deg);
   }
 }
+<<<<<<< HEAD
 /* line 664, ../sass/remiel.scss */
+=======
+/* line 639, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .opBoxR {
   left: 50%;
 }
 
+<<<<<<< HEAD
 /* line 668, ../sass/remiel.scss */
+=======
+/* line 643, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .opBoxL {
   right: 50%;
 }
 
+<<<<<<< HEAD
 /* line 672, ../sass/remiel.scss */
+=======
+/* line 647, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .opBoxB {
   position: absolute;
   width: 3000px;
@@ -710,7 +1056,11 @@ p {
   background-color: #556c5c;
 }
 
+<<<<<<< HEAD
 /* line 680, ../sass/remiel.scss */
+=======
+/* line 655, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .opBoxBL {
   left: 50vw;
   -webkit-transform-origin: left center;
@@ -718,14 +1068,22 @@ p {
   transform-origin: left center;
 }
 
+<<<<<<< HEAD
 /* line 687, ../sass/remiel.scss */
+=======
+/* line 662, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .starBL {
   animation: boxLeft 1.5s linear infinite;
   -webkit-animation: boxLeft 1.5s linear infinite;
   -moz-animation: boxLeft 1.5s linear infinite;
 }
 
+<<<<<<< HEAD
 /* line 693, ../sass/remiel.scss */
+=======
+/* line 668, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .opBoxBR {
   right: 50vw;
   -webkit-transform-origin: right center;
@@ -733,20 +1091,32 @@ p {
   transform-origin: right center;
 }
 
+<<<<<<< HEAD
 /* line 700, ../sass/remiel.scss */
+=======
+/* line 675, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .starBR {
   animation: boxRight 1.5s linear infinite;
   -webkit-animation: boxRight 1.5s linear infinite;
   -moz-animation: boxRight 1.5s linear infinite;
 }
 
+<<<<<<< HEAD
 /* line 706, ../sass/remiel.scss */
+=======
+/* line 681, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .liChoise {
   background-color: #c12f2f;
   -webkit-transform: scale(1.1);
 }
 
+<<<<<<< HEAD
 /* line 711, ../sass/remiel.scss */
+=======
+/* line 686, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .sticker {
   width: 30rem;
   height: 25rem;
@@ -762,7 +1132,11 @@ p {
   transform: scale(0.8);
 }
 
+<<<<<<< HEAD
 /* line 727, ../sass/remiel.scss */
+=======
+/* line 701, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .kickstick {
   position: absolute;
   width: 7.6rem;
@@ -774,7 +1148,11 @@ p {
   background-size: cover;
 }
 
+<<<<<<< HEAD
 /* line 738, ../sass/remiel.scss */
+=======
+/* line 712, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .sticker2 {
   width: 30rem;
   height: 2rem;
@@ -784,7 +1162,11 @@ p {
   background-size: cover;
 }
 
+<<<<<<< HEAD
 /* line 747, ../sass/remiel.scss */
+=======
+/* line 721, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .formName {
   background-color: transparent;
   border: none;
@@ -795,13 +1177,21 @@ p {
   text-align: center;
 }
 
+<<<<<<< HEAD
 /* line 757, ../sass/remiel.scss */
+=======
+/* line 731, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .formS {
   position: absolute;
   height: 25rem;
 }
 
+<<<<<<< HEAD
 /* line 762, ../sass/remiel.scss */
+=======
+/* line 736, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 #textStick {
   margin-top: 1rem;
   width: 28rem;
@@ -813,7 +1203,11 @@ p {
   color: #00006a;
 }
 
+<<<<<<< HEAD
 /* line 773, ../sass/remiel.scss */
+=======
+/* line 747, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .formSub {
   background: none;
   border: none;
@@ -832,7 +1226,11 @@ p {
   text-shadow: 0 0 2px #000;
 }
 
+<<<<<<< HEAD
 /* line 791, ../sass/remiel.scss */
+=======
+/* line 765, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .name {
   position: absolute;
   font-size: 1.5rem;
@@ -841,16 +1239,27 @@ p {
   color: black;
 }
 
+<<<<<<< HEAD
 /* line 799, ../sass/remiel.scss */
 .card {
   position: absolute;
   height: 50vh;
+=======
+/* line 773, ../sass/remiel.scss */
+.card {
+  position: absolute;
+  height: 50%;
+>>>>>>> 留言板大小校正
   width: 15vh;
   background-image: linear-gradient(#ad3939 0%, brown 50%, #6c0d0d 100%);
   z-index: 20;
 }
 
+<<<<<<< HEAD
 /* line 807, ../sass/remiel.scss */
+=======
+/* line 781, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .bCard {
   margin: auto;
   left: 0;
@@ -870,11 +1279,16 @@ p {
     transform: scale(0.8) rotate(10deg);
   }
 }
+<<<<<<< HEAD
 /* line 828, ../sass/remiel.scss */
+=======
+/* line 801, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .cardimg {
   width: 100%;
 }
 
+<<<<<<< HEAD
 /* line 832, ../sass/remiel.scss */
 .cardtext {
   font-size: 13vh;
@@ -893,17 +1307,44 @@ p {
 }
 
 /* line 849, ../sass/remiel.scss */
+=======
+/* line 805, ../sass/remiel.scss */
+.cardtext {
+  font-size: 8vh;
+  line-height: 11vh;
+  transform-origin: 40% 90%;
+  transform: rotate(90deg);
+}
+
+/* line 815, ../sass/remiel.scss */
+.cardtext2 {
+  position: absolute;
+  bottom: 40%;
+  right: -5%;
+  color: black;
+}
+
+/* line 822, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .udMt {
   background-color: orange;
 }
 
+<<<<<<< HEAD
 /* line 853, ../sass/remiel.scss */
+=======
+/* line 826, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .udMhoho {
   cursor: pointer;
   text-align: center;
 }
 
+<<<<<<< HEAD
 /* line 858, ../sass/remiel.scss */
+=======
+/* line 831, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .shareB {
   position: absolute;
   color: white;
@@ -911,10 +1352,17 @@ p {
   width: 350px;
   left: 0;
   right: 0;
+<<<<<<< HEAD
   bottom: -10vh;
 }
 
 /* line 868, ../sass/remiel.scss */
+=======
+  bottom: -15vh;
+}
+
+/* line 841, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .soc {
   overflow: hidden;
   margin: 0;
@@ -922,14 +1370,22 @@ p {
   list-style: none;
 }
 
+<<<<<<< HEAD
 /* line 875, ../sass/remiel.scss */
+=======
+/* line 848, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .soc li {
   display: inline-block;
   *display: inline;
   zoom: 1;
 }
 
+<<<<<<< HEAD
 /* line 881, ../sass/remiel.scss */
+=======
+/* line 854, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .soc li a {
   font-family: si !important;
   font-style: normal;
@@ -955,31 +1411,86 @@ p {
   background-color: none;
 }
 
+<<<<<<< HEAD
 /* line 906, ../sass/remiel.scss */
+=======
+/* line 879, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .soc-icon-last {
   margin: 0 !important;
 }
 
+<<<<<<< HEAD
 /* line 910, ../sass/remiel.scss */
+=======
+/* line 883, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .section {
   width: 100vw;
   height: 100vh;
 }
 
+<<<<<<< HEAD
 /* line 915, ../sass/remiel.scss */
+=======
+/* line 888, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .soc-line {
   width: 100%;
 }
 
+<<<<<<< HEAD
 /* line 918, ../sass/remiel.scss */
+=======
+/* line 892, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 #nextChapter {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 /* line 922, ../sass/remiel.scss */
+=======
+/* line 896, ../sass/remiel.scss */
+>>>>>>> 留言板大小校正
 .pageM {
   font-size: 1.1rem;
   text-indent: 2.6rem;
   letter-spacing: .2rem;
   line-height: 2.5rem;
 }
+<<<<<<< HEAD
+=======
+
+/* line 903, ../sass/remiel.scss */
+.udMho a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  /* visited link */
+}
+/* line 907, ../sass/remiel.scss */
+.udMho a:visited {
+  color: white;
+}
+/* line 911, ../sass/remiel.scss */
+.udMho a:hover {
+  font-weight: bold;
+}
+/* line 914, ../sass/remiel.scss */
+.udMho a:active {
+  color: #49b3f5;
+}
+
+/* line 920, ../sass/remiel.scss */
+.stickerSuc {
+  animation: stickerOut 1s 2 alternate;
+}
+
+@keyframes stickerOut {
+  to {
+    bottom: 150vh;
+    transform: scale(0.3);
+  }
+}
+>>>>>>> 留言板大小校正
