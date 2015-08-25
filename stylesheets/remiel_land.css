@@ -168,3 +168,56 @@ article {
     height: 7.5vh;
   }
 }
+/* line 167, ../sass/remiel_land.scss */
+.sticker {
+  width: 30rem;
+  height: 25rem;
+}
+
+/* line 172, ../sass/remiel_land.scss */
+.sticker2 {
+  width: 30rem;
+  height: 2rem;
+}
+
+/* line 177, ../sass/remiel_land.scss */
+.kickstick {
+  width: 7.6rem;
+  height: 7.6rem;
+}
+
+/* line 182, ../sass/remiel_land.scss */
+.formS {
+  height: 25rem;
+}
+
+/* line 186, ../sass/remiel_land.scss */
+#textStick {
+  margin-top: 1rem;
+  width: 28rem;
+  height: 13rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+/* line 194, ../sass/remiel_land.scss */
+.name {
+  font-size: 1.5rem;
+  bottom: 2rem;
+  padding-left: 1rem;
+}
+
+/* line 200, ../sass/remiel_land.scss */
+.formName {
+  font-size: 2.5rem;
+  width: 12.5rem;
+}
+
+/* line 205, ../sass/remiel_land.scss */
+.formSub {
+  width: 5rem;
+  height: 5rem;
+  right: 2.5rem;
+  top: 17.8rem;
+  font-size: 1.2rem;
+}

@@ -105,9 +105,9 @@
 
 .sticker {
     left: 150vw;
-    -webkit-transform: translateX(-40%);
-    -ms-transform: translateX(-40%);
-    transform: translateX(-40%)
+    width: 90vw;
+    height: 75vw;
+    transform: translateX(-40%);
 }
 
 .udMho {
@@ -251,5 +251,51 @@
 
 .udMt {
     padding: .5rem;
-    border-radius: 1rem
+    border-radius: 1rem;
+    font-size: 4vw;
+}
+
+.sticker2 {
+    width: 90vw;
+    height: 6vw;
+}
+
+.kickstick {
+    width: 22.8vw;
+    height: 22.8vw;
+}
+
+.formS {
+    height: 75vw;
+}
+
+#textStick {
+    margin-top: 3vw;
+    width: 84vw;
+    height: 39vw;
+    padding: 3vw;
+    font-size: 4.5vw;
+}
+
+.name {
+    font-size: 4.5vw;
+    bottom: 6vw;
+    padding-left: 3vw;
+}
+
+.formName {
+    font-size: 7.5vw;
+    width: 37.5vw;
+}
+
+.formSub {
+    width: 15vw;
+    height: 15vw;
+    right: 7.5vw;
+    top: 53.4vw;
+    font-size: 3.6vw;
+}
+
+.shareB {
+    bottom: -100px;
 }

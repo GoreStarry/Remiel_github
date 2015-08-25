@@ -1,0 +1,48 @@
+#frame {
+    background-image: url(../images/ch02/bbuLight.jpg)
+}
+
+.under {
+    background-image: url(../images/ch02/ptcTower.jpg)
+}
+
+#bb,
+.title {
+    height: 100%
+}
+
+#bb {
+    -webkit-transform-origin: 65% bottom;
+    -ms-transform-origin: 65% bottom;
+    transform-origin: 65% bottom
+}
+
+.bbFly {
+    -webkit-transform-origin: 65% bottom;
+    -ms-transform-origin: 65% bottom;
+    transform-origin: 65% bottom;
+    -webkit-animation: flyhigh 60s cubic-bezier(.03, .63, .03, .74) forwards;
+    animation: flyhigh 60s cubic-bezier(.03, .63, .03, .74) forwards
+}
+
+@-webkit-keyframes flyhigh {
+    0% {
+        -webkit-transform: scale(.7);
+        transform: scale(.7)
+    }
+    100% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+}
+
+@keyframes flyhigh {
+    0% {
+        -webkit-transform: scale(.7);
+        transform: scale(.7)
+    }
+    100% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+}

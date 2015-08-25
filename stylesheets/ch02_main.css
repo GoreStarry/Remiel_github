@@ -2295,8 +2295,6 @@ body {
 
 /* line 2075, ../sass/remiel_all.scss */
 .sticker {
-  width: 30rem;
-  height: 25rem;
   background-image: -webkit-linear-gradient(315deg, #ffe164 0, #ffe164 86%, transparent 86%);
   background-image: linear-gradient(135deg, #ffe164 0, #ffe164 86%, transparent 86%);
   top: 0;
@@ -2309,65 +2307,48 @@ body {
   transform: scale(0.8);
 }
 
-/* line 2090, ../sass/remiel_all.scss */
+/* line 2088, ../sass/remiel_all.scss */
 .kickstick {
-  width: 7.6rem;
-  height: 7.6rem;
   right: 0;
   background-image: -webkit-linear-gradient(315deg, #e8ad28 0, #9a731e 50%, transparent 50%);
   background-image: linear-gradient(135deg, #e8ad28 0, #9a731e 50%, transparent 50%);
 }
 
-/* line 2098, ../sass/remiel_all.scss */
+/* line 2095, ../sass/remiel_all.scss */
 .sticker2 {
-  width: 30rem;
-  height: 2rem;
   position: absolute;
   background-image: -webkit-linear-gradient(#cbb24d 0, transparent 100%);
   background-image: linear-gradient(#cbb24d 0, transparent 100%);
   background-size: cover;
 }
 
-/* line 2107, ../sass/remiel_all.scss */
+/* line 2102, ../sass/remiel_all.scss */
 .formName {
   background-color: transparent;
   border-bottom: solid 2px #000;
-  font-size: 2.5rem;
-  width: 12.5rem;
   color: #00006a;
 }
 
-/* line 2115, ../sass/remiel_all.scss */
+/* line 2109, ../sass/remiel_all.scss */
 #textStick,
 .formSub {
   background: 0 0;
   border: none;
 }
 
-/* line 2121, ../sass/remiel_all.scss */
+/* line 2115, ../sass/remiel_all.scss */
 .formS {
   position: absolute;
-  height: 25rem;
 }
 
-/* line 2126, ../sass/remiel_all.scss */
+/* line 2119, ../sass/remiel_all.scss */
 #textStick {
-  margin-top: 1rem;
-  width: 28rem;
-  height: 13rem;
-  padding: 1rem;
-  font-size: 1.5rem;
   color: #00006a;
 }
 
-/* line 2135, ../sass/remiel_all.scss */
+/* line 2124, ../sass/remiel_all.scss */
 .formSub {
   position: absolute;
-  width: 5rem;
-  height: 5rem;
-  right: 2.5rem;
-  top: 17.8rem;
-  font-size: 1.2rem;
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
@@ -2375,21 +2356,14 @@ body {
   text-shadow: 0 0 2px #000;
 }
 
-/* line 2149, ../sass/remiel_all.scss */
+/* line 2134, ../sass/remiel_all.scss */
 .cardtext2,
 .name {
   color: #000;
   position: absolute;
 }
 
-/* line 2155, ../sass/remiel_all.scss */
-.name {
-  font-size: 1.5rem;
-  bottom: 2rem;
-  padding-left: 1rem;
-}
-
-/* line 2161, ../sass/remiel_all.scss */
+/* line 2142, ../sass/remiel_all.scss */
 .card {
   position: absolute;
   height: 50%;
@@ -2399,7 +2373,7 @@ body {
   z-index: 20;
 }
 
-/* line 2170, ../sass/remiel_all.scss */
+/* line 2151, ../sass/remiel_all.scss */
 .bCard {
   left: 0;
   right: 0;
@@ -2427,12 +2401,12 @@ body {
     transform: scale(0.8) rotate(10deg);
   }
 }
-/* line 2199, ../sass/remiel_all.scss */
+/* line 2180, ../sass/remiel_all.scss */
 .cardimg {
   width: 100%;
 }
 
-/* line 2203, ../sass/remiel_all.scss */
+/* line 2184, ../sass/remiel_all.scss */
 .cardtext {
   font-size: 8vh;
   line-height: 11vh;
@@ -2444,13 +2418,13 @@ body {
   transform: rotate(90deg);
 }
 
-/* line 2214, ../sass/remiel_all.scss */
+/* line 2195, ../sass/remiel_all.scss */
 .cardtext2 {
   bottom: 40%;
   right: -5%;
 }
 
-/* line 2219, ../sass/remiel_all.scss */
+/* line 2200, ../sass/remiel_all.scss */
 .shareB,
 .soc li a,
 .udMho a,
@@ -2458,33 +2432,33 @@ body {
   color: #fff;
 }
 
-/* line 2226, ../sass/remiel_all.scss */
+/* line 2207, ../sass/remiel_all.scss */
 .udMt {
   background-color: orange;
 }
 
-/* line 2230, ../sass/remiel_all.scss */
+/* line 2211, ../sass/remiel_all.scss */
 .shareB {
   position: absolute;
-  width: 350px;
+  width: 310px;
   left: 0;
   right: 0;
   bottom: -15vh;
 }
 
-/* line 2238, ../sass/remiel_all.scss */
+/* line 2219, ../sass/remiel_all.scss */
 .soc {
   margin: 0;
   padding: 0;
 }
 
-/* line 2243, ../sass/remiel_all.scss */
+/* line 2224, ../sass/remiel_all.scss */
 .soc li {
   display: inline-block;
   zoom: 1;
 }
 
-/* line 2248, ../sass/remiel_all.scss */
+/* line 2229, ../sass/remiel_all.scss */
 .soc li a {
   font-family: si !important;
   font-style: normal;
@@ -2506,36 +2480,36 @@ body {
   background-color: none;
 }
 
-/* line 2269, ../sass/remiel_all.scss */
+/* line 2250, ../sass/remiel_all.scss */
 .udMho a,
 .udMho a:hover {
   font-weight: 700;
 }
 
-/* line 2274, ../sass/remiel_all.scss */
+/* line 2255, ../sass/remiel_all.scss */
 .sweet-alert,
 .sweet-overlay {
   position: fixed;
   display: none;
 }
 
-/* line 2280, ../sass/remiel_all.scss */
+/* line 2261, ../sass/remiel_all.scss */
 .soc-icon-last {
   margin: 0 !important;
 }
 
-/* line 2284, ../sass/remiel_all.scss */
+/* line 2265, ../sass/remiel_all.scss */
 .section {
   width: 100vw;
   height: 100vh;
 }
 
-/* line 2289, ../sass/remiel_all.scss */
+/* line 2270, ../sass/remiel_all.scss */
 .soc-line {
   width: 100%;
 }
 
-/* line 2293, ../sass/remiel_all.scss */
+/* line 2274, ../sass/remiel_all.scss */
 .pageM {
   font-size: 1.1rem;
   text-indent: 2.6rem;
@@ -2543,12 +2517,12 @@ body {
   line-height: 2.5rem;
 }
 
-/* line 2300, ../sass/remiel_all.scss */
+/* line 2281, ../sass/remiel_all.scss */
 .udMho a:active {
   color: #49b3f5;
 }
 
-/* line 2304, ../sass/remiel_all.scss */
+/* line 2285, ../sass/remiel_all.scss */
 .stickerSuc {
   -webkit-animation: stickerOut 1s 2 alternate;
   animation: stickerOut 1s 2 alternate;
@@ -2568,12 +2542,12 @@ body {
     transform: scale(0.3);
   }
 }
-/* line 2325, ../sass/remiel_all.scss */
+/* line 2306, ../sass/remiel_all.scss */
 body.stop-scrolling {
   height: 100%;
 }
 
-/* line 2329, ../sass/remiel_all.scss */
+/* line 2310, ../sass/remiel_all.scss */
 .sweet-overlay {
   background-color: #000;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -2585,7 +2559,7 @@ body.stop-scrolling {
   z-index: 10000;
 }
 
-/* line 2340, ../sass/remiel_all.scss */
+/* line 2321, ../sass/remiel_all.scss */
 .sweet-alert {
   background-color: #fff;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -2600,7 +2574,7 @@ body.stop-scrolling {
 }
 
 @media all and (max-width: 540px) {
-  /* line 2354, ../sass/remiel_all.scss */
+  /* line 2335, ../sass/remiel_all.scss */
   .sweet-alert {
     width: auto;
     margin-left: 0;
@@ -2609,7 +2583,7 @@ body.stop-scrolling {
     right: 15px;
   }
 }
-/* line 2363, ../sass/remiel_all.scss */
+/* line 2344, ../sass/remiel_all.scss */
 .sweet-alert h2 {
   color: #575757;
   font-size: 30px;
@@ -2622,7 +2596,7 @@ body.stop-scrolling {
   display: block;
 }
 
-/* line 2375, ../sass/remiel_all.scss */
+/* line 2356, ../sass/remiel_all.scss */
 .sweet-alert p {
   color: #797979;
   font-size: 16px;
@@ -2635,13 +2609,13 @@ body.stop-scrolling {
   line-height: normal;
 }
 
-/* line 2387, ../sass/remiel_all.scss */
+/* line 2368, ../sass/remiel_all.scss */
 .sweet-alert fieldset {
   border: none;
   position: relative;
 }
 
-/* line 2392, ../sass/remiel_all.scss */
+/* line 2373, ../sass/remiel_all.scss */
 .sweet-alert .sa-error-container {
   background-color: #f1f1f1;
   margin-left: -17px;
@@ -2654,7 +2628,7 @@ body.stop-scrolling {
   transition: padding 0.15s, max-height 0.15s;
 }
 
-/* line 2404, ../sass/remiel_all.scss */
+/* line 2385, ../sass/remiel_all.scss */
 .sweet-alert .sa-error-container.show {
   padding: 10px 0;
   max-height: 100px;
@@ -2663,7 +2637,7 @@ body.stop-scrolling {
   transition: padding 0.25s, max-height 0.25s;
 }
 
-/* line 2412, ../sass/remiel_all.scss */
+/* line 2393, ../sass/remiel_all.scss */
 .sweet-alert .sa-error-container .icon {
   display: inline-block;
   width: 24px;
@@ -2676,12 +2650,12 @@ body.stop-scrolling {
   margin-right: 3px;
 }
 
-/* line 2424, ../sass/remiel_all.scss */
+/* line 2405, ../sass/remiel_all.scss */
 .sweet-alert .sa-error-container p {
   display: inline-block;
 }
 
-/* line 2428, ../sass/remiel_all.scss */
+/* line 2409, ../sass/remiel_all.scss */
 .sweet-alert .sa-input-error {
   position: absolute;
   top: 29px;
@@ -2699,7 +2673,7 @@ body.stop-scrolling {
   transition: all 0.1s;
 }
 
-/* line 2445, ../sass/remiel_all.scss */
+/* line 2426, ../sass/remiel_all.scss */
 .sweet-alert .sa-input-error::after,
 .sweet-alert .sa-input-error::before {
   content: "";
@@ -2714,21 +2688,21 @@ body.stop-scrolling {
   margin-left: -9px;
 }
 
-/* line 2459, ../sass/remiel_all.scss */
+/* line 2440, ../sass/remiel_all.scss */
 .sweet-alert .sa-input-error::before {
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
-/* line 2465, ../sass/remiel_all.scss */
+/* line 2446, ../sass/remiel_all.scss */
 .sweet-alert .sa-input-error::after {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
-/* line 2471, ../sass/remiel_all.scss */
+/* line 2452, ../sass/remiel_all.scss */
 .sweet-alert .sa-input-error.show {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -2736,7 +2710,7 @@ body.stop-scrolling {
   transform: scale(1);
 }
 
-/* line 2478, ../sass/remiel_all.scss */
+/* line 2459, ../sass/remiel_all.scss */
 .sweet-alert input {
   width: 100%;
   box-sizing: border-box;
@@ -2753,59 +2727,59 @@ body.stop-scrolling {
   transition: all 0.3s;
 }
 
-/* line 2494, ../sass/remiel_all.scss */
+/* line 2475, ../sass/remiel_all.scss */
 .sweet-alert input:focus {
   outline: 0;
   box-shadow: 0 0 3px #c4e6f5;
   border: 1px solid #b4dbed;
 }
 
-/* line 2500, ../sass/remiel_all.scss */
+/* line 2481, ../sass/remiel_all.scss */
 .sweet-alert input:focus::-moz-placeholder {
   transition: opacity .3s .03s ease;
   opacity: 0.5;
 }
 
-/* line 2505, ../sass/remiel_all.scss */
+/* line 2486, ../sass/remiel_all.scss */
 .sweet-alert input:focus:-ms-input-placeholder {
   transition: opacity .3s .03s ease;
   opacity: 0.5;
 }
 
-/* line 2510, ../sass/remiel_all.scss */
+/* line 2491, ../sass/remiel_all.scss */
 .sweet-alert input:focus::-webkit-input-placeholder {
   -webkit-transition: opacity .3s .03s ease;
   transition: opacity .3s .03s ease;
   opacity: 0.5;
 }
 
-/* line 2516, ../sass/remiel_all.scss */
+/* line 2497, ../sass/remiel_all.scss */
 .sweet-alert input::-moz-placeholder {
   color: #bdbdbd;
 }
 
-/* line 2520, ../sass/remiel_all.scss */
+/* line 2501, ../sass/remiel_all.scss */
 .sweet-alert input:-ms-input-placeholder {
   color: #bdbdbd;
 }
 
-/* line 2524, ../sass/remiel_all.scss */
+/* line 2505, ../sass/remiel_all.scss */
 .sweet-alert input::-webkit-input-placeholder {
   color: #bdbdbd;
 }
 
-/* line 2528, ../sass/remiel_all.scss */
+/* line 2509, ../sass/remiel_all.scss */
 .sweet-alert.show-input input {
   display: block;
 }
 
-/* line 2532, ../sass/remiel_all.scss */
+/* line 2513, ../sass/remiel_all.scss */
 .sweet-alert .sa-confirm-button-container {
   display: inline-block;
   position: relative;
 }
 
-/* line 2537, ../sass/remiel_all.scss */
+/* line 2518, ../sass/remiel_all.scss */
 .sweet-alert .la-ball-fall {
   position: absolute;
   left: 50%;
@@ -2816,7 +2790,7 @@ body.stop-scrolling {
   visibility: hidden;
 }
 
-/* line 2547, ../sass/remiel_all.scss */
+/* line 2528, ../sass/remiel_all.scss */
 .sweet-alert button {
   background-color: #8CD4F5;
   color: #fff;
@@ -2830,54 +2804,54 @@ body.stop-scrolling {
   cursor: pointer;
 }
 
-/* line 2560, ../sass/remiel_all.scss */
+/* line 2541, ../sass/remiel_all.scss */
 .sweet-alert button:focus {
   outline: 0;
   box-shadow: 0 0 2px rgba(128, 179, 235, 0.5), inset 0 0 0 1px rgba(0, 0, 0, 0.05);
 }
 
-/* line 2565, ../sass/remiel_all.scss */
+/* line 2546, ../sass/remiel_all.scss */
 .sweet-alert button:hover {
   background-color: #7ecff4;
 }
 
-/* line 2569, ../sass/remiel_all.scss */
+/* line 2550, ../sass/remiel_all.scss */
 .sweet-alert button:active {
   background-color: #5dc2f1;
 }
 
-/* line 2573, ../sass/remiel_all.scss */
+/* line 2554, ../sass/remiel_all.scss */
 .sweet-alert button.cancel {
   background-color: #C1C1C1;
 }
 
-/* line 2577, ../sass/remiel_all.scss */
+/* line 2558, ../sass/remiel_all.scss */
 .sweet-alert button.cancel:hover {
   background-color: #b9b9b9;
 }
 
-/* line 2581, ../sass/remiel_all.scss */
+/* line 2562, ../sass/remiel_all.scss */
 .sweet-alert button.cancel:active {
   background-color: #a8a8a8;
 }
 
-/* line 2585, ../sass/remiel_all.scss */
+/* line 2566, ../sass/remiel_all.scss */
 .sweet-alert button.cancel:focus {
   box-shadow: rgba(197, 205, 211, 0.8) 0 0 2px, rgba(0, 0, 0, 0.04706) 0 0 0 1px inset !important;
 }
 
-/* line 2589, ../sass/remiel_all.scss */
+/* line 2570, ../sass/remiel_all.scss */
 .sweet-alert button[disabled] {
   opacity: .6;
   cursor: default;
 }
 
-/* line 2594, ../sass/remiel_all.scss */
+/* line 2575, ../sass/remiel_all.scss */
 .sweet-alert button.confirm[disabled] {
   color: transparent;
 }
 
-/* line 2598, ../sass/remiel_all.scss */
+/* line 2579, ../sass/remiel_all.scss */
 .sweet-alert button.confirm[disabled] ~ .la-ball-fall {
   opacity: 1;
   visibility: visible;
@@ -2885,22 +2859,22 @@ body.stop-scrolling {
   transition-delay: 0s;
 }
 
-/* line 2605, ../sass/remiel_all.scss */
+/* line 2586, ../sass/remiel_all.scss */
 .sweet-alert button::-moz-focus-inner {
   border: 0;
 }
 
-/* line 2609, ../sass/remiel_all.scss */
+/* line 2590, ../sass/remiel_all.scss */
 .sweet-alert[data-has-cancel-button=false] button {
   box-shadow: none !important;
 }
 
-/* line 2613, ../sass/remiel_all.scss */
+/* line 2594, ../sass/remiel_all.scss */
 .sweet-alert[data-has-confirm-button=false][data-has-cancel-button=false] {
   padding-bottom: 40px;
 }
 
-/* line 2617, ../sass/remiel_all.scss */
+/* line 2598, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon {
   width: 80px;
   height: 80px;
@@ -2912,18 +2886,18 @@ body.stop-scrolling {
   box-sizing: content-box;
 }
 
-/* line 2628, ../sass/remiel_all.scss */
+/* line 2609, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-error {
   border-color: #F27474;
 }
 
-/* line 2632, ../sass/remiel_all.scss */
+/* line 2613, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-error .sa-x-mark {
   position: relative;
   display: block;
 }
 
-/* line 2637, ../sass/remiel_all.scss */
+/* line 2618, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-error .sa-line {
   position: absolute;
   height: 5px;
@@ -2934,7 +2908,7 @@ body.stop-scrolling {
   border-radius: 2px;
 }
 
-/* line 2647, ../sass/remiel_all.scss */
+/* line 2628, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-error .sa-line.sa-left {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -2942,7 +2916,7 @@ body.stop-scrolling {
   left: 17px;
 }
 
-/* line 2654, ../sass/remiel_all.scss */
+/* line 2635, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-error .sa-line.sa-right {
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
@@ -2950,12 +2924,12 @@ body.stop-scrolling {
   right: 16px;
 }
 
-/* line 2661, ../sass/remiel_all.scss */
+/* line 2642, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-warning {
   border-color: #F8BB86;
 }
 
-/* line 2665, ../sass/remiel_all.scss */
+/* line 2646, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-warning .sa-body {
   position: absolute;
   width: 5px;
@@ -2967,7 +2941,7 @@ body.stop-scrolling {
   background-color: #F8BB86;
 }
 
-/* line 2676, ../sass/remiel_all.scss */
+/* line 2657, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-warning .sa-dot {
   position: absolute;
   width: 7px;
@@ -2979,7 +2953,7 @@ body.stop-scrolling {
   background-color: #F8BB86;
 }
 
-/* line 2687, ../sass/remiel_all.scss */
+/* line 2668, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-info::after,
 .sweet-alert .sa-icon.sa-info::before {
   content: "";
@@ -2987,12 +2961,12 @@ body.stop-scrolling {
   position: absolute;
 }
 
-/* line 2694, ../sass/remiel_all.scss */
+/* line 2675, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-info {
   border-color: #C9DAE1;
 }
 
-/* line 2698, ../sass/remiel_all.scss */
+/* line 2679, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-info::before {
   width: 5px;
   height: 29px;
@@ -3002,7 +2976,7 @@ body.stop-scrolling {
   margin-left: -2px;
 }
 
-/* line 2707, ../sass/remiel_all.scss */
+/* line 2688, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-info::after {
   width: 7px;
   height: 7px;
@@ -3011,12 +2985,12 @@ body.stop-scrolling {
   top: 19px;
 }
 
-/* line 2715, ../sass/remiel_all.scss */
+/* line 2696, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-success {
   border-color: #A5DC86;
 }
 
-/* line 2719, ../sass/remiel_all.scss */
+/* line 2700, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-success::after,
 .sweet-alert .sa-icon.sa-success::before {
   content: '';
@@ -3026,7 +3000,7 @@ body.stop-scrolling {
   background: #fff;
 }
 
-/* line 2728, ../sass/remiel_all.scss */
+/* line 2709, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-success::before {
   border-radius: 120px 0 0 120px;
   top: -7px;
@@ -3039,7 +3013,7 @@ body.stop-scrolling {
   transform-origin: 60px 60px;
 }
 
-/* line 2740, ../sass/remiel_all.scss */
+/* line 2721, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-success::after {
   border-radius: 0 120px 120px 0;
   top: -11px;
@@ -3052,7 +3026,7 @@ body.stop-scrolling {
   transform-origin: 0 60px;
 }
 
-/* line 2752, ../sass/remiel_all.scss */
+/* line 2733, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-success .sa-placeholder {
   width: 80px;
   height: 80px;
@@ -3065,7 +3039,7 @@ body.stop-scrolling {
   z-index: 2;
 }
 
-/* line 2764, ../sass/remiel_all.scss */
+/* line 2745, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-success .sa-fix {
   width: 5px;
   height: 90px;
@@ -3079,7 +3053,7 @@ body.stop-scrolling {
   transform: rotate(-45deg);
 }
 
-/* line 2777, ../sass/remiel_all.scss */
+/* line 2758, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-success .sa-line {
   height: 5px;
   background-color: #A5DC86;
@@ -3089,7 +3063,7 @@ body.stop-scrolling {
   z-index: 2;
 }
 
-/* line 2786, ../sass/remiel_all.scss */
+/* line 2767, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-success .sa-line.sa-tip {
   width: 25px;
   left: 14px;
@@ -3099,7 +3073,7 @@ body.stop-scrolling {
   transform: rotate(45deg);
 }
 
-/* line 2795, ../sass/remiel_all.scss */
+/* line 2776, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-success .sa-line.sa-long {
   width: 47px;
   right: 8px;
@@ -3109,7 +3083,7 @@ body.stop-scrolling {
   transform: rotate(-45deg);
 }
 
-/* line 2804, ../sass/remiel_all.scss */
+/* line 2785, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-custom {
   background-size: contain;
   border-radius: 0;
@@ -3238,49 +3212,49 @@ body.stop-scrolling {
     top: 70%;
   }
 }
-/* line 2944, ../sass/remiel_all.scss */
+/* line 2925, ../sass/remiel_all.scss */
 .showSweetAlert[data-animation=pop] {
   -webkit-animation: showSweetAlert .3s;
   animation: showSweetAlert 0.3s;
 }
 
-/* line 2949, ../sass/remiel_all.scss */
+/* line 2930, ../sass/remiel_all.scss */
 .showSweetAlert[data-animation=none] {
   -webkit-animation: none;
   animation: none;
 }
 
-/* line 2954, ../sass/remiel_all.scss */
+/* line 2935, ../sass/remiel_all.scss */
 .showSweetAlert[data-animation=slide-from-top] {
   -webkit-animation: slideFromTop .3s;
   animation: slideFromTop 0.3s;
 }
 
-/* line 2959, ../sass/remiel_all.scss */
+/* line 2940, ../sass/remiel_all.scss */
 .showSweetAlert[data-animation=slide-from-bottom] {
   -webkit-animation: slideFromBottom .3s;
   animation: slideFromBottom 0.3s;
 }
 
-/* line 2964, ../sass/remiel_all.scss */
+/* line 2945, ../sass/remiel_all.scss */
 .hideSweetAlert[data-animation=pop] {
   -webkit-animation: hideSweetAlert .2s;
   animation: hideSweetAlert 0.2s;
 }
 
-/* line 2969, ../sass/remiel_all.scss */
+/* line 2950, ../sass/remiel_all.scss */
 .hideSweetAlert[data-animation=none] {
   -webkit-animation: none;
   animation: none;
 }
 
-/* line 2974, ../sass/remiel_all.scss */
+/* line 2955, ../sass/remiel_all.scss */
 .hideSweetAlert[data-animation=slide-from-top] {
   -webkit-animation: slideToTop .4s;
   animation: slideToTop 0.4s;
 }
 
-/* line 2979, ../sass/remiel_all.scss */
+/* line 2960, ../sass/remiel_all.scss */
 .hideSweetAlert[data-animation=slide-from-bottom] {
   -webkit-animation: slideToBottom .3s;
   animation: slideToBottom 0.3s;
@@ -3392,19 +3366,19 @@ body.stop-scrolling {
     -webkit-transform: rotate(-405deg);
   }
 }
-/* line 3096, ../sass/remiel_all.scss */
+/* line 3077, ../sass/remiel_all.scss */
 .animateSuccessTip {
   -webkit-animation: animateSuccessTip .75s;
   animation: animateSuccessTip 0.75s;
 }
 
-/* line 3101, ../sass/remiel_all.scss */
+/* line 3082, ../sass/remiel_all.scss */
 .animateSuccessLong {
   -webkit-animation: animateSuccessLong .75s;
   animation: animateSuccessLong 0.75s;
 }
 
-/* line 3106, ../sass/remiel_all.scss */
+/* line 3087, ../sass/remiel_all.scss */
 .sa-icon.sa-success.animate::after {
   -webkit-animation: rotatePlaceholder 4.25s ease-in;
   animation: rotatePlaceholder 4.25s ease-in;
@@ -3434,7 +3408,7 @@ body.stop-scrolling {
     opacity: 1;
   }
 }
-/* line 3137, ../sass/remiel_all.scss */
+/* line 3118, ../sass/remiel_all.scss */
 .animateErrorIcon {
   -webkit-animation: animateErrorIcon .5s;
   animation: animateErrorIcon 0.5s;
@@ -3480,7 +3454,7 @@ body.stop-scrolling {
     opacity: 1;
   }
 }
-/* line 3184, ../sass/remiel_all.scss */
+/* line 3165, ../sass/remiel_all.scss */
 .animateXMark {
   -webkit-animation: animateXMark .5s;
   animation: animateXMark 0.5s;
@@ -3502,7 +3476,7 @@ body.stop-scrolling {
     border-color: #F8BB86;
   }
 }
-/* line 3207, ../sass/remiel_all.scss */
+/* line 3188, ../sass/remiel_all.scss */
 .pulseWarning {
   -webkit-animation: pulseWarning .75s infinite alternate;
   animation: pulseWarning 0.75s infinite alternate;
@@ -3524,7 +3498,7 @@ body.stop-scrolling {
     background-color: #F8BB86;
   }
 }
-/* line 3230, ../sass/remiel_all.scss */
+/* line 3211, ../sass/remiel_all.scss */
 .pulseWarningIns {
   -webkit-animation: pulseWarningIns .75s infinite alternate;
   animation: pulseWarningIns 0.75s infinite alternate;
@@ -3550,27 +3524,27 @@ body.stop-scrolling {
     transform: rotate(360deg);
   }
 }
-/* line 3257, ../sass/remiel_all.scss */
+/* line 3238, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-error .sa-line.sa-left {
   -ms-transform: rotate(45deg) \9 ;
 }
 
-/* line 3261, ../sass/remiel_all.scss */
+/* line 3242, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-error .sa-line.sa-right {
   -ms-transform: rotate(-45deg) \9 ;
 }
 
-/* line 3265, ../sass/remiel_all.scss */
+/* line 3246, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-success {
   border-color: transparent\9;
 }
 
-/* line 3269, ../sass/remiel_all.scss */
+/* line 3250, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-success .sa-line.sa-tip {
   -ms-transform: rotate(45deg) \9 ;
 }
 
-/* line 3273, ../sass/remiel_all.scss */
+/* line 3254, ../sass/remiel_all.scss */
 .sweet-alert .sa-icon.sa-success .sa-line.sa-long {
   -ms-transform: rotate(-45deg) \9 ;
 }
@@ -3580,14 +3554,14 @@ body.stop-scrolling {
  * Copyright 2015 Daniel Cardoso <@DanielCardoso>
  * Licensed under MIT
  */
-/* line 3284, ../sass/remiel_all.scss */
+/* line 3265, ../sass/remiel_all.scss */
 .la-ball-fall,
 .la-ball-fall > div {
   position: relative;
   box-sizing: border-box;
 }
 
-/* line 3290, ../sass/remiel_all.scss */
+/* line 3271, ../sass/remiel_all.scss */
 .la-ball-fall {
   display: block;
   font-size: 0;
@@ -3596,12 +3570,12 @@ body.stop-scrolling {
   height: 18px;
 }
 
-/* line 3298, ../sass/remiel_all.scss */
+/* line 3279, ../sass/remiel_all.scss */
 .la-ball-fall.la-dark {
   color: #333;
 }
 
-/* line 3302, ../sass/remiel_all.scss */
+/* line 3283, ../sass/remiel_all.scss */
 .la-ball-fall > div {
   display: inline-block;
   float: none;
@@ -3616,57 +3590,57 @@ body.stop-scrolling {
   animation: ball-fall 1s ease-in-out infinite;
 }
 
-/* line 3316, ../sass/remiel_all.scss */
+/* line 3297, ../sass/remiel_all.scss */
 .la-ball-fall > div:nth-child(1) {
   -webkit-animation-delay: -200ms;
   animation-delay: -200ms;
 }
 
-/* line 3321, ../sass/remiel_all.scss */
+/* line 3302, ../sass/remiel_all.scss */
 .la-ball-fall > div:nth-child(2) {
   -webkit-animation-delay: -100ms;
   animation-delay: -100ms;
 }
 
-/* line 3326, ../sass/remiel_all.scss */
+/* line 3307, ../sass/remiel_all.scss */
 .la-ball-fall > div:nth-child(3) {
   -webkit-animation-delay: 0ms;
   animation-delay: 0ms;
 }
 
-/* line 3331, ../sass/remiel_all.scss */
+/* line 3312, ../sass/remiel_all.scss */
 .la-ball-fall.la-sm {
   width: 26px;
   height: 8px;
 }
 
-/* line 3336, ../sass/remiel_all.scss */
+/* line 3317, ../sass/remiel_all.scss */
 .la-ball-fall.la-sm > div {
   width: 4px;
   height: 4px;
   margin: 2px;
 }
 
-/* line 3342, ../sass/remiel_all.scss */
+/* line 3323, ../sass/remiel_all.scss */
 .la-ball-fall.la-2x {
   width: 108px;
   height: 36px;
 }
 
-/* line 3347, ../sass/remiel_all.scss */
+/* line 3328, ../sass/remiel_all.scss */
 .la-ball-fall.la-2x > div {
   width: 20px;
   height: 20px;
   margin: 8px;
 }
 
-/* line 3353, ../sass/remiel_all.scss */
+/* line 3334, ../sass/remiel_all.scss */
 .la-ball-fall.la-3x {
   width: 162px;
   height: 54px;
 }
 
-/* line 3358, ../sass/remiel_all.scss */
+/* line 3339, ../sass/remiel_all.scss */
 .la-ball-fall.la-3x > div {
   width: 30px;
   height: 30px;
@@ -3940,6 +3914,59 @@ body.stop-scrolling {
       height: 7.5vh;
     }
   }
+  /* line 167, ../sass/remiel_land.scss */
+  .sticker {
+    width: 30rem;
+    height: 25rem;
+  }
+
+  /* line 172, ../sass/remiel_land.scss */
+  .sticker2 {
+    width: 30rem;
+    height: 2rem;
+  }
+
+  /* line 177, ../sass/remiel_land.scss */
+  .kickstick {
+    width: 7.6rem;
+    height: 7.6rem;
+  }
+
+  /* line 182, ../sass/remiel_land.scss */
+  .formS {
+    height: 25rem;
+  }
+
+  /* line 186, ../sass/remiel_land.scss */
+  #textStick {
+    margin-top: 1rem;
+    width: 28rem;
+    height: 13rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+  /* line 194, ../sass/remiel_land.scss */
+  .name {
+    font-size: 1.5rem;
+    bottom: 2rem;
+    padding-left: 1rem;
+  }
+
+  /* line 200, ../sass/remiel_land.scss */
+  .formName {
+    font-size: 2.5rem;
+    width: 12.5rem;
+  }
+
+  /* line 205, ../sass/remiel_land.scss */
+  .formSub {
+    width: 5rem;
+    height: 5rem;
+    right: 2.5rem;
+    top: 17.8rem;
+    font-size: 1.2rem;
+  }
 }
 @media screen and (orientation: portrait) {
   /* line 1, ../sass/remiel_port.scss */
@@ -4051,8 +4078,8 @@ body.stop-scrolling {
   /* line 106, ../sass/remiel_port.scss */
   .sticker {
     left: 150vw;
-    -webkit-transform: translateX(-40%);
-    -ms-transform: translateX(-40%);
+    width: 90vw;
+    height: 75vw;
     transform: translateX(-40%);
   }
 
@@ -4218,6 +4245,60 @@ body.stop-scrolling {
   .udMt {
     padding: .5rem;
     border-radius: 1rem;
+    font-size: 4vw;
+  }
+
+  /* line 258, ../sass/remiel_port.scss */
+  .sticker2 {
+    width: 90vw;
+    height: 6vw;
+  }
+
+  /* line 263, ../sass/remiel_port.scss */
+  .kickstick {
+    width: 22.8vw;
+    height: 22.8vw;
+  }
+
+  /* line 268, ../sass/remiel_port.scss */
+  .formS {
+    height: 75vw;
+  }
+
+  /* line 272, ../sass/remiel_port.scss */
+  #textStick {
+    margin-top: 3vw;
+    width: 84vw;
+    height: 39vw;
+    padding: 3vw;
+    font-size: 4.5vw;
+  }
+
+  /* line 280, ../sass/remiel_port.scss */
+  .name {
+    font-size: 4.5vw;
+    bottom: 6vw;
+    padding-left: 3vw;
+  }
+
+  /* line 286, ../sass/remiel_port.scss */
+  .formName {
+    font-size: 7.5vw;
+    width: 37.5vw;
+  }
+
+  /* line 291, ../sass/remiel_port.scss */
+  .formSub {
+    width: 15vw;
+    height: 15vw;
+    right: 7.5vw;
+    top: 53.4vw;
+    font-size: 3.6vw;
+  }
+
+  /* line 299, ../sass/remiel_port.scss */
+  .shareB {
+    bottom: -100px;
   }
 
   /* line 1, ../sass/ch02/ch02_port.scss */

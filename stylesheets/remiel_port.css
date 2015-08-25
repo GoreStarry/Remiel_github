@@ -107,8 +107,8 @@
 /* line 106, ../sass/remiel_port.scss */
 .sticker {
   left: 150vw;
-  -webkit-transform: translateX(-40%);
-  -ms-transform: translateX(-40%);
+  width: 90vw;
+  height: 75vw;
   transform: translateX(-40%);
 }
 
@@ -274,4 +274,58 @@
 .udMt {
   padding: .5rem;
   border-radius: 1rem;
+  font-size: 4vw;
+}
+
+/* line 258, ../sass/remiel_port.scss */
+.sticker2 {
+  width: 90vw;
+  height: 6vw;
+}
+
+/* line 263, ../sass/remiel_port.scss */
+.kickstick {
+  width: 22.8vw;
+  height: 22.8vw;
+}
+
+/* line 268, ../sass/remiel_port.scss */
+.formS {
+  height: 75vw;
+}
+
+/* line 272, ../sass/remiel_port.scss */
+#textStick {
+  margin-top: 3vw;
+  width: 84vw;
+  height: 39vw;
+  padding: 3vw;
+  font-size: 4.5vw;
+}
+
+/* line 280, ../sass/remiel_port.scss */
+.name {
+  font-size: 4.5vw;
+  bottom: 6vw;
+  padding-left: 3vw;
+}
+
+/* line 286, ../sass/remiel_port.scss */
+.formName {
+  font-size: 7.5vw;
+  width: 37.5vw;
+}
+
+/* line 291, ../sass/remiel_port.scss */
+.formSub {
+  width: 15vw;
+  height: 15vw;
+  right: 7.5vw;
+  top: 53.4vw;
+  font-size: 3.6vw;
+}
+
+/* line 299, ../sass/remiel_port.scss */
+.shareB {
+  bottom: -100px;
 }
