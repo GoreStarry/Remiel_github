@@ -1,0 +1,165 @@
+ .pageM {
+     writing-mode: vertical-rl;
+     -webkit-writing-mode: vertical-rl;
+     -moz-writing-mode: vertical-rl;
+     -ms-writing-mode: vertical-rl;
+     margin: 15vh auto 0;
+     height: 65vh;
+     background: #000
+ }
+
+ article {
+     width: 100vw;
+     height: 100vh;
+     position: absolute;
+     overflow: hidden
+ }
+
+ .udMho,
+ .udMhoho {
+     position: absolute;
+     width: 30vh
+ }
+
+ .page {
+     margin-top: 7vh;
+     height: 90vh
+ }
+
+ .tip {
+     top: -50vh
+ }
+
+ @-webkit-keyframes tipdown {
+     0% {
+         -webkit-transform: rotate(5deg);
+         transform: rotate(5deg);
+         top: -40vh
+     }
+     60% {
+         -webkit-transform: rotate(8deg);
+         transform: rotate(8deg)
+     }
+     70% {
+         -webkit-transform: rotate(-6deg);
+         transform: rotate(-6deg);
+         top: 10vh
+     }
+     85% {
+         -webkit-transform: rotate(3deg);
+         transform: rotate(3deg)
+     }
+     100% {
+         -webkit-transform: rotate(0);
+         transform: rotate(0);
+         top: 10vh
+     }
+ }
+
+ @keyframes tipdown {
+     0% {
+         -webkit-transform: rotate(5deg);
+         transform: rotate(5deg);
+         top: -40vh
+     }
+     60% {
+         -webkit-transform: rotate(8deg);
+         transform: rotate(8deg)
+     }
+     70% {
+         -webkit-transform: rotate(-6deg);
+         transform: rotate(-6deg);
+         top: 10vh
+     }
+     85% {
+         -webkit-transform: rotate(3deg);
+         transform: rotate(3deg)
+     }
+     100% {
+         -webkit-transform: rotate(0);
+         transform: rotate(0);
+         top: 10vh
+     }
+ }
+
+ @-webkit-keyframes knows {
+     0% {
+         top: 10vh
+     }
+     50% {
+         top: 12vh
+     }
+     100% {
+         top: -50vh
+     }
+ }
+
+ @keyframes knows {
+     0% {
+         top: 10vh
+     }
+     50% {
+         top: 12vh
+     }
+     100% {
+         top: -50vh
+     }
+ }
+
+ .udMho {
+     top: 0;
+     height: 70vh;
+     background-image: -webkit-linear-gradient(0deg, transparent 5%, #fff 5%, transparent 6%, transparent 93%, #fff 95%, transparent 95%);
+     background-image: linear-gradient(90deg, transparent 5%, #fff 5%, transparent 6%, transparent 93%, #fff 95%, transparent 95%);
+     -webkit-transform-origin: left top;
+     -ms-transform-origin: left top;
+     transform-origin: left top;
+     -webkit-transform: rotate3d(1, 1, 0, 30deg);
+     transform: rotate3d(1, 1, 0, 30deg);
+     font-size: 1.2rem
+ }
+
+ .udMho:nth-of-type(1) {
+     left: 0;
+     top: -10vh;
+     z-index: 3
+ }
+
+ .udMho:nth-of-type(2) {
+     left: 10vw;
+     top: -20vh;
+     z-index: 2
+ }
+
+ .udMho:nth-of-type(3) {
+     left: 20vw;
+     top: -30vh;
+     z-index: 1
+ }
+
+ .udMhoho {
+     bottom: 0
+ }
+
+ .sticker {
+     left: 130vw
+ }
+
+ @-webkit-keyframes inka {
+     0% {
+         height: 0
+     }
+     100% {
+         height: 7.5vh
+     }
+ }
+
+ @keyframes inka {
+     0% {
+         height: 0
+     }
+     100% {
+         height: 7.5vh
+     }
+ }
+

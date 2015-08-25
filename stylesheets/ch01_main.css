@@ -1,0 +1,4450 @@
+/* line 5, ../../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/remiel_all.scss */
+#cus,
+#cus img {
+  position: relative;
+  height: 100%;
+}
+
+/* line 7, ../sass/remiel_all.scss */
+#cus2,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 24, ../sass/remiel_all.scss */
+.soc li a,
+.udMho a,
+a {
+  text-decoration: none;
+}
+
+/* line 30, ../sass/remiel_all.scss */
+#logoa,
+#nextChapter,
+.formSub,
+.know,
+.menu li,
+.touch,
+.udMhoho {
+  cursor: pointer;
+}
+
+/* line 40, ../sass/remiel_all.scss */
+.soc,
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 46, ../sass/remiel_all.scss */
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 135, ../sass/remiel_all.scss */
+.formName,
+a img {
+  border: none;
+}
+
+/* line 140, ../sass/remiel_all.scss */
+.menu,
+.under {
+  font-family: Microsoft JhengHei;
+}
+
+/* line 145, ../sass/remiel_all.scss */
+html {
+  line-height: 1;
+}
+
+/* line 149, ../sass/remiel_all.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 154, ../sass/remiel_all.scss */
+caption,
+td,
+th {
+  text-align: left;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+/* line 162, ../sass/remiel_all.scss */
+#logoa,
+.tip {
+  text-align: center;
+}
+
+/* line 167, ../sass/remiel_all.scss */
+.formSub,
+.or {
+  font-weight: 700;
+}
+
+/* line 172, ../sass/remiel_all.scss */
+blockquote,
+q {
+  quotes: none;
+}
+
+/* line 177, ../sass/remiel_all.scss */
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none;
+}
+
+/* line 186, ../sass/remiel_all.scss */
+#frame,
+body {
+  width: 100vw;
+}
+
+/* line 192, ../sass/remiel_all.scss */
+#LOGO,
+.title,
+.touch {
+  display: none;
+}
+
+/* line 198, ../sass/remiel_all.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+/* line 207, ../sass/remiel_all.scss */
+body {
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+/* line 212, ../sass/remiel_all.scss */
+.title {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: 6;
+}
+
+/* line 220, ../sass/remiel_all.scss */
+#frame {
+  position: relative;
+  height: 100vh;
+  overflow: hidden !important;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-position: center;
+}
+
+/* line 232, ../sass/remiel_all.scss */
+.paperH,
+.paperS {
+  right: 1rem;
+  top: 0;
+  height: 100%;
+}
+
+/* line 239, ../sass/remiel_all.scss */
+.page,
+.paperH,
+.paperS {
+  width: 100%;
+  position: absolute;
+}
+
+/* line 246, ../sass/remiel_all.scss */
+.loading,
+.opBox,
+.soc,
+.soc li a,
+.sweet-alert,
+.under,
+body.stop-scrolling {
+  overflow: hidden;
+}
+
+/* line 256, ../sass/remiel_all.scss */
+article {
+  color: gray;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+/* line 262, ../sass/remiel_all.scss */
+p {
+  margin: 0 0.5rem;
+}
+
+/* line 266, ../sass/remiel_all.scss */
+#LOGO,
+#logoa {
+  margin: auto;
+  left: 0;
+}
+
+/* line 272, ../sass/remiel_all.scss */
+.page {
+  opacity: 0;
+  left: 0;
+  z-index: 10;
+  -webkit-transition: 1s ease-out;
+  transition: 1s ease-out;
+}
+
+/* line 280, ../sass/remiel_all.scss */
+.bc,
+.bgLine,
+.paperH,
+.paperS {
+  z-index: -1;
+}
+
+/* line 287, ../sass/remiel_all.scss */
+#page0 {
+  opacity: 1;
+}
+
+/* line 291, ../sass/remiel_all.scss */
+.paperH {
+  background-image: -webkit-linear-gradient(0deg, transparent 2.05rem, #000 2.05rem, #000 2.45rem, gray 2.45rem), -webkit-linear-gradient(0deg, transparent 2.45rem, gray 2.45rem);
+  background-image: linear-gradient(90deg, transparent 2.05rem, #000 2.05rem, #000 2.45rem, gray 2.45rem), linear-gradient(90deg, transparent 2.45rem, gray 2.45rem);
+  background-size: 2.6rem 2rem, 2.6rem 2em;
+  background-position: 100% 100%, calc(100% - .5rem) 0;
+}
+
+/* line 298, ../sass/remiel_all.scss */
+.paperS {
+  background-image: -webkit-linear-gradient(gray 0.15rem, transparent 0);
+  background-image: linear-gradient(gray 0.15rem, transparent 0);
+  background-size: 2rem 2.1rem;
+  background-position: 0 0;
+}
+
+/* line 305, ../sass/remiel_all.scss */
+.bc {
+  position: absolute;
+  background: -webkit-radial-gradient(left bottom, #000 0, #000 78%, transparent 90%);
+  background: radial-gradient(left bottom, #000000 0%, #000000 78%, rgba(0, 0, 0, 0) 90%);
+  background: -webkit-radial-gradient(left bottom, #000 0, #000 78%, transparent 90%);
+  background: -moz-radial-gradient(left bottom, #000 0, #000 78%, transparent 90%);
+  width: 70vw;
+  height: 70vw;
+}
+
+/* line 315, ../sass/remiel_all.scss */
+#bgLineMask,
+.bgLine {
+  height: 100%;
+  position: absolute;
+}
+
+/* line 321, ../sass/remiel_all.scss */
+.bgLine {
+  width: 300%;
+  right: -200%;
+  background: -webkit-linear-gradient(210deg, transparent 50%, #000 50%);
+  background: linear-gradient(240deg, transparent 50%, #000 50%);
+}
+
+/* line 328, ../sass/remiel_all.scss */
+#LOGO,
+#ink,
+#logoa,
+#touchN,
+.hole {
+  right: 0;
+}
+
+/* line 336, ../sass/remiel_all.scss */
+#bgLineH {
+  -webkit-transition: 1.5s ease-out 1.5s;
+  transition: 1.5s ease-out 1.5s;
+}
+
+/* line 341, ../sass/remiel_all.scss */
+#bgLineS {
+  -webkit-transition: 1.5s ease-out 3s;
+  transition: 1.5s ease-out 3s;
+}
+
+/* line 346, ../sass/remiel_all.scss */
+#bgLineMask {
+  width: 100%;
+  background: -webkit-radial-gradient(left bottom, #000 0, #000 85%, transparent 100%);
+  background: radial-gradient(left bottom, #000000 0%, #000000 85%, rgba(0, 0, 0, 0) 100%);
+  background: -webkit-radial-gradient(left bottom, #000 0, #000 85%, transparent 100%);
+  background: -moz-radial-gradient(left bottom, #000 0, #000 85%, transparent 100%);
+  opacity: 0;
+  -webkit-transition: 1.5s linear 6s;
+  transition: 1.5s linear 6s;
+}
+
+/* line 357, ../sass/remiel_all.scss */
+#LOGO {
+  position: absolute;
+  height: 16vh;
+  top: 57vh;
+  z-index: 6;
+  animation: logo 2.3s linear infinite;
+  -webkit-animation: logo 2.3s linear infinite;
+  -moz-animation: logo 2.3s linear infinite;
+}
+
+/* line 367, ../sass/remiel_all.scss */
+#LOGO:hover {
+  animation: 0;
+  -webkit-animation: 0;
+  -moz-animation: 0;
+}
+
+@-webkit-keyframes logo {
+  0%,
+    100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes logo {
+  0%,
+    100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+/* line 393, ../sass/remiel_all.scss */
+.tran {
+  -webkit-transition: 1s ease-out;
+  transition: 1s ease-out;
+}
+
+/* line 398, ../sass/remiel_all.scss */
+#article {
+  position: relative;
+}
+
+/* line 402, ../sass/remiel_all.scss */
+#logoa {
+  position: absolute;
+  width: 28vh;
+  top: 57%;
+  -webkit-animation: logo 2.3s linear infinite;
+  animation: logo 2.3s linear infinite;
+  z-index: 7;
+}
+
+/* line 411, ../sass/remiel_all.scss */
+#logoa:hover {
+  animation: 0;
+  -webkit-animation: 0;
+  -moz-animation: 0;
+}
+
+/* line 417, ../sass/remiel_all.scss */
+.LOGO2 {
+  height: 15vh;
+  margin: -2.5px;
+  z-index: 6;
+  -webkit-transition: 1.5s linear;
+  transition: 1.5s linear;
+}
+
+/* line 425, ../sass/remiel_all.scss */
+#LOGO2L {
+  -webkit-transform-origin: 100%;
+  -ms-transform-origin: 100%;
+  transform-origin: 100%;
+}
+
+/* line 431, ../sass/remiel_all.scss */
+#LOGO2R {
+  -ms-transform-origin: 0 center 0;
+  transform-origin: 0 center 0;
+  -webkit-transform-origin: 0 center 0;
+  -moz-transform-origin: 0 center 0;
+}
+
+@keyframes logotran {
+  100% {
+    -webkit-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+  }
+}
+@-webkit-keyframes logotran {
+  100% {
+    -webkit-transform: rotateY(90deg);
+  }
+}
+/* line 451, ../sass/remiel_all.scss */
+.LOGOtran {
+  animation: 2s logotran linear forwards;
+  -webkit-animation: 2s logotran linear forwards;
+  -moz-animation: 2s logotran linear forwards;
+}
+
+/* line 457, ../sass/remiel_all.scss */
+#LOGO2b {
+  position: relative;
+  top: -4vh;
+  height: 4vh;
+}
+
+/* line 463, ../sass/remiel_all.scss */
+#ink,
+.hole,
+.rebon,
+.touch {
+  position: absolute;
+}
+
+/* line 470, ../sass/remiel_all.scss */
+#ink {
+  top: 3vh;
+  width: .5vh;
+  margin: auto;
+  left: 0;
+  height: 0;
+  background-image: -webkit-linear-gradient(#4cc8ff 20%, #000 80%);
+  background-image: linear-gradient(#4cc8ff 20%, #000 80%);
+  z-index: -1;
+}
+
+/* line 481, ../sass/remiel_all.scss */
+.touch {
+  width: 45%;
+  height: 100%;
+  z-index: 15;
+}
+
+/* line 487, ../sass/remiel_all.scss */
+#touchL {
+  left: 0;
+}
+
+/* line 491, ../sass/remiel_all.scss */
+.sweet-alert,
+.sweet-overlay {
+  position: fixed;
+  display: none;
+}
+
+/* line 497, ../sass/remiel_all.scss */
+body.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 502, ../sass/remiel_all.scss */
+.sweet-overlay {
+  background-color: #000;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  background-color: rgba(0, 0, 0, 0.4);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 10000;
+}
+
+/* line 513, ../sass/remiel_all.scss */
+.sweet-alert {
+  background-color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  width: 478px;
+  padding: 17px;
+  border-radius: 5px;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  margin-left: -256px;
+  margin-top: -200px;
+  overflow: hidden;
+  z-index: 99999;
+}
+
+@media all and (max-width: 540px) {
+  /* line 529, ../sass/remiel_all.scss */
+  .sweet-alert {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    left: 15px;
+    right: 15px;
+  }
+}
+/* line 538, ../sass/remiel_all.scss */
+.sweet-alert h2 {
+  color: #575757;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: none;
+  position: relative;
+  margin: 25px 0;
+  padding: 0;
+  line-height: 40px;
+  display: block;
+}
+
+/* line 551, ../sass/remiel_all.scss */
+.sweet-alert p {
+  color: #797979;
+  font-size: 16px;
+  font-weight: 300;
+  position: relative;
+  text-align: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+/* line 563, ../sass/remiel_all.scss */
+.sweet-alert fieldset {
+  border: none;
+  position: relative;
+}
+
+/* line 568, ../sass/remiel_all.scss */
+.sweet-alert .sa-error-container {
+  background-color: #f1f1f1;
+  margin-left: -17px;
+  margin-right: -17px;
+  overflow: hidden;
+  padding: 0 10px;
+  max-height: 0;
+  webkit-transition: padding .15s, max-height .15s;
+  -webkit-transition: padding .15s, max-height .15s;
+  transition: padding 0.15s, max-height 0.15s;
+}
+
+/* line 580, ../sass/remiel_all.scss */
+.sweet-alert .sa-error-container.show {
+  padding: 10px 0;
+  max-height: 100px;
+  webkit-transition: padding .2s, max-height .2s;
+  -webkit-transition: padding .25s, max-height .25s;
+  transition: padding 0.25s, max-height 0.25s;
+}
+
+/* line 588, ../sass/remiel_all.scss */
+.sweet-alert .sa-error-container .icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #ea7d7d;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+  margin-right: 3px;
+}
+
+/* line 600, ../sass/remiel_all.scss */
+.sweet-alert .sa-error-container p {
+  display: inline-block;
+}
+
+/* line 604, ../sass/remiel_all.scss */
+.sweet-alert .sa-input-error {
+  position: absolute;
+  top: 29px;
+  right: 26px;
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transition: all .1s;
+  transition: all 0.1s;
+}
+
+/* line 621, ../sass/remiel_all.scss */
+.sweet-alert .sa-input-error::after,
+.sweet-alert .sa-input-error::before {
+  content: "";
+  width: 20px;
+  height: 6px;
+  background-color: #f06e57;
+  border-radius: 3px;
+  position: absolute;
+  top: 50%;
+  margin-top: -4px;
+  left: 50%;
+  margin-left: -9px;
+}
+
+/* line 635, ../sass/remiel_all.scss */
+.sweet-alert .sa-input-error::before {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 641, ../sass/remiel_all.scss */
+.sweet-alert .sa-input-error::after {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 647, ../sass/remiel_all.scss */
+.sweet-alert .sa-input-error.show {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+/* line 654, ../sass/remiel_all.scss */
+.sweet-alert input {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 1px solid #d7d7d7;
+  height: 43px;
+  margin-top: 10px;
+  margin-bottom: 17px;
+  font-size: 18px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06);
+  padding: 0 12px;
+  display: none;
+  -webkit-transition: all .3s;
+  transition: all 0.3s;
+}
+
+/* line 670, ../sass/remiel_all.scss */
+.sweet-alert input:focus {
+  outline: 0;
+  box-shadow: 0 0 3px #c4e6f5;
+  border: 1px solid #b4dbed;
+}
+
+/* line 676, ../sass/remiel_all.scss */
+.sweet-alert input:focus::-moz-placeholder {
+  transition: opacity .3s .03s ease;
+  opacity: 0.5;
+}
+
+/* line 681, ../sass/remiel_all.scss */
+.sweet-alert input:focus:-ms-input-placeholder {
+  transition: opacity .3s .03s ease;
+  opacity: 0.5;
+}
+
+/* line 686, ../sass/remiel_all.scss */
+.sweet-alert input:focus::-webkit-input-placeholder {
+  -webkit-transition: opacity .3s .03s ease;
+  transition: opacity .3s .03s ease;
+  opacity: 0.5;
+}
+
+/* line 692, ../sass/remiel_all.scss */
+.sweet-alert input::-moz-placeholder {
+  color: #bdbdbd;
+}
+
+/* line 696, ../sass/remiel_all.scss */
+.sweet-alert input:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+
+/* line 700, ../sass/remiel_all.scss */
+.sweet-alert input::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+
+/* line 704, ../sass/remiel_all.scss */
+.sweet-alert.show-input input {
+  display: block;
+}
+
+/* line 708, ../sass/remiel_all.scss */
+.sweet-alert .sa-confirm-button-container {
+  display: inline-block;
+  position: relative;
+}
+
+/* line 713, ../sass/remiel_all.scss */
+.sweet-alert .la-ball-fall {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -27px;
+  margin-top: 4px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* line 723, ../sass/remiel_all.scss */
+.sweet-alert button {
+  background-color: #8CD4F5;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 10px 32px;
+  margin: 26px 5px 0;
+  cursor: pointer;
+}
+
+/* line 736, ../sass/remiel_all.scss */
+.sweet-alert button:focus {
+  outline: 0;
+  box-shadow: 0 0 2px rgba(128, 179, 235, 0.5), inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+/* line 741, ../sass/remiel_all.scss */
+.sweet-alert button:hover {
+  background-color: #7ecff4;
+}
+
+/* line 745, ../sass/remiel_all.scss */
+.sweet-alert button:active {
+  background-color: #5dc2f1;
+}
+
+/* line 749, ../sass/remiel_all.scss */
+.sweet-alert button.cancel {
+  background-color: #C1C1C1;
+}
+
+/* line 753, ../sass/remiel_all.scss */
+.sweet-alert button.cancel:hover {
+  background-color: #b9b9b9;
+}
+
+/* line 757, ../sass/remiel_all.scss */
+.sweet-alert button.cancel:active {
+  background-color: #a8a8a8;
+}
+
+/* line 761, ../sass/remiel_all.scss */
+.sweet-alert button.cancel:focus {
+  box-shadow: rgba(197, 205, 211, 0.8) 0 0 2px, rgba(0, 0, 0, 0.04706) 0 0 0 1px inset !important;
+}
+
+/* line 765, ../sass/remiel_all.scss */
+.sweet-alert button[disabled] {
+  opacity: .6;
+  cursor: default;
+}
+
+/* line 770, ../sass/remiel_all.scss */
+.sweet-alert button.confirm[disabled] {
+  color: transparent;
+}
+
+/* line 774, ../sass/remiel_all.scss */
+.sweet-alert button.confirm[disabled] ~ .la-ball-fall {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+/* line 781, ../sass/remiel_all.scss */
+.sweet-alert button::-moz-focus-inner {
+  border: 0;
+}
+
+/* line 785, ../sass/remiel_all.scss */
+.sweet-alert[data-has-cancel-button=false] button {
+  box-shadow: none !important;
+}
+
+/* line 789, ../sass/remiel_all.scss */
+.sweet-alert[data-has-confirm-button=false][data-has-cancel-button=false] {
+  padding-bottom: 40px;
+}
+
+/* line 793, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon {
+  width: 80px;
+  height: 80px;
+  border: 4px solid gray;
+  border-radius: 50%;
+  margin: 20px auto;
+  padding: 0;
+  position: relative;
+  box-sizing: content-box;
+}
+
+/* line 804, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-error {
+  border-color: #F27474;
+}
+
+/* line 808, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-error .sa-x-mark {
+  position: relative;
+  display: block;
+}
+
+/* line 813, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-error .sa-line {
+  position: absolute;
+  height: 5px;
+  width: 47px;
+  background-color: #F27474;
+  display: block;
+  top: 37px;
+  border-radius: 2px;
+}
+
+/* line 823, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-error .sa-line.sa-left {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 17px;
+}
+
+/* line 830, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-error .sa-line.sa-right {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  right: 16px;
+}
+
+/* line 837, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-warning {
+  border-color: #F8BB86;
+}
+
+/* line 841, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-warning .sa-body {
+  position: absolute;
+  width: 5px;
+  height: 47px;
+  left: 50%;
+  top: 10px;
+  border-radius: 2px;
+  margin-left: -2px;
+  background-color: #F8BB86;
+}
+
+/* line 852, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-warning .sa-dot {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-left: -3px;
+  left: 50%;
+  bottom: 10px;
+  background-color: #F8BB86;
+}
+
+/* line 863, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-info::after,
+.sweet-alert .sa-icon.sa-info::before {
+  content: "";
+  background-color: #C9DAE1;
+  position: absolute;
+}
+
+/* line 870, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-info {
+  border-color: #C9DAE1;
+}
+
+/* line 874, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-info::before {
+  width: 5px;
+  height: 29px;
+  left: 50%;
+  bottom: 17px;
+  border-radius: 2px;
+  margin-left: -2px;
+}
+
+/* line 883, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-info::after {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-left: -3px;
+  top: 19px;
+}
+
+/* line 891, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success {
+  border-color: #A5DC86;
+}
+
+/* line 895, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success::after,
+.sweet-alert .sa-icon.sa-success::before {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 120px;
+  background: #fff;
+}
+
+/* line 904, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success::before {
+  border-radius: 120px 0 0 120px;
+  top: -7px;
+  left: -33px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 60px 60px;
+  -ms-transform-origin: 60px 60px;
+  transform-origin: 60px 60px;
+}
+
+/* line 916, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success::after {
+  border-radius: 0 120px 120px 0;
+  top: -11px;
+  left: 30px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 60px;
+  -ms-transform-origin: 0 60px;
+  transform-origin: 0 60px;
+}
+
+/* line 928, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success .sa-placeholder {
+  width: 80px;
+  height: 80px;
+  border: 4px solid rgba(165, 220, 134, 0.2);
+  border-radius: 50%;
+  box-sizing: content-box;
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  z-index: 2;
+}
+
+/* line 940, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success .sa-fix {
+  width: 5px;
+  height: 90px;
+  background-color: #fff;
+  position: absolute;
+  left: 28px;
+  top: 8px;
+  z-index: 1;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 953, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success .sa-line {
+  height: 5px;
+  background-color: #A5DC86;
+  display: block;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 2;
+}
+
+/* line 962, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success .sa-line.sa-tip {
+  width: 25px;
+  left: 14px;
+  top: 46px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 971, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success .sa-line.sa-long {
+  width: 47px;
+  right: 8px;
+  top: 38px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 980, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-custom {
+  background-size: contain;
+  border-radius: 0;
+  border: none;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@-webkit-keyframes showSweetAlert {
+  0% {
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+  }
+  45% {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+  }
+  80% {
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes showSweetAlert {
+  0% {
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+  }
+  45% {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+  }
+  80% {
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+@-webkit-keyframes hideSweetAlert {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+  }
+}
+@keyframes hideSweetAlert {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+  }
+}
+@-webkit-keyframes slideFromTop {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@keyframes slideFromTop {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@-webkit-keyframes slideToTop {
+  0% {
+    top: 50%;
+  }
+  100% {
+    top: 0;
+  }
+}
+@keyframes slideToTop {
+  0% {
+    top: 50%;
+  }
+  100% {
+    top: 0;
+  }
+}
+@-webkit-keyframes slideFromBottom {
+  0% {
+    top: 70%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@keyframes slideFromBottom {
+  0% {
+    top: 70%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@-webkit-keyframes slideToBottom {
+  0% {
+    top: 50%;
+  }
+  100% {
+    top: 70%;
+  }
+}
+@keyframes slideToBottom {
+  0% {
+    top: 50%;
+  }
+  100% {
+    top: 70%;
+  }
+}
+/* line 1120, ../sass/remiel_all.scss */
+.showSweetAlert[data-animation=pop] {
+  -webkit-animation: showSweetAlert .3s;
+  animation: showSweetAlert 0.3s;
+}
+
+/* line 1125, ../sass/remiel_all.scss */
+.showSweetAlert[data-animation=none] {
+  -webkit-animation: none;
+  animation: none;
+}
+
+/* line 1130, ../sass/remiel_all.scss */
+.showSweetAlert[data-animation=slide-from-top] {
+  -webkit-animation: slideFromTop .3s;
+  animation: slideFromTop 0.3s;
+}
+
+/* line 1135, ../sass/remiel_all.scss */
+.showSweetAlert[data-animation=slide-from-bottom] {
+  -webkit-animation: slideFromBottom .3s;
+  animation: slideFromBottom 0.3s;
+}
+
+/* line 1140, ../sass/remiel_all.scss */
+.hideSweetAlert[data-animation=pop] {
+  -webkit-animation: hideSweetAlert .2s;
+  animation: hideSweetAlert 0.2s;
+}
+
+/* line 1145, ../sass/remiel_all.scss */
+.hideSweetAlert[data-animation=none] {
+  -webkit-animation: none;
+  animation: none;
+}
+
+/* line 1150, ../sass/remiel_all.scss */
+.hideSweetAlert[data-animation=slide-from-top] {
+  -webkit-animation: slideToTop .4s;
+  animation: slideToTop 0.4s;
+}
+
+/* line 1155, ../sass/remiel_all.scss */
+.hideSweetAlert[data-animation=slide-from-bottom] {
+  -webkit-animation: slideToBottom .3s;
+  animation: slideToBottom 0.3s;
+}
+
+@-webkit-keyframes animateSuccessTip {
+  0%,
+    54% {
+    width: 0;
+    left: 1px;
+    top: 19px;
+  }
+  70% {
+    width: 50px;
+    left: -8px;
+    top: 37px;
+  }
+  84% {
+    width: 17px;
+    left: 21px;
+    top: 48px;
+  }
+  100% {
+    width: 25px;
+    left: 14px;
+    top: 45px;
+  }
+}
+@keyframes animateSuccessTip {
+  0%,
+    54% {
+    width: 0;
+    left: 1px;
+    top: 19px;
+  }
+  70% {
+    width: 50px;
+    left: -8px;
+    top: 37px;
+  }
+  84% {
+    width: 17px;
+    left: 21px;
+    top: 48px;
+  }
+  100% {
+    width: 25px;
+    left: 14px;
+    top: 45px;
+  }
+}
+@-webkit-keyframes animateSuccessLong {
+  0%,
+    65% {
+    width: 0;
+    right: 46px;
+    top: 54px;
+  }
+  84% {
+    width: 55px;
+    right: 0;
+    top: 35px;
+  }
+  100% {
+    width: 47px;
+    right: 8px;
+    top: 38px;
+  }
+}
+@keyframes animateSuccessLong {
+  0%,
+    65% {
+    width: 0;
+    right: 46px;
+    top: 54px;
+  }
+  84% {
+    width: 55px;
+    right: 0;
+    top: 35px;
+  }
+  100% {
+    width: 47px;
+    right: 8px;
+    top: 38px;
+  }
+}
+@-webkit-keyframes rotatePlaceholder {
+  0%,
+    5% {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  100%,
+    12% {
+    transform: rotate(-405deg);
+    -webkit-transform: rotate(-405deg);
+  }
+}
+@keyframes rotatePlaceholder {
+  0%,
+    5% {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  100%,
+    12% {
+    transform: rotate(-405deg);
+    -webkit-transform: rotate(-405deg);
+  }
+}
+/* line 1272, ../sass/remiel_all.scss */
+.animateSuccessTip {
+  -webkit-animation: animateSuccessTip .75s;
+  animation: animateSuccessTip 0.75s;
+}
+
+/* line 1277, ../sass/remiel_all.scss */
+.animateSuccessLong {
+  -webkit-animation: animateSuccessLong .75s;
+  animation: animateSuccessLong 0.75s;
+}
+
+/* line 1282, ../sass/remiel_all.scss */
+.sa-icon.sa-success.animate::after {
+  -webkit-animation: rotatePlaceholder 4.25s ease-in;
+  animation: rotatePlaceholder 4.25s ease-in;
+}
+
+@-webkit-keyframes animateErrorIcon {
+  0% {
+    transform: rotateX(100deg);
+    -webkit-transform: rotateX(100deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    -webkit-transform: rotateX(0);
+    opacity: 1;
+  }
+}
+@keyframes animateErrorIcon {
+  0% {
+    transform: rotateX(100deg);
+    -webkit-transform: rotateX(100deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    -webkit-transform: rotateX(0);
+    opacity: 1;
+  }
+}
+/* line 1313, ../sass/remiel_all.scss */
+.animateErrorIcon {
+  -webkit-animation: animateErrorIcon .5s;
+  animation: animateErrorIcon 0.5s;
+}
+
+@-webkit-keyframes animateXMark {
+  0%,
+    50% {
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    margin-top: 26px;
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    margin-top: -6px;
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+@keyframes animateXMark {
+  0%,
+    50% {
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    margin-top: 26px;
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    margin-top: -6px;
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+/* line 1360, ../sass/remiel_all.scss */
+.animateXMark {
+  -webkit-animation: animateXMark .5s;
+  animation: animateXMark 0.5s;
+}
+
+@-webkit-keyframes pulseWarning {
+  0% {
+    border-color: #F8D486;
+  }
+  100% {
+    border-color: #F8BB86;
+  }
+}
+@keyframes pulseWarning {
+  0% {
+    border-color: #F8D486;
+  }
+  100% {
+    border-color: #F8BB86;
+  }
+}
+/* line 1383, ../sass/remiel_all.scss */
+.pulseWarning {
+  -webkit-animation: pulseWarning .75s infinite alternate;
+  animation: pulseWarning 0.75s infinite alternate;
+}
+
+@-webkit-keyframes pulseWarningIns {
+  0% {
+    background-color: #F8D486;
+  }
+  100% {
+    background-color: #F8BB86;
+  }
+}
+@keyframes pulseWarningIns {
+  0% {
+    background-color: #F8D486;
+  }
+  100% {
+    background-color: #F8BB86;
+  }
+}
+/* line 1406, ../sass/remiel_all.scss */
+.pulseWarningIns {
+  -webkit-animation: pulseWarningIns .75s infinite alternate;
+  animation: pulseWarningIns 0.75s infinite alternate;
+}
+
+@-webkit-keyframes rotate-loading {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-loading {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* line 1433, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-error .sa-line.sa-left {
+  -ms-transform: rotate(45deg) \9 ;
+}
+
+/* line 1437, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-error .sa-line.sa-right {
+  -ms-transform: rotate(-45deg) \9 ;
+}
+
+/* line 1441, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success {
+  border-color: transparent\9;
+}
+
+/* line 1445, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success .sa-line.sa-tip {
+  -ms-transform: rotate(45deg) \9 ;
+}
+
+/* line 1449, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success .sa-line.sa-long {
+  -ms-transform: rotate(-45deg) \9 ;
+}
+
+/*!
+ * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Licensed under MIT
+ */
+/* line 1460, ../sass/remiel_all.scss */
+.la-ball-fall,
+.la-ball-fall > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 1466, ../sass/remiel_all.scss */
+.la-ball-fall {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 54px;
+  height: 18px;
+}
+
+/* line 1474, ../sass/remiel_all.scss */
+.la-ball-fall.la-dark {
+  color: #333;
+}
+
+/* line 1478, ../sass/remiel_all.scss */
+.la-ball-fall > div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  width: 10px;
+  height: 10px;
+  margin: 4px;
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-animation: ball-fall 1s ease-in-out infinite;
+  animation: ball-fall 1s ease-in-out infinite;
+}
+
+/* line 1492, ../sass/remiel_all.scss */
+.la-ball-fall > div:nth-child(1) {
+  -webkit-animation-delay: -200ms;
+  animation-delay: -200ms;
+}
+
+/* line 1497, ../sass/remiel_all.scss */
+.la-ball-fall > div:nth-child(2) {
+  -webkit-animation-delay: -100ms;
+  animation-delay: -100ms;
+}
+
+/* line 1502, ../sass/remiel_all.scss */
+.la-ball-fall > div:nth-child(3) {
+  -webkit-animation-delay: 0ms;
+  animation-delay: 0ms;
+}
+
+/* line 1507, ../sass/remiel_all.scss */
+.la-ball-fall.la-sm {
+  width: 26px;
+  height: 8px;
+}
+
+/* line 1512, ../sass/remiel_all.scss */
+.la-ball-fall.la-sm > div {
+  width: 4px;
+  height: 4px;
+  margin: 2px;
+}
+
+/* line 1518, ../sass/remiel_all.scss */
+.la-ball-fall.la-2x {
+  width: 108px;
+  height: 36px;
+}
+
+/* line 1523, ../sass/remiel_all.scss */
+.la-ball-fall.la-2x > div {
+  width: 20px;
+  height: 20px;
+  margin: 8px;
+}
+
+/* line 1529, ../sass/remiel_all.scss */
+.la-ball-fall.la-3x {
+  width: 162px;
+  height: 54px;
+}
+
+/* line 1534, ../sass/remiel_all.scss */
+.la-ball-fall.la-3x > div {
+  width: 30px;
+  height: 30px;
+  margin: 12px;
+}
+
+@-webkit-keyframes ball-fall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-145%);
+    transform: translateY(-145%);
+  }
+  10%,
+    90% {
+    opacity: 0.5;
+  }
+  20%,
+    80% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(145%);
+    transform: translateY(145%);
+  }
+}
+@keyframes ball-fall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-145%);
+    transform: translateY(-145%);
+  }
+  10%,
+    90% {
+    opacity: 0.5;
+  }
+  20%,
+    80% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(145%);
+    transform: translateY(145%);
+  }
+}
+/* line 1586, ../sass/remiel_all.scss */
+#LOGO,
+.title,
+.touch {
+  display: none;
+}
+
+/* line 1592, ../sass/remiel_all.scss */
+#frame,
+body {
+  width: 100vw;
+}
+
+/* line 1597, ../sass/remiel_all.scss */
+.tip {
+  left: 10vw;
+  -webkit-transform-origin: center top;
+  -ms-transform-origin: center top;
+  transform-origin: center top;
+  line-height: 5vh;
+  font-size: 3vh;
+}
+
+/* line 1606, ../sass/remiel_all.scss */
+.hole {
+  left: 0;
+  background: #000;
+  border-radius: 100%;
+  width: 3.5vh;
+  height: 3.5vh;
+  margin: 0.8vw auto;
+}
+
+/* line 1615, ../sass/remiel_all.scss */
+.rebon {
+  width: 18%;
+  height: 20vh;
+  top: -17vh;
+  left: 41%;
+  background-image: -webkit-linear-gradient(90deg, #3e2800 0, orange 5%, orange 60%, orange 60%, #2e1e00 100%);
+  background-image: linear-gradient(0deg, #3e2800 0, orange 5%, orange 60%, orange 60%, #2e1e00 100%);
+}
+
+/* line 1624, ../sass/remiel_all.scss */
+.menu,
+.pcpaper {
+  top: 0;
+  position: absolute;
+}
+
+/* line 1630, ../sass/remiel_all.scss */
+.keypic {
+  display: inline-block;
+  width: 3.5vh;
+  height: 3.5vh;
+  line-height: 3vh;
+  border: 0.5vh solid #888;
+}
+
+/* line 1638, ../sass/remiel_all.scss */
+#keyup,
+.pc {
+  display: block;
+}
+
+/* line 1643, ../sass/remiel_all.scss */
+.clicLR,
+.keyb {
+  border-radius: 0.5vh;
+}
+
+/* line 1648, ../sass/remiel_all.scss */
+.keyb {
+  background: #acacac;
+  color: #000;
+  font-size: 2vh;
+}
+
+/* line 1654, ../sass/remiel_all.scss */
+.know {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-animation: knowf 3s linear infinite;
+  animation: knowf 3s linear infinite;
+}
+
+@-webkit-keyframes knowf {
+  0%,
+    100% {
+    color: #000;
+  }
+  50% {
+    color: #fff;
+  }
+}
+@keyframes knowf {
+  0%,
+    100% {
+    color: #000;
+  }
+  50% {
+    color: #fff;
+  }
+}
+/* line 1683, ../sass/remiel_all.scss */
+#keyup {
+  margin: auto auto 0.7vh;
+}
+
+/* line 1687, ../sass/remiel_all.scss */
+.clicLR {
+  background: #d4d4d4;
+  width: 10vh;
+  height: 6vh;
+  border: .8vh solid #000;
+  font-size: 1vh;
+  color: #000;
+}
+
+/* line 1696, ../sass/remiel_all.scss */
+.pc {
+  margin: auto;
+}
+
+/* line 1700, ../sass/remiel_all.scss */
+.pcb {
+  background: #000;
+  width: 5vh;
+  height: 1vh;
+  border-radius: 1vh 1vh 0 0;
+}
+
+/* line 1707, ../sass/remiel_all.scss */
+.ccr {
+  float: right;
+  background: #ff0;
+}
+
+/* line 1712, ../sass/remiel_all.scss */
+.cc {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  line-height: 6vh;
+}
+
+/* line 1719, ../sass/remiel_all.scss */
+.bCard,
+.menu,
+.menuimg {
+  display: none;
+}
+
+/* line 1725, ../sass/remiel_all.scss */
+.ccl {
+  float: left;
+  background: green;
+}
+
+/* line 1730, ../sass/remiel_all.scss */
+.or {
+  font-size: 4vh;
+  color: #000;
+}
+
+/* line 1735, ../sass/remiel_all.scss */
+.pcpaper {
+  opacity: .2;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/p34.jpg);
+  background-position: top;
+}
+
+/* line 1743, ../sass/remiel_all.scss */
+.key {
+  margin-top: 7vh;
+}
+
+/* line 1747, ../sass/remiel_all.scss */
+.menu {
+  left: 0;
+  opacity: .7;
+  z-index: 16;
+  width: 8rem;
+}
+
+/* line 1754, ../sass/remiel_all.scss */
+.menuimg {
+  opacity: .6;
+  position: absolute;
+  padding: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+  z-index: 15;
+  -webkit-transform-origin: center;
+}
+
+/* line 1766, ../sass/remiel_all.scss */
+.menu li,
+.under {
+  position: relative;
+  color: #fff;
+}
+
+/* line 1772, ../sass/remiel_all.scss */
+.under {
+  min-height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* line 1781, ../sass/remiel_all.scss */
+.after {
+  color: #fff;
+  padding: 2rem 1rem;
+  width: 30vw;
+  border: .5rem solid #fff;
+  border-radius: 3rem;
+  line-height: 2rem;
+}
+
+/* line 1790, ../sass/remiel_all.scss */
+.imgrotate {
+  background: red;
+  left: -8rem;
+}
+
+/* line 1795, ../sass/remiel_all.scss */
+.menu li {
+  width: 8rem;
+  margin: 1rem;
+  left: -12rem;
+  padding-right: 2rem;
+  background-image: -webkit-linear-gradient(165deg, #908b0c 5%, #c6c14e 12%, #7b7e1d 35%, #908b0c 45%, #908b0c 50%, rgba(0, 0, 0, 0.6) 50%, transparent 70%);
+  background-image: linear-gradient(-75deg, #908b0c 5%, #c6c14e 12%, #7b7e1d 35%, #908b0c 45%, #908b0c 50%, rgba(0, 0, 0, 0.6) 50%, transparent 70%);
+  text-shadow: 1px 1px 2px #000, -1px -1px 2px #000;
+  text-align: right;
+  border-radius: .5rem;
+  border: solid #7c7812;
+}
+
+/* line 1808, ../sass/remiel_all.scss */
+.bCard,
+.countDown,
+.shareB,
+.sticker {
+  margin: auto;
+}
+
+/* line 1815, ../sass/remiel_all.scss */
+.Mcircl,
+.countDown,
+.loading,
+.opBox,
+.opBoxB,
+.whiteline {
+  position: absolute;
+}
+
+/* line 1824, ../sass/remiel_all.scss */
+.countDown,
+.formName,
+.soc li a,
+.sweet-alert,
+.sweet-alert h2,
+.udMhoho {
+  text-align: center;
+}
+
+/* line 1833, ../sass/remiel_all.scss */
+.menu li:hover {
+  background-color: #c12f2f;
+  -webkit-transform: scale(1.1);
+}
+
+/* line 1838, ../sass/remiel_all.scss */
+.menu ul {
+  padding-top: 5rem;
+}
+
+/* line 1842, ../sass/remiel_all.scss */
+.loading {
+  z-index: 25;
+  background: #1d241f;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* line 1849, ../sass/remiel_all.scss */
+.whitelineH {
+  height: 100vh;
+  left: 50%;
+  width: 5px;
+}
+
+/* line 1855, ../sass/remiel_all.scss */
+.whitelineS {
+  width: 100%;
+  top: 50%;
+  height: 5px;
+}
+
+/* line 1861, ../sass/remiel_all.scss */
+.Mcircl {
+  border-radius: 100%;
+  border: 2vh solid #fff;
+}
+
+/* line 1866, ../sass/remiel_all.scss */
+.McirclOut {
+  width: 90vh;
+  height: 90vh;
+  left: calc(50vw - 45vh - 3vh);
+  top: calc(50vh - 45vh - 2vh);
+}
+
+/* line 1873, ../sass/remiel_all.scss */
+.McirclIn {
+  width: 74vh;
+  height: 74vh;
+  left: calc(50vw - 37vh - 3vh);
+  top: calc(50vh - 37vh - 2vh);
+}
+
+/* line 1880, ../sass/remiel_all.scss */
+.countDown {
+  font-size: 70vh;
+  line-height: 85vh;
+  height: 80vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* line 1890, ../sass/remiel_all.scss */
+.countStart {
+  animation: countBig 1.5s linear infinite;
+  -webkit-animation: countBig 1.5s linear infinite;
+  -moz-animation: countBig 1.5s linear infinite;
+}
+
+@-webkit-keyframes countBig {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  95% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@keyframes countBig {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  95% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+/* line 1928, ../sass/remiel_all.scss */
+.whiteline {
+  background-color: #000;
+}
+
+/* line 1932, ../sass/remiel_all.scss */
+.whitelineL {
+  height: 100vh;
+  width: 5px;
+  left: 50%;
+  bottom: 50%;
+  -webkit-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+/* line 1942, ../sass/remiel_all.scss */
+.rowLine {
+  -webkit-animation: countRow 1.5s linear infinite;
+  animation: countRow 1.5s linear infinite;
+}
+
+@-webkit-keyframes countRow {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes countRow {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* line 1969, ../sass/remiel_all.scss */
+.opBox {
+  width: 50vw;
+  height: 100vh;
+}
+
+@-webkit-keyframes boxRight {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100%,
+    50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+@keyframes boxRight {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100%,
+    50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+@-webkit-keyframes boxLeft {
+  0%,
+    50% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+@keyframes boxLeft {
+  0%,
+    50% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+/* line 2022, ../sass/remiel_all.scss */
+.opBoxR {
+  left: 50%;
+}
+
+/* line 2026, ../sass/remiel_all.scss */
+.opBoxL {
+  right: 50%;
+}
+
+/* line 2030, ../sass/remiel_all.scss */
+.opBoxB {
+  width: 3000px;
+  height: 3000px;
+  bottom: calc(-1500px + 50vh);
+  background-color: #556c5c;
+}
+
+/* line 2037, ../sass/remiel_all.scss */
+.kickstick,
+.sticker {
+  bottom: 0;
+  background-size: cover;
+  position: absolute;
+}
+
+/* line 2044, ../sass/remiel_all.scss */
+.opBoxBL {
+  left: 50vw;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+
+/* line 2051, ../sass/remiel_all.scss */
+.starBL {
+  animation: boxLeft 1.5s linear infinite;
+  -webkit-animation: boxLeft 1.5s linear infinite;
+  -moz-animation: boxLeft 1.5s linear infinite;
+}
+
+/* line 2057, ../sass/remiel_all.scss */
+.opBoxBR {
+  right: 50vw;
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+}
+
+/* line 2064, ../sass/remiel_all.scss */
+.starBR {
+  animation: boxRight 1.5s linear infinite;
+  -webkit-animation: boxRight 1.5s linear infinite;
+  -moz-animation: boxRight 1.5s linear infinite;
+}
+
+/* line 2070, ../sass/remiel_all.scss */
+.liChoise {
+  background-color: #c12f2f;
+  -webkit-transform: scale(1.1);
+}
+
+/* line 2075, ../sass/remiel_all.scss */
+.sticker {
+  width: 30rem;
+  height: 25rem;
+  background-image: -webkit-linear-gradient(315deg, #ffe164 0, #ffe164 86%, transparent 86%);
+  background-image: linear-gradient(135deg, #ffe164 0, #ffe164 86%, transparent 86%);
+  top: 0;
+  z-index: 10;
+  -webkit-transform-origin: left;
+  -ms-transform-origin: left;
+  transform-origin: left;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+/* line 2090, ../sass/remiel_all.scss */
+.kickstick {
+  width: 7.6rem;
+  height: 7.6rem;
+  right: 0;
+  background-image: -webkit-linear-gradient(315deg, #e8ad28 0, #9a731e 50%, transparent 50%);
+  background-image: linear-gradient(135deg, #e8ad28 0, #9a731e 50%, transparent 50%);
+}
+
+/* line 2098, ../sass/remiel_all.scss */
+.sticker2 {
+  width: 30rem;
+  height: 2rem;
+  position: absolute;
+  background-image: -webkit-linear-gradient(#cbb24d 0, transparent 100%);
+  background-image: linear-gradient(#cbb24d 0, transparent 100%);
+  background-size: cover;
+}
+
+/* line 2107, ../sass/remiel_all.scss */
+.formName {
+  background-color: transparent;
+  border-bottom: solid 2px #000;
+  font-size: 2.5rem;
+  width: 12.5rem;
+  color: #00006a;
+}
+
+/* line 2115, ../sass/remiel_all.scss */
+#textStick,
+.formSub {
+  background: 0 0;
+  border: none;
+}
+
+/* line 2121, ../sass/remiel_all.scss */
+.formS {
+  position: absolute;
+  height: 25rem;
+}
+
+/* line 2126, ../sass/remiel_all.scss */
+#textStick {
+  margin-top: 1rem;
+  width: 28rem;
+  height: 13rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #00006a;
+}
+
+/* line 2135, ../sass/remiel_all.scss */
+.formSub {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  right: 2.5rem;
+  top: 17.8rem;
+  font-size: 1.2rem;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  color: #fff;
+  text-shadow: 0 0 2px #000;
+}
+
+/* line 2149, ../sass/remiel_all.scss */
+.cardtext2,
+.name {
+  color: #000;
+  position: absolute;
+}
+
+/* line 2155, ../sass/remiel_all.scss */
+.name {
+  font-size: 1.5rem;
+  bottom: 2rem;
+  padding-left: 1rem;
+}
+
+/* line 2161, ../sass/remiel_all.scss */
+.card {
+  position: absolute;
+  height: 50%;
+  width: 15vh;
+  background-image: -webkit-linear-gradient(#ad3939 0, brown 50%, #6c0d0d 100%);
+  background-image: linear-gradient(#ad3939 0, brown 50%, #6c0d0d 100%);
+  z-index: 20;
+}
+
+/* line 2170, ../sass/remiel_all.scss */
+.bCard {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+@-webkit-keyframes bCards {
+  0% {
+    -webkit-transform: scale(1.5) rotate(15deg);
+    transform: scale(1.5) rotate(15deg);
+  }
+  100% {
+    -webkit-transform: scale(0.8) rotate(10deg);
+    transform: scale(0.8) rotate(10deg);
+  }
+}
+@keyframes bCards {
+  0% {
+    -webkit-transform: scale(1.5) rotate(15deg);
+    transform: scale(1.5) rotate(15deg);
+  }
+  100% {
+    -webkit-transform: scale(0.8) rotate(10deg);
+    transform: scale(0.8) rotate(10deg);
+  }
+}
+/* line 2199, ../sass/remiel_all.scss */
+.cardimg {
+  width: 100%;
+}
+
+/* line 2203, ../sass/remiel_all.scss */
+.cardtext {
+  font-size: 8vh;
+  line-height: 11vh;
+  -webkit-transform-origin: 40% 90%;
+  -ms-transform-origin: 40% 90%;
+  transform-origin: 40% 90%;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 2214, ../sass/remiel_all.scss */
+.cardtext2 {
+  bottom: 40%;
+  right: -5%;
+}
+
+/* line 2219, ../sass/remiel_all.scss */
+.shareB,
+.soc li a,
+.udMho a,
+.udMho a:visited {
+  color: #fff;
+}
+
+/* line 2226, ../sass/remiel_all.scss */
+.udMt {
+  background-color: orange;
+}
+
+/* line 2230, ../sass/remiel_all.scss */
+.shareB {
+  position: absolute;
+  width: 350px;
+  left: 0;
+  right: 0;
+  bottom: -15vh;
+}
+
+/* line 2238, ../sass/remiel_all.scss */
+.soc {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2243, ../sass/remiel_all.scss */
+.soc li {
+  display: inline-block;
+  zoom: 1;
+}
+
+/* line 2248, ../sass/remiel_all.scss */
+.soc li a {
+  font-family: si !important;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 44px;
+  border-radius: 10px;
+  margin-right: 30px;
+  background-color: none;
+}
+
+/* line 2269, ../sass/remiel_all.scss */
+.udMho a,
+.udMho a:hover {
+  font-weight: 700;
+}
+
+/* line 2274, ../sass/remiel_all.scss */
+.sweet-alert,
+.sweet-overlay {
+  position: fixed;
+  display: none;
+}
+
+/* line 2280, ../sass/remiel_all.scss */
+.soc-icon-last {
+  margin: 0 !important;
+}
+
+/* line 2284, ../sass/remiel_all.scss */
+.section {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* line 2289, ../sass/remiel_all.scss */
+.soc-line {
+  width: 100%;
+}
+
+/* line 2293, ../sass/remiel_all.scss */
+.pageM {
+  font-size: 1.1rem;
+  text-indent: 2.6rem;
+  letter-spacing: .2rem;
+  line-height: 2.5rem;
+}
+
+/* line 2300, ../sass/remiel_all.scss */
+.udMho a:active {
+  color: #49b3f5;
+}
+
+/* line 2304, ../sass/remiel_all.scss */
+.stickerSuc {
+  -webkit-animation: stickerOut 1s 2 alternate;
+  animation: stickerOut 1s 2 alternate;
+}
+
+@-webkit-keyframes stickerOut {
+  to {
+    bottom: 150vh;
+    -webkit-transform: scale(0.3);
+    transform: scale(0.3);
+  }
+}
+@keyframes stickerOut {
+  to {
+    bottom: 150vh;
+    -webkit-transform: scale(0.3);
+    transform: scale(0.3);
+  }
+}
+/* line 2325, ../sass/remiel_all.scss */
+body.stop-scrolling {
+  height: 100%;
+}
+
+/* line 2329, ../sass/remiel_all.scss */
+.sweet-overlay {
+  background-color: #000;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  background-color: rgba(0, 0, 0, 0.4);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 10000;
+}
+
+/* line 2340, ../sass/remiel_all.scss */
+.sweet-alert {
+  background-color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  width: 478px;
+  padding: 17px;
+  border-radius: 5px;
+  left: 50%;
+  top: 50%;
+  margin-left: -256px;
+  margin-top: -200px;
+  z-index: 99999;
+}
+
+@media all and (max-width: 540px) {
+  /* line 2354, ../sass/remiel_all.scss */
+  .sweet-alert {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    left: 15px;
+    right: 15px;
+  }
+}
+/* line 2363, ../sass/remiel_all.scss */
+.sweet-alert h2 {
+  color: #575757;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: none;
+  position: relative;
+  margin: 25px 0;
+  padding: 0;
+  line-height: 40px;
+  display: block;
+}
+
+/* line 2375, ../sass/remiel_all.scss */
+.sweet-alert p {
+  color: #797979;
+  font-size: 16px;
+  font-weight: 300;
+  position: relative;
+  text-align: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+/* line 2387, ../sass/remiel_all.scss */
+.sweet-alert fieldset {
+  border: none;
+  position: relative;
+}
+
+/* line 2392, ../sass/remiel_all.scss */
+.sweet-alert .sa-error-container {
+  background-color: #f1f1f1;
+  margin-left: -17px;
+  margin-right: -17px;
+  overflow: hidden;
+  padding: 0 10px;
+  max-height: 0;
+  webkit-transition: padding .15s, max-height .15s;
+  -webkit-transition: padding .15s, max-height .15s;
+  transition: padding 0.15s, max-height 0.15s;
+}
+
+/* line 2404, ../sass/remiel_all.scss */
+.sweet-alert .sa-error-container.show {
+  padding: 10px 0;
+  max-height: 100px;
+  webkit-transition: padding .2s, max-height .2s;
+  -webkit-transition: padding .25s, max-height .25s;
+  transition: padding 0.25s, max-height 0.25s;
+}
+
+/* line 2412, ../sass/remiel_all.scss */
+.sweet-alert .sa-error-container .icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #ea7d7d;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+  margin-right: 3px;
+}
+
+/* line 2424, ../sass/remiel_all.scss */
+.sweet-alert .sa-error-container p {
+  display: inline-block;
+}
+
+/* line 2428, ../sass/remiel_all.scss */
+.sweet-alert .sa-input-error {
+  position: absolute;
+  top: 29px;
+  right: 26px;
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transition: all .1s;
+  transition: all 0.1s;
+}
+
+/* line 2445, ../sass/remiel_all.scss */
+.sweet-alert .sa-input-error::after,
+.sweet-alert .sa-input-error::before {
+  content: "";
+  width: 20px;
+  height: 6px;
+  background-color: #f06e57;
+  border-radius: 3px;
+  position: absolute;
+  top: 50%;
+  margin-top: -4px;
+  left: 50%;
+  margin-left: -9px;
+}
+
+/* line 2459, ../sass/remiel_all.scss */
+.sweet-alert .sa-input-error::before {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 2465, ../sass/remiel_all.scss */
+.sweet-alert .sa-input-error::after {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 2471, ../sass/remiel_all.scss */
+.sweet-alert .sa-input-error.show {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+/* line 2478, ../sass/remiel_all.scss */
+.sweet-alert input {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 1px solid #d7d7d7;
+  height: 43px;
+  margin-top: 10px;
+  margin-bottom: 17px;
+  font-size: 18px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06);
+  padding: 0 12px;
+  display: none;
+  -webkit-transition: all .3s;
+  transition: all 0.3s;
+}
+
+/* line 2494, ../sass/remiel_all.scss */
+.sweet-alert input:focus {
+  outline: 0;
+  box-shadow: 0 0 3px #c4e6f5;
+  border: 1px solid #b4dbed;
+}
+
+/* line 2500, ../sass/remiel_all.scss */
+.sweet-alert input:focus::-moz-placeholder {
+  transition: opacity .3s .03s ease;
+  opacity: 0.5;
+}
+
+/* line 2505, ../sass/remiel_all.scss */
+.sweet-alert input:focus:-ms-input-placeholder {
+  transition: opacity .3s .03s ease;
+  opacity: 0.5;
+}
+
+/* line 2510, ../sass/remiel_all.scss */
+.sweet-alert input:focus::-webkit-input-placeholder {
+  -webkit-transition: opacity .3s .03s ease;
+  transition: opacity .3s .03s ease;
+  opacity: 0.5;
+}
+
+/* line 2516, ../sass/remiel_all.scss */
+.sweet-alert input::-moz-placeholder {
+  color: #bdbdbd;
+}
+
+/* line 2520, ../sass/remiel_all.scss */
+.sweet-alert input:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+
+/* line 2524, ../sass/remiel_all.scss */
+.sweet-alert input::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+
+/* line 2528, ../sass/remiel_all.scss */
+.sweet-alert.show-input input {
+  display: block;
+}
+
+/* line 2532, ../sass/remiel_all.scss */
+.sweet-alert .sa-confirm-button-container {
+  display: inline-block;
+  position: relative;
+}
+
+/* line 2537, ../sass/remiel_all.scss */
+.sweet-alert .la-ball-fall {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -27px;
+  margin-top: 4px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* line 2547, ../sass/remiel_all.scss */
+.sweet-alert button {
+  background-color: #8CD4F5;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 10px 32px;
+  margin: 26px 5px 0;
+  cursor: pointer;
+}
+
+/* line 2560, ../sass/remiel_all.scss */
+.sweet-alert button:focus {
+  outline: 0;
+  box-shadow: 0 0 2px rgba(128, 179, 235, 0.5), inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+/* line 2565, ../sass/remiel_all.scss */
+.sweet-alert button:hover {
+  background-color: #7ecff4;
+}
+
+/* line 2569, ../sass/remiel_all.scss */
+.sweet-alert button:active {
+  background-color: #5dc2f1;
+}
+
+/* line 2573, ../sass/remiel_all.scss */
+.sweet-alert button.cancel {
+  background-color: #C1C1C1;
+}
+
+/* line 2577, ../sass/remiel_all.scss */
+.sweet-alert button.cancel:hover {
+  background-color: #b9b9b9;
+}
+
+/* line 2581, ../sass/remiel_all.scss */
+.sweet-alert button.cancel:active {
+  background-color: #a8a8a8;
+}
+
+/* line 2585, ../sass/remiel_all.scss */
+.sweet-alert button.cancel:focus {
+  box-shadow: rgba(197, 205, 211, 0.8) 0 0 2px, rgba(0, 0, 0, 0.04706) 0 0 0 1px inset !important;
+}
+
+/* line 2589, ../sass/remiel_all.scss */
+.sweet-alert button[disabled] {
+  opacity: .6;
+  cursor: default;
+}
+
+/* line 2594, ../sass/remiel_all.scss */
+.sweet-alert button.confirm[disabled] {
+  color: transparent;
+}
+
+/* line 2598, ../sass/remiel_all.scss */
+.sweet-alert button.confirm[disabled] ~ .la-ball-fall {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+/* line 2605, ../sass/remiel_all.scss */
+.sweet-alert button::-moz-focus-inner {
+  border: 0;
+}
+
+/* line 2609, ../sass/remiel_all.scss */
+.sweet-alert[data-has-cancel-button=false] button {
+  box-shadow: none !important;
+}
+
+/* line 2613, ../sass/remiel_all.scss */
+.sweet-alert[data-has-confirm-button=false][data-has-cancel-button=false] {
+  padding-bottom: 40px;
+}
+
+/* line 2617, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon {
+  width: 80px;
+  height: 80px;
+  border: 4px solid gray;
+  border-radius: 50%;
+  margin: 20px auto;
+  padding: 0;
+  position: relative;
+  box-sizing: content-box;
+}
+
+/* line 2628, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-error {
+  border-color: #F27474;
+}
+
+/* line 2632, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-error .sa-x-mark {
+  position: relative;
+  display: block;
+}
+
+/* line 2637, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-error .sa-line {
+  position: absolute;
+  height: 5px;
+  width: 47px;
+  background-color: #F27474;
+  display: block;
+  top: 37px;
+  border-radius: 2px;
+}
+
+/* line 2647, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-error .sa-line.sa-left {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 17px;
+}
+
+/* line 2654, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-error .sa-line.sa-right {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  right: 16px;
+}
+
+/* line 2661, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-warning {
+  border-color: #F8BB86;
+}
+
+/* line 2665, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-warning .sa-body {
+  position: absolute;
+  width: 5px;
+  height: 47px;
+  left: 50%;
+  top: 10px;
+  border-radius: 2px;
+  margin-left: -2px;
+  background-color: #F8BB86;
+}
+
+/* line 2676, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-warning .sa-dot {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-left: -3px;
+  left: 50%;
+  bottom: 10px;
+  background-color: #F8BB86;
+}
+
+/* line 2687, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-info::after,
+.sweet-alert .sa-icon.sa-info::before {
+  content: "";
+  background-color: #C9DAE1;
+  position: absolute;
+}
+
+/* line 2694, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-info {
+  border-color: #C9DAE1;
+}
+
+/* line 2698, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-info::before {
+  width: 5px;
+  height: 29px;
+  left: 50%;
+  bottom: 17px;
+  border-radius: 2px;
+  margin-left: -2px;
+}
+
+/* line 2707, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-info::after {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-left: -3px;
+  top: 19px;
+}
+
+/* line 2715, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success {
+  border-color: #A5DC86;
+}
+
+/* line 2719, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success::after,
+.sweet-alert .sa-icon.sa-success::before {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 120px;
+  background: #fff;
+}
+
+/* line 2728, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success::before {
+  border-radius: 120px 0 0 120px;
+  top: -7px;
+  left: -33px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 60px 60px;
+  -ms-transform-origin: 60px 60px;
+  transform-origin: 60px 60px;
+}
+
+/* line 2740, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success::after {
+  border-radius: 0 120px 120px 0;
+  top: -11px;
+  left: 30px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 60px;
+  -ms-transform-origin: 0 60px;
+  transform-origin: 0 60px;
+}
+
+/* line 2752, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success .sa-placeholder {
+  width: 80px;
+  height: 80px;
+  border: 4px solid rgba(165, 220, 134, 0.2);
+  border-radius: 50%;
+  box-sizing: content-box;
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  z-index: 2;
+}
+
+/* line 2764, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success .sa-fix {
+  width: 5px;
+  height: 90px;
+  background-color: #fff;
+  position: absolute;
+  left: 28px;
+  top: 8px;
+  z-index: 1;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 2777, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success .sa-line {
+  height: 5px;
+  background-color: #A5DC86;
+  display: block;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 2;
+}
+
+/* line 2786, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success .sa-line.sa-tip {
+  width: 25px;
+  left: 14px;
+  top: 46px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 2795, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success .sa-line.sa-long {
+  width: 47px;
+  right: 8px;
+  top: 38px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 2804, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-custom {
+  background-size: contain;
+  border-radius: 0;
+  border: none;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@-webkit-keyframes showSweetAlert {
+  0% {
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+  }
+  45% {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+  }
+  80% {
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes showSweetAlert {
+  0% {
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+  }
+  45% {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+  }
+  80% {
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+@-webkit-keyframes hideSweetAlert {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+  }
+}
+@keyframes hideSweetAlert {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+  }
+}
+@-webkit-keyframes slideFromTop {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@keyframes slideFromTop {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@-webkit-keyframes slideToTop {
+  0% {
+    top: 50%;
+  }
+  100% {
+    top: 0;
+  }
+}
+@keyframes slideToTop {
+  0% {
+    top: 50%;
+  }
+  100% {
+    top: 0;
+  }
+}
+@-webkit-keyframes slideFromBottom {
+  0% {
+    top: 70%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@keyframes slideFromBottom {
+  0% {
+    top: 70%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@-webkit-keyframes slideToBottom {
+  0% {
+    top: 50%;
+  }
+  100% {
+    top: 70%;
+  }
+}
+@keyframes slideToBottom {
+  0% {
+    top: 50%;
+  }
+  100% {
+    top: 70%;
+  }
+}
+/* line 2944, ../sass/remiel_all.scss */
+.showSweetAlert[data-animation=pop] {
+  -webkit-animation: showSweetAlert .3s;
+  animation: showSweetAlert 0.3s;
+}
+
+/* line 2949, ../sass/remiel_all.scss */
+.showSweetAlert[data-animation=none] {
+  -webkit-animation: none;
+  animation: none;
+}
+
+/* line 2954, ../sass/remiel_all.scss */
+.showSweetAlert[data-animation=slide-from-top] {
+  -webkit-animation: slideFromTop .3s;
+  animation: slideFromTop 0.3s;
+}
+
+/* line 2959, ../sass/remiel_all.scss */
+.showSweetAlert[data-animation=slide-from-bottom] {
+  -webkit-animation: slideFromBottom .3s;
+  animation: slideFromBottom 0.3s;
+}
+
+/* line 2964, ../sass/remiel_all.scss */
+.hideSweetAlert[data-animation=pop] {
+  -webkit-animation: hideSweetAlert .2s;
+  animation: hideSweetAlert 0.2s;
+}
+
+/* line 2969, ../sass/remiel_all.scss */
+.hideSweetAlert[data-animation=none] {
+  -webkit-animation: none;
+  animation: none;
+}
+
+/* line 2974, ../sass/remiel_all.scss */
+.hideSweetAlert[data-animation=slide-from-top] {
+  -webkit-animation: slideToTop .4s;
+  animation: slideToTop 0.4s;
+}
+
+/* line 2979, ../sass/remiel_all.scss */
+.hideSweetAlert[data-animation=slide-from-bottom] {
+  -webkit-animation: slideToBottom .3s;
+  animation: slideToBottom 0.3s;
+}
+
+@-webkit-keyframes animateSuccessTip {
+  0%,
+    54% {
+    width: 0;
+    left: 1px;
+    top: 19px;
+  }
+  70% {
+    width: 50px;
+    left: -8px;
+    top: 37px;
+  }
+  84% {
+    width: 17px;
+    left: 21px;
+    top: 48px;
+  }
+  100% {
+    width: 25px;
+    left: 14px;
+    top: 45px;
+  }
+}
+@keyframes animateSuccessTip {
+  0%,
+    54% {
+    width: 0;
+    left: 1px;
+    top: 19px;
+  }
+  70% {
+    width: 50px;
+    left: -8px;
+    top: 37px;
+  }
+  84% {
+    width: 17px;
+    left: 21px;
+    top: 48px;
+  }
+  100% {
+    width: 25px;
+    left: 14px;
+    top: 45px;
+  }
+}
+@-webkit-keyframes animateSuccessLong {
+  0%,
+    65% {
+    width: 0;
+    right: 46px;
+    top: 54px;
+  }
+  84% {
+    width: 55px;
+    right: 0;
+    top: 35px;
+  }
+  100% {
+    width: 47px;
+    right: 8px;
+    top: 38px;
+  }
+}
+@keyframes animateSuccessLong {
+  0%,
+    65% {
+    width: 0;
+    right: 46px;
+    top: 54px;
+  }
+  84% {
+    width: 55px;
+    right: 0;
+    top: 35px;
+  }
+  100% {
+    width: 47px;
+    right: 8px;
+    top: 38px;
+  }
+}
+@-webkit-keyframes rotatePlaceholder {
+  0%,
+    5% {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  100%,
+    12% {
+    transform: rotate(-405deg);
+    -webkit-transform: rotate(-405deg);
+  }
+}
+@keyframes rotatePlaceholder {
+  0%,
+    5% {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  100%,
+    12% {
+    transform: rotate(-405deg);
+    -webkit-transform: rotate(-405deg);
+  }
+}
+/* line 3096, ../sass/remiel_all.scss */
+.animateSuccessTip {
+  -webkit-animation: animateSuccessTip .75s;
+  animation: animateSuccessTip 0.75s;
+}
+
+/* line 3101, ../sass/remiel_all.scss */
+.animateSuccessLong {
+  -webkit-animation: animateSuccessLong .75s;
+  animation: animateSuccessLong 0.75s;
+}
+
+/* line 3106, ../sass/remiel_all.scss */
+.sa-icon.sa-success.animate::after {
+  -webkit-animation: rotatePlaceholder 4.25s ease-in;
+  animation: rotatePlaceholder 4.25s ease-in;
+}
+
+@-webkit-keyframes animateErrorIcon {
+  0% {
+    transform: rotateX(100deg);
+    -webkit-transform: rotateX(100deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    -webkit-transform: rotateX(0);
+    opacity: 1;
+  }
+}
+@keyframes animateErrorIcon {
+  0% {
+    transform: rotateX(100deg);
+    -webkit-transform: rotateX(100deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    -webkit-transform: rotateX(0);
+    opacity: 1;
+  }
+}
+/* line 3137, ../sass/remiel_all.scss */
+.animateErrorIcon {
+  -webkit-animation: animateErrorIcon .5s;
+  animation: animateErrorIcon 0.5s;
+}
+
+@-webkit-keyframes animateXMark {
+  0%,
+    50% {
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    margin-top: 26px;
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    margin-top: -6px;
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+@keyframes animateXMark {
+  0%,
+    50% {
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    margin-top: 26px;
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    margin-top: -6px;
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+/* line 3184, ../sass/remiel_all.scss */
+.animateXMark {
+  -webkit-animation: animateXMark .5s;
+  animation: animateXMark 0.5s;
+}
+
+@-webkit-keyframes pulseWarning {
+  0% {
+    border-color: #F8D486;
+  }
+  100% {
+    border-color: #F8BB86;
+  }
+}
+@keyframes pulseWarning {
+  0% {
+    border-color: #F8D486;
+  }
+  100% {
+    border-color: #F8BB86;
+  }
+}
+/* line 3207, ../sass/remiel_all.scss */
+.pulseWarning {
+  -webkit-animation: pulseWarning .75s infinite alternate;
+  animation: pulseWarning 0.75s infinite alternate;
+}
+
+@-webkit-keyframes pulseWarningIns {
+  0% {
+    background-color: #F8D486;
+  }
+  100% {
+    background-color: #F8BB86;
+  }
+}
+@keyframes pulseWarningIns {
+  0% {
+    background-color: #F8D486;
+  }
+  100% {
+    background-color: #F8BB86;
+  }
+}
+/* line 3230, ../sass/remiel_all.scss */
+.pulseWarningIns {
+  -webkit-animation: pulseWarningIns .75s infinite alternate;
+  animation: pulseWarningIns 0.75s infinite alternate;
+}
+
+@-webkit-keyframes rotate-loading {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-loading {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* line 3257, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-error .sa-line.sa-left {
+  -ms-transform: rotate(45deg) \9 ;
+}
+
+/* line 3261, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-error .sa-line.sa-right {
+  -ms-transform: rotate(-45deg) \9 ;
+}
+
+/* line 3265, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success {
+  border-color: transparent\9;
+}
+
+/* line 3269, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success .sa-line.sa-tip {
+  -ms-transform: rotate(45deg) \9 ;
+}
+
+/* line 3273, ../sass/remiel_all.scss */
+.sweet-alert .sa-icon.sa-success .sa-line.sa-long {
+  -ms-transform: rotate(-45deg) \9 ;
+}
+
+/*!
+ * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Licensed under MIT
+ */
+/* line 3284, ../sass/remiel_all.scss */
+.la-ball-fall,
+.la-ball-fall > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 3290, ../sass/remiel_all.scss */
+.la-ball-fall {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 54px;
+  height: 18px;
+}
+
+/* line 3298, ../sass/remiel_all.scss */
+.la-ball-fall.la-dark {
+  color: #333;
+}
+
+/* line 3302, ../sass/remiel_all.scss */
+.la-ball-fall > div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  width: 10px;
+  height: 10px;
+  margin: 4px;
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-animation: ball-fall 1s ease-in-out infinite;
+  animation: ball-fall 1s ease-in-out infinite;
+}
+
+/* line 3316, ../sass/remiel_all.scss */
+.la-ball-fall > div:nth-child(1) {
+  -webkit-animation-delay: -200ms;
+  animation-delay: -200ms;
+}
+
+/* line 3321, ../sass/remiel_all.scss */
+.la-ball-fall > div:nth-child(2) {
+  -webkit-animation-delay: -100ms;
+  animation-delay: -100ms;
+}
+
+/* line 3326, ../sass/remiel_all.scss */
+.la-ball-fall > div:nth-child(3) {
+  -webkit-animation-delay: 0ms;
+  animation-delay: 0ms;
+}
+
+/* line 3331, ../sass/remiel_all.scss */
+.la-ball-fall.la-sm {
+  width: 26px;
+  height: 8px;
+}
+
+/* line 3336, ../sass/remiel_all.scss */
+.la-ball-fall.la-sm > div {
+  width: 4px;
+  height: 4px;
+  margin: 2px;
+}
+
+/* line 3342, ../sass/remiel_all.scss */
+.la-ball-fall.la-2x {
+  width: 108px;
+  height: 36px;
+}
+
+/* line 3347, ../sass/remiel_all.scss */
+.la-ball-fall.la-2x > div {
+  width: 20px;
+  height: 20px;
+  margin: 8px;
+}
+
+/* line 3353, ../sass/remiel_all.scss */
+.la-ball-fall.la-3x {
+  width: 162px;
+  height: 54px;
+}
+
+/* line 3358, ../sass/remiel_all.scss */
+.la-ball-fall.la-3x > div {
+  width: 30px;
+  height: 30px;
+  margin: 12px;
+}
+
+@-webkit-keyframes ball-fall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-145%);
+    transform: translateY(-145%);
+  }
+  10%,
+    90% {
+    opacity: 0.5;
+  }
+  20%,
+    80% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(145%);
+    transform: translateY(145%);
+  }
+}
+@keyframes ball-fall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-145%);
+    transform: translateY(-145%);
+  }
+  10%,
+    90% {
+    opacity: 0.5;
+  }
+  20%,
+    80% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(145%);
+    transform: translateY(145%);
+  }
+}
+/* line 2, ../sass/ch01/ch01_all.scss */
+#frame {
+  background-image: url(../images/ch01/bace.png);
+}
+
+/* line 6, ../sass/ch01/ch01_all.scss */
+.under {
+  background-image: url(../images/ch02/ptcTower.jpg);
+}
+
+@-webkit-keyframes cus {
+  0% {
+    right: -10vw;
+  }
+  100% {
+    right: 10vw;
+  }
+}
+@keyframes cus {
+  0% {
+    right: -10vw;
+  }
+  100% {
+    right: 10vw;
+  }
+}
+/* line 28, ../sass/ch01/ch01_all.scss */
+#cus {
+  width: 110%;
+  right: -10%;
+  z-index: 2;
+}
+
+/* line 36, ../sass/ch01/ch01_all.scss */
+#cus img {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+@-webkit-keyframes cross {
+  0%,
+    7% {
+    top: 100vh;
+    left: -100vw;
+  }
+  100% {
+    top: 0;
+    left: calc(50vw - 65vh);
+  }
+}
+@keyframes cross {
+  0%,
+    7% {
+    top: 100vh;
+    left: -100vw;
+  }
+  100% {
+    top: 0;
+    left: calc(50vw - 65vh);
+  }
+}
+/* line 67, ../sass/ch01/ch01_all.scss */
+#cus2,
+.title {
+  height: 100%;
+  left: 0;
+}
+
+/* line 73, ../sass/ch01/ch01_all.scss */
+#pi {
+  height: 100%;
+  position: absolute;
+  top: 100%;
+}
+
+/* line 79, ../sass/ch01/ch01_all.scss */
+.addpi {
+  -webkit-animation: cross 7s cubic-bezier(0.11, 1.065, 0, 0.995) forwards;
+  animation: cross 7s cubic-bezier(0.11, 1.065, 0, 0.995) forwards;
+}
+
+@-webkit-keyframes fly {
+  0%,
+    10% {
+    -webkit-transform: rotate(110deg);
+    transform: rotate(110deg);
+  }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+@keyframes fly {
+  0%,
+    10% {
+    -webkit-transform: rotate(110deg);
+    transform: rotate(110deg);
+  }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+/* line 108, ../sass/ch01/ch01_all.scss */
+#cus2 {
+  position: relative;
+  margin: auto;
+}
+
+/* line 115, ../sass/ch01/ch01_all.scss */
+.flyAct {
+  -webkit-animation: fly 8s cubic-bezier(0, 0.995, 0, 1.005) forwards;
+  animation: fly 8s cubic-bezier(0, 0.995, 0, 1.005) forwards;
+}
+
+/* line 120, ../sass/ch01/ch01_all.scss */
+.cusAct {
+  -webkit-animation: cus 6s cubic-bezier(0.32, 0.01, 0, 0.995) forwards;
+  animation: cus 6s cubic-bezier(0.32, 0.01, 0, 0.995) forwards;
+}
+
+@-webkit-keyframes cus {
+  0% {
+    right: -10vw;
+  }
+  100% {
+    right: 10vw;
+  }
+}
+@keyframes cus {
+  0% {
+    right: -10vw;
+  }
+  100% {
+    right: 10vw;
+  }
+}
+/* line 144, ../sass/ch01/ch01_all.scss */
+#cus {
+  width: 110%;
+  right: -10%;
+  z-index: 2;
+}
+
+/* line 151, ../sass/ch01/ch01_all.scss */
+#cus img {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+@-webkit-keyframes cross {
+  0%,
+    7% {
+    top: 100vh;
+    left: -100vw;
+  }
+  100% {
+    top: 0;
+    left: calc(50vw - 65vh);
+  }
+}
+@keyframes cross {
+  0%,
+    7% {
+    top: 100vh;
+    left: -100vw;
+  }
+  100% {
+    top: 0;
+    left: calc(50vw - 65vh);
+  }
+}
+/* line 183, ../sass/ch01/ch01_all.scss */
+#cus2,
+.title {
+  height: 100%;
+  left: 0;
+}
+
+/* line 189, ../sass/ch01/ch01_all.scss */
+#pi {
+  height: 100%;
+  position: absolute;
+  top: 100%;
+}
+
+/* line 195, ../sass/ch01/ch01_all.scss */
+.addpi {
+  -webkit-animation: cross 7s cubic-bezier(0.11, 1.065, 0, 0.995) forwards;
+  animation: cross 7s cubic-bezier(0.11, 1.065, 0, 0.995) forwards;
+}
+
+@-webkit-keyframes fly {
+  0%,
+    10% {
+    -webkit-transform: rotate(110deg);
+    transform: rotate(110deg);
+  }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+@keyframes fly {
+  0%,
+    10% {
+    -webkit-transform: rotate(110deg);
+    transform: rotate(110deg);
+  }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+/* line 224, ../sass/ch01/ch01_all.scss */
+#cus2 {
+  position: relative;
+  margin: auto;
+}
+
+/* line 230, ../sass/ch01/ch01_all.scss */
+.flyAct {
+  -webkit-animation: fly 8s cubic-bezier(0, 0.995, 0, 1.005) forwards;
+  animation: fly 8s cubic-bezier(0, 0.995, 0, 1.005) forwards;
+}
+
+/* line 235, ../sass/ch01/ch01_all.scss */
+.cusAct {
+  -webkit-animation: cus 6s cubic-bezier(0.32, 0.01, 0, 0.995) forwards;
+  animation: cus 6s cubic-bezier(0.32, 0.01, 0, 0.995) forwards;
+}
+
+/* line 241, ../sass/ch01/ch01_all.scss */
+#frame {
+  background-image: url(../images/ch01/bace.png);
+}
+
+/* line 245, ../sass/ch01/ch01_all.scss */
+.under {
+  background-image: url(../images/ch02/ptcTower.jpg);
+}
+
+@media screen and (orientation: landscape) {
+  /* line 1, ../sass/remiel_land.scss */
+  .pageM {
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    margin: 15vh auto 0;
+    height: 65vh;
+    background: #000;
+  }
+
+  /* line 11, ../sass/remiel_land.scss */
+  article {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  /* line 18, ../sass/remiel_land.scss */
+  .udMho,
+  .udMhoho {
+    position: absolute;
+    width: 30vh;
+  }
+
+  /* line 24, ../sass/remiel_land.scss */
+  .page {
+    margin-top: 7vh;
+    height: 90vh;
+  }
+
+  /* line 29, ../sass/remiel_land.scss */
+  .tip {
+    top: -50vh;
+  }
+
+  @-webkit-keyframes tipdown {
+    0% {
+      -webkit-transform: rotate(5deg);
+      transform: rotate(5deg);
+      top: -40vh;
+    }
+    60% {
+      -webkit-transform: rotate(8deg);
+      transform: rotate(8deg);
+    }
+    70% {
+      -webkit-transform: rotate(-6deg);
+      transform: rotate(-6deg);
+      top: 10vh;
+    }
+    85% {
+      -webkit-transform: rotate(3deg);
+      transform: rotate(3deg);
+    }
+    100% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+      top: 10vh;
+    }
+  }
+  @keyframes tipdown {
+    0% {
+      -webkit-transform: rotate(5deg);
+      transform: rotate(5deg);
+      top: -40vh;
+    }
+    60% {
+      -webkit-transform: rotate(8deg);
+      transform: rotate(8deg);
+    }
+    70% {
+      -webkit-transform: rotate(-6deg);
+      transform: rotate(-6deg);
+      top: 10vh;
+    }
+    85% {
+      -webkit-transform: rotate(3deg);
+      transform: rotate(3deg);
+    }
+    100% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+      top: 10vh;
+    }
+  }
+  @-webkit-keyframes knows {
+    0% {
+      top: 10vh;
+    }
+    50% {
+      top: 12vh;
+    }
+    100% {
+      top: -50vh;
+    }
+  }
+  @keyframes knows {
+    0% {
+      top: 10vh;
+    }
+    50% {
+      top: 12vh;
+    }
+    100% {
+      top: -50vh;
+    }
+  }
+  /* line 109, ../sass/remiel_land.scss */
+  .udMho {
+    top: 0;
+    height: 70vh;
+    background-image: -webkit-linear-gradient(0deg, transparent 5%, #fff 5%, transparent 6%, transparent 93%, #fff 95%, transparent 95%);
+    background-image: linear-gradient(90deg, transparent 5%, #fff 5%, transparent 6%, transparent 93%, #fff 95%, transparent 95%);
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: rotate3d(1, 1, 0, 30deg);
+    transform: rotate3d(1, 1, 0, 30deg);
+    font-size: 1.2rem;
+  }
+
+  /* line 122, ../sass/remiel_land.scss */
+  .udMho:nth-of-type(1) {
+    left: 0;
+    top: -10vh;
+    z-index: 3;
+  }
+
+  /* line 128, ../sass/remiel_land.scss */
+  .udMho:nth-of-type(2) {
+    left: 10vw;
+    top: -20vh;
+    z-index: 2;
+  }
+
+  /* line 134, ../sass/remiel_land.scss */
+  .udMho:nth-of-type(3) {
+    left: 20vw;
+    top: -30vh;
+    z-index: 1;
+  }
+
+  /* line 140, ../sass/remiel_land.scss */
+  .udMhoho {
+    bottom: 0;
+  }
+
+  /* line 144, ../sass/remiel_land.scss */
+  .sticker {
+    left: 130vw;
+  }
+
+  @-webkit-keyframes inka {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 7.5vh;
+    }
+  }
+  @keyframes inka {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 7.5vh;
+    }
+  }
+  /* line 1, ../sass/ch01/ch01_land.scss */
+  #pi {
+    left: -40%;
+  }
+}
+@media screen and (orientation: portrait) {
+  /* line 1, ../sass/remiel_port.scss */
+  .pageM {
+    padding: 0 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  /* line 6, ../sass/remiel_port.scss */
+  .pageM .center {
+    text-align: center;
+  }
+
+  /* line 10, ../sass/remiel_port.scss */
+  .page {
+    padding: 5rem 0;
+  }
+
+  /* line 14, ../sass/remiel_port.scss */
+  .tip {
+    left: -50vw;
+    top: 20vh;
+  }
+
+  /* line 19, ../sass/remiel_port.scss */
+  #article {
+    overflow: hidden;
+    height: 100%;
+  }
+
+  @-webkit-keyframes tipdown {
+    0% {
+      -webkit-transform: rotate(5deg);
+      transform: rotate(5deg);
+      left: -50vw;
+      top: -40vh;
+    }
+    60% {
+      -webkit-transform: rotate(8deg);
+      transform: rotate(8deg);
+    }
+    70% {
+      -webkit-transform: rotate(-6deg);
+      transform: rotate(-6deg);
+      left: 10vw;
+      top: 20vh;
+    }
+    85% {
+      -webkit-transform: rotate(3deg);
+      transform: rotate(3deg);
+    }
+    100% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+      left: 10vw;
+      top: 20vh;
+    }
+  }
+  @keyframes tipdown {
+    0% {
+      -webkit-transform: rotate(5deg);
+      transform: rotate(5deg);
+      left: -50vw;
+      top: -40vh;
+    }
+    60% {
+      -webkit-transform: rotate(8deg);
+      transform: rotate(8deg);
+    }
+    70% {
+      -webkit-transform: rotate(-6deg);
+      transform: rotate(-6deg);
+      left: 10vw;
+      top: 20vh;
+    }
+    85% {
+      -webkit-transform: rotate(3deg);
+      transform: rotate(3deg);
+    }
+    100% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+      left: 10vw;
+      top: 20vh;
+    }
+  }
+  @-webkit-keyframes knows {
+    0% {
+      left: 10vw;
+    }
+    50% {
+      left: 15vw;
+    }
+    100% {
+      left: -50vw;
+    }
+  }
+  @keyframes knows {
+    0% {
+      left: 10vw;
+    }
+    50% {
+      left: 15vw;
+    }
+    100% {
+      left: -50vw;
+    }
+  }
+  /* line 106, ../sass/remiel_port.scss */
+  .sticker {
+    left: 150vw;
+    -webkit-transform: translateX(-40%);
+    -ms-transform: translateX(-40%);
+    transform: translateX(-40%);
+  }
+
+  /* line 113, ../sass/remiel_port.scss */
+  .udMho {
+    position: absolute;
+    display: inline-block;
+    font-size: 1.3rem;
+    top: 5%;
+    width: 20%;
+    margin: 4%;
+    z-index: 10;
+  }
+
+  /* line 123, ../sass/remiel_port.scss */
+  .udMho:nth-of-type(1) {
+    left: 68%;
+  }
+
+  /* line 127, ../sass/remiel_port.scss */
+  .udMho:nth-of-type(2) {
+    left: 37%;
+  }
+
+  /* line 131, ../sass/remiel_port.scss */
+  .udMho:nth-of-type(3) {
+    left: 5%;
+  }
+
+  /* line 135, ../sass/remiel_port.scss */
+  .udMt {
+    border: 0.3rem solid #fff;
+  }
+
+  /* line 139, ../sass/remiel_port.scss */
+  #logoa {
+    width: 40%;
+  }
+
+  /* line 143, ../sass/remiel_port.scss */
+  #ink {
+    top: 16%;
+    width: 3%;
+  }
+
+  /* line 148, ../sass/remiel_port.scss */
+  #LOGO2b {
+    top: 0;
+    margin-top: -10%;
+    width: 100%;
+    height: auto;
+  }
+
+  @-webkit-keyframes inka {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 41%;
+    }
+  }
+  @keyframes inka {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 41%;
+    }
+  }
+  /* line 173, ../sass/remiel_port.scss */
+  .paperS {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* line 178, ../sass/remiel_port.scss */
+  .card {
+    width: 9rem;
+    height: 23rem;
+  }
+
+  /* line 183, ../sass/remiel_port.scss */
+  .hole {
+    width: 2rem;
+    height: 2rem;
+    margin: 0.5rem auto;
+  }
+
+  /* line 189, ../sass/remiel_port.scss */
+  .rebon {
+    height: 40%;
+    top: -34%;
+  }
+
+  /* line 194, ../sass/remiel_port.scss */
+  .key {
+    margin-top: 35%;
+  }
+
+  /* line 198, ../sass/remiel_port.scss */
+  .keypic {
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border: 0.3rem solid #888;
+  }
+
+  /* line 205, ../sass/remiel_port.scss */
+  .keyb {
+    font-size: 1rem;
+    border-radius: 0.3rem;
+  }
+
+  /* line 210, ../sass/remiel_port.scss */
+  #keyup {
+    margin-bottom: 0.3rem;
+  }
+
+  /* line 214, ../sass/remiel_port.scss */
+  .or {
+    font-size: 2rem;
+  }
+
+  /* line 218, ../sass/remiel_port.scss */
+  .clicLR {
+    width: 4rem;
+    height: 5rem;
+    border-radius: .5vh;
+    border: .8vh solid #000;
+    font-size: 1vh;
+  }
+
+  /* line 226, ../sass/remiel_port.scss */
+  .pcb {
+    display: none;
+  }
+
+  /* line 230, ../sass/remiel_port.scss */
+  .cc {
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  /* line 235, ../sass/remiel_port.scss */
+  .cardtext {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
+  /* line 240, ../sass/remiel_port.scss */
+  .countDown {
+    font-size: 0;
+    line-height: 0;
+    height: 80%;
+  }
+
+  /* line 248, ../sass/remiel_port.scss */
+  .under {
+    background-position: 70% center;
+  }
+
+  /* line 252, ../sass/remiel_port.scss */
+  .udMt {
+    padding: .5rem;
+    border-radius: 1rem;
+  }
+
+  @-webkit-keyframes cross {
+    0%,
+    7% {
+      top: 100vh;
+      right: 200vh;
+    }
+    100% {
+      top: 0;
+      right: 0;
+    }
+  }
+  @keyframes cross {
+    0%,
+    7% {
+      top: 100vh;
+      right: 200vh;
+    }
+    100% {
+      top: 0;
+      right: 0;
+    }
+  }
+  /* line 26, ../sass/ch01/ch01_port.scss */
+  #pi {
+    -webkit-transform: translateX(15%);
+    -ms-transform: translateX(15%);
+    transform: translateX(15%);
+    right: 200%;
+  }
+}

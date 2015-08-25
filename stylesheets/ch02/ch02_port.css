@@ -1,0 +1,11 @@
+/* line 1, ../../sass/ch02/ch02_port.scss */
+#bb {
+  position: relative;
+  left: -100%;
+  transform-origin: 60% bottom;
+}
+
+/* line 7, ../../sass/ch02/ch02_port.scss */
+#frame {
+  background-position: 60% center;
+}
