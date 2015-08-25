@@ -1,0 +1,43 @@
+/* line 2, ../sass/ch02.scss */
+#bb {
+  height: 100%;
+  transform-origin: 65% bottom;
+}
+
+/* line 7, ../sass/ch02.scss */
+.bbFly {
+  -webkit-transform-origin: 65% bottom;
+  -ms-transform-origin: 65% bottom;
+  transform-origin: 65% bottom;
+  animation: flyhigh 100s linear forwards;
+  -webkit-animation: flyhigh 60s cubic-bezier(0.03, 0.63, 0.03, 0.74) forwards;
+  -moz-animation: flyhigh 150s cubic-bezier(0, 0.47, 0, 0.2) forwards;
+}
+
+@keyframes flyhigh {
+  0% {
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+  }
+  100% {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+}
+@-webkit-keyframes flyhigh {
+  0% {
+    -webkit-transform: scale(0.6);
+  }
+  100% {
+    -webkit-transform: scale(1.4);
+  }
+}
+/* line 37, ../sass/ch02.scss */
+#frame {
+  background-image: url(../images/ch02/bbu.jpg);
+}
+
+/* line 41, ../sass/ch02.scss */
+.under {
+  background-image: url(../images/ch02/ptcTower.jpg);
+}
