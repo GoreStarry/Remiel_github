@@ -75,10 +75,10 @@
 }
 
 .sticker {
-    left: 150vw;
+    left: 110vw;
     width: 90vw;
     height: 75vw;
-    transform: translateX(-40%);
+//    transform: translateX(-40%);
 }
 
 .udMho {
@@ -314,4 +314,8 @@
 
 .loading {
     position: relative;
+}
+
+.stickerMid{
+    left: 5vw;
 }

@@ -279,7 +279,7 @@ p {
 }
 
 #page0 {
-    opacity: 1
+//    opacity: 1
 }
 
 .paperH {
@@ -388,10 +388,12 @@ p {
 }
 
 #article {
+    display: none;
     position: relative
 }
 
 #logoa {
+    display: none;
     position: absolute;
     width: 28vh;
     top: 57%;
@@ -1784,6 +1786,7 @@ body {
 }
 
 .under {
+    display: none;
     min-height: 100vh;
     width: 100vw;
     background-size: cover;
@@ -2062,12 +2065,14 @@ body {
     background-image: linear-gradient(135deg, #ffe164 0, #ffe164 86%, transparent 86%);
     top: 0;
     z-index: 10;
-    -webkit-transform-origin: left;
-    -ms-transform-origin: left;
-    transform-origin: left;
-    -webkit-transform: scale(.8);
-    -ms-transform: scale(.8);
-    transform: scale(.8)
+    transition: left 0.5s linear;
+
+//    -webkit-transform-origin: left;
+//    -ms-transform-origin: left;
+//    transform-origin: left;
+//    -webkit-transform: scale(.8);
+//    -ms-transform: scale(.8);
+//    transform: scale(.8)
 }
 
 .kickstick {

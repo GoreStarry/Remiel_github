@@ -77,10 +77,9 @@
 }
 /* line 77, ../sass/remiel_port.scss */
 .sticker {
-  left: 150vw;
+  left: 110vw;
   width: 90vw;
   height: 75vw;
-  transform: translateX(-40%);
 }
 
 /* line 84, ../sass/remiel_port.scss */
@@ -343,4 +342,9 @@
 /* line 315, ../sass/remiel_port.scss */
 .loading {
   position: relative;
+}
+
+/* line 319, ../sass/remiel_port.scss */
+.stickerMid {
+  left: 5vw;
 }

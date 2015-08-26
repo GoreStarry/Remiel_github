@@ -16,9 +16,7 @@ $(document).ready(function () {
             }).done(function (t) {
                 t.success ? ($(".sticker").addClass("stickerSuc"), setTimeout(function () {
                     $("#textStick").val("ヽ(o’Д`o)ノ～感謝你的留言！"), $(".formName").val("三光吼")
-                }, 1e3), $(".sticker").delay(6e3).animate({
-                    left: "150vw"
-                }), e++) : alert(t.message)
+                }, 1e3), $(".sticker").removeClass("stickerMid"), e++) : alert(t.message)
             }).fail(function (e) {
                 alert("error"), console.log(e)
             }).always(function () {}) : alert(2 == e ? "(O_o)??已經留過言了喔!?" : "(￣３￣)a 還沒寫下任何留言喔～")

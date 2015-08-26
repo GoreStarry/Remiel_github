@@ -21,7 +21,7 @@ $(function () {
         loadingState = true;
     });
 
-    var cTime = 1;
+    var cTime = 5;
     $('.opBoxBR').addClass('starBR');
     $('.opBoxBL').addClass('starBL');
     $('.whitelineL').addClass('rowLine');
@@ -91,47 +91,21 @@ $(function () {
     });
     //--------------
 
-    //------menu hovver--------
-    var $findLi = $(".menu").find("li"),
-        i = 0;
-//    $(".menuimg").hover(function () {
-//        $(".menuimg").css({
-//            "-webkit-transform": "rotate(-90deg)"
-//        });
-//        $findLi.each(function () {
-//            $(this).stop(1).delay(i * 100).animate({
-//                "left": i % 2 - 3 + "rem"
-//            }, 300);
-//            i++;
-//        });
-//    }, function () {
-//        $(".menuimg").css({
-//            "-webkit-transform": "rotate(90deg)"
-//        });
-//        $findLi.each(function () {
-//            $(this).stop(1).delay(i * 50).animate({
-//                "left": "-12rem"
-//            }, 300);
-//            i--;
-//        });
-//    });
-
-
-
     //    分享留言安三秒歸位
+
+    var $sticker = $(".sticker"),
+        $shareB = $(".shareB");
+
     function hov() {
         var i = 0;
-
         $("textarea,input").focus(function () {
             clearInterval(hovtest);
         })
 
         var hovtest = setInterval(function () {
             if (i == 3) {
-                $(".sticker").stop(true).animate({
-                    "left": "150vw"
-                });
-                $(".shareB").stop(true).animate({
+                $sticker.removeClass("stickerMid");
+                $shareB.stop(true).animate({
                     "bottom": "-15vh"
                 });
                 clearInterval(hovtest);
@@ -144,12 +118,14 @@ $(function () {
 
     $(".callSti").hover(
         function () {
-            $(".shareB").stop(true).animate({
+            $shareB.stop(true).animate({
                 "bottom": "-15vh"
             }, "swing");
-            $(".sticker").stop(true).animate({
-                "left": "40vw"
-            });
+            $sticker.addClass("stickerMid");
+//            $sticker.stop(true).animate({
+//                "left": "0",
+//                "right": "0"
+//            });
         },
         function () {
             hov();
@@ -157,10 +133,12 @@ $(function () {
 
     $(".share").hover(
         function () {
-            $(".sticker").stop(true).animate({
-                "left": "150vw"
-            });
-            $(".shareB").stop(true).animate({
+            $sticker.removeClass("stickerMid");
+
+//            $sticker.stop(true).animate({
+//                "left": "150vw"
+//            });
+            $shareB.stop(true).animate({
                 "bottom": "45vh"
             }, "swing");
         },
@@ -283,57 +261,77 @@ $(function () {
     });
 
     $(window).resize(function () {
-        vw = window.innerWidth,
-            vh = window.innerHeight,
-            screenState = vw > vh ? "land" : "port";
-        $(".pageM").css({
-            "font-size": "1.1rem",
-            "line-height": "2rem"
-        });
-        if (screenState == "land") {
-            breakPrevent()
-        }
+        var oldScreenState = screenState;
+        vw = window.innerWidth;
+        vh = window.innerHeight;
+        screenState = vw > vh ? "land" : "port";
+
+        if (screenState != oldScreenState) {
+//            deviceDetect();
+            if (screenState == "land") {
+                $(".pageM").css({
+                    "font-size": "1.1rem",
+                    "line-height": "2rem"
+                });
+            }
+        };
+
     })
 
-    //    alert(navigator.userAgent);
 
     //瀏覽器偵測
     function deviceDetect() {
-        if (/Firefox|MSIE|Trident\/7\./i.test(navigator.userAgent)) {
-            swal("抱歉，Firefox瀏覽器一直不支援中文直式排版，所以我放棄它了...", "麻煩改用Chrome或Safari拜託～！", "warning");
-            //            alert("抱歉，Firefox瀏覽器一直不支援中文直式排版，所以我放棄它了... 麻煩改用Chrome或Safari謝謝！");
-        } else if (navigator.userAgent.match(/FB/i)) {
-            swal("抱歉，FB內建瀏覽器太過陽春了～", "請擊點右上角改以Chrome或Safari開啟喔～", "warning");
-            //            alert("抱歉，FB內建瀏覽器太過陽春了～ 請使用其他瀏覽器嘗試。");
-        } else {
-            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                swal("桌上平台以獲得更佳瀏覽體驗喔!");
-                //                alert("建議使用桌上平台以獲得最佳瀏覽體驗。");
-            }
-            //            swal("抱歉，FB內建瀏覽器太過陽春了～", "請擊點右上角改以Chrome或Safari開啟喔～");
-            browserPass = true;
-            if (screenState == "land") {
-                breakPrevent();
+        //        手機
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            if (navigator.userAgent.match(/FB/i)) {
+                swal("抱歉，FB內建瀏覽器太過陽春了～", "請擊點右上角改以Chrome或Safari開啟喔～", "warning");
             } else {
-                $("#frame,.loading,article,.under").css({
-                    width: vw,
-                    height: vh,
-                    "min-height": vh
-                });
-                $(".LOGO2").css({
-                    height: 0.15 * vh
-                });
-//                $(".countDown").css({
-//                    "font-size": 0.7*vh,
-//                    "height": 0.8*vh,
-//                    "line-height": 1*vw
-//                });
-
-                if ($runPage.eq(lastPage).innerHeight() > $article.innerHeight()) {
-                    var thisHeight = $runPage.eq(lastPage).innerHeight();
-                    $article.innerHeight(thisHeight);
+//                if (/iPhone|iPad|iPod/.test(navigator.userAgent)) {
+                    iosDebug();
+//                }
+                swal("桌上平台以獲得更佳瀏覽體驗喔!");
+                browserPass = true;
+                if (screenState == "land") {
+                    breakPrevent();
+                } else {
+                    page0Default();
                 }
             }
+        }
+        //        桌機
+        else {
+            if (/Firefox|MSIE|Trident\/7\./i.test(navigator.userAgent)) {
+                swal("抱歉，Firefox/IE瀏覽器一直不支援中文直式排版，所以我放棄了...", "麻煩改用Chrome或Safari拜託～！", "warning");
+            } else {
+                browserPass = true;
+                if (screenState == "land") {
+                    breakPrevent();
+                } else {
+                    page0Default();
+                }
+            }
+        }
+
+    }
+
+    // ios異常設定
+    function iosDebug() {
+        $("#frame,.loading,article,.under").css({
+            width: vw,
+            height: vh,
+            "min-height": vh
+        });
+        $(".LOGO2").css({
+            height: 0.15 * vh
+        });
+
+    }
+
+
+    function page0Default() {
+        if ($runPage.eq(lastPage).innerHeight() > $article.innerHeight()) {
+            var thisHeight = $runPage.eq(lastPage).innerHeight();
+            $article.innerHeight(thisHeight);
         }
     }
 
@@ -356,6 +354,7 @@ $(function () {
     //--------------
 
 
+    //-----html初始化----
     (function () {
         //-----line分享----
         var title = document.title,
@@ -377,12 +376,17 @@ $(function () {
             }
         });
 
-        function testt(){
-            alert("dd");
-        }
         //--------------
     })();
 
+
+    function landStyle() {
+
+    }
+
+    function portStyle() {
+
+    }
 
 
 
