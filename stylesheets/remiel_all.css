@@ -1825,13 +1825,6 @@ body {
   width: 50%;
 }
 
-/* line 1702, ../sass/remiel_all.scss */
-.bCard,
-.menu,
-.menuimg {
-  display: none;
-}
-
 /* line 1708, ../sass/remiel_all.scss */
 .ccl {
   float: left;

@@ -26,15 +26,19 @@ $(function () {
     $('.opBoxBL').addClass('starBL');
     $('.whitelineL').addClass('rowLine');
 
+
+    var $countDown = $(".countDown"),
+        $loading = $(".loading");
+
     var countDown = setInterval(function () {
-        $(".countDown")
+        $countDown
             .removeClass('countStart')
             .html(cTime)
             .addClass('countStart');
         if (cTime == 0) {
             if (loadingState == true) {
                 clearInterval(countDown);
-                $(".loading").css("display", "none");
+                $loading.css("display", "none");
                 opening();
             }
         } else {
@@ -42,6 +46,7 @@ $(function () {
         }
     }, 1500);
 
+    var $tip = $(".tip");
 
     //-----進入動態----
     $('#logoa').bind('click', function (event) {
@@ -59,7 +64,7 @@ $(function () {
             $('html, body').stop();
             setTimeout(function () {
                 $('html, body').stop().animate({
-                    scrollTop: $("#article").offset().top
+                    scrollTop: $article.offset().top
                 }, 1000, 'easeInOutExpo');
                 event.preventDefault();
                 $("#bgLineS,#bgLineH").css("right", "0");
@@ -74,14 +79,13 @@ $(function () {
                 $(".menuimg,.menu").css({
                     "display": "block"
                 });
-                $(".tip").css({
+                $tip.css({
                     "-webkit-animation": "tipdown .5s ease-in forwards",
                     "-moz-animation": "tipdown .5s ease-in forwards"
                 });
             }, 14500);
         } else {
             swal("拜託換Chrome或Safari瀏覽器啦～！", "(´ﾟдﾟ`)");
-            //            alert("拜託換Chrome或Safari瀏覽器啦～！");
         }
 
     });
@@ -118,7 +122,7 @@ $(function () {
     function hov() {
         var i = 0;
 
-        $(".sticker,.udMt").hover(function () {
+        $("textarea,input").focus(function () {
             clearInterval(hovtest);
         })
 
@@ -256,9 +260,9 @@ $(function () {
 
     document.onkeydown = function () {
         var keycode = event.which || event.keyCode;
-        if (keycode == 40 || keycode == 39) {
+        if (keycode == 39) {
             nextpage();
-        } else if (keycode == 38 || keycode == 37) {
+        } else if (keycode == 37) {
             prepage();
         }
     }
@@ -372,10 +376,12 @@ $(function () {
                 swal("～待續～");
             }
         });
+
+        function testt(){
+            alert("dd");
+        }
         //--------------
-
     })();
-
 
 
 
