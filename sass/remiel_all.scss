@@ -182,12 +182,10 @@ q:before {
     content: none
 }
 
-
 #frame,
 body {
     width: 100vw
 }
-
 
 #LOGO,
 .title,
@@ -1590,7 +1588,6 @@ body {
     -webkit-transform-origin: center top;
     -ms-transform-origin: center top;
     transform-origin: center top;
-
 }
 
 .hole {
@@ -1702,7 +1699,7 @@ body {
 .bCard,
 .menu,
 .menuimg {
-//    display: none
+        display: none
 }
 
 .ccl {
@@ -1723,13 +1720,49 @@ body {
     background-position: top
 }
 
-
-
 .menu {
     left: 0;
     opacity: .7;
     z-index: 16;
-    width: 8rem
+    width: 4.5rem;
+    ul {
+        position: absolute;
+        width: 0;
+    }
+    li {
+        width: 8rem;
+        margin: 1rem;
+        left: -12rem;
+        padding-right: 2rem;
+        background-image: -webkit-linear-gradient(165deg, #908b0c 5%, #c6c14e 12%, #7b7e1d 35%, #908b0c 45%, #908b0c 50%, rgba(0, 0, 0, .6) 50%, transparent 70%);
+        background-image: linear-gradient(-75deg, #908b0c 5%, #c6c14e 12%, #7b7e1d 35%, #908b0c 45%, #908b0c 50%, rgba(0, 0, 0, .6) 50%, transparent 70%);
+        text-shadow: 1px 1px 2px #000, -1px -1px 2px #000;
+        text-align: right;
+        border-radius: .5rem;
+        border: solid #7c7812;
+    }
+
+    li:nth-of-type(1) {
+            transition: left 0.3s ease-out;
+        }
+    li:nth-of-type(2) {
+            transition: left 0.3s ease-out 0.1s;
+        }
+
+    &:hover {
+        img{
+            transform: rotate(180deg);
+        }
+        ul {
+            width: 10rem;
+        }
+        li:nth-of-type(odd) {
+            left: -3rem;
+        }
+        li:nth-of-type(even) {
+            left: -2rem;
+        }
+    }
 }
 
 .menuimg {
@@ -1771,19 +1804,6 @@ body {
 .imgrotate {
     background: red;
     left: -8rem
-}
-
-.menu li {
-    width: 8rem;
-    margin: 1rem;
-    left: -12rem;
-    padding-right: 2rem;
-    background-image: -webkit-linear-gradient(165deg, #908b0c 5%, #c6c14e 12%, #7b7e1d 35%, #908b0c 45%, #908b0c 50%, rgba(0, 0, 0, .6) 50%, transparent 70%);
-    background-image: linear-gradient(-75deg, #908b0c 5%, #c6c14e 12%, #7b7e1d 35%, #908b0c 45%, #908b0c 50%, rgba(0, 0, 0, .6) 50%, transparent 70%);
-    text-shadow: 1px 1px 2px #000, -1px -1px 2px #000;
-    text-align: right;
-    border-radius: .5rem;
-    border: solid #7c7812
 }
 
 .bCard,
@@ -1843,11 +1863,7 @@ body {
     border-radius: 100%;
 }
 
-.McirclOut {
-
-}
-
-
+.McirclOut {}
 
 .countDown {
     top: 0;
@@ -2055,7 +2071,6 @@ body {
 }
 
 .kickstick {
-
     right: 0;
     background-image: -webkit-linear-gradient(315deg, #e8ad28 0, #9a731e 50%, transparent 50%);
     background-image: linear-gradient(135deg, #e8ad28 0, #9a731e 50%, transparent 50%)
@@ -2071,7 +2086,6 @@ body {
 .formName {
     background-color: transparent;
     border-bottom: solid 2px #000;
-
     color: #00006a
 }
 
@@ -2086,7 +2100,6 @@ body {
 }
 
 #textStick {
-
     color: #00006a
 }
 
@@ -2105,8 +2118,6 @@ body {
     color: #000;
     position: absolute
 }
-
-
 
 .card {
     position: absolute;
@@ -3354,5 +3365,6 @@ body.stop-scrolling {
         transform: translateY(145%)
     }
 }
-
-
+#backHome {
+    transition: left 0.3s ease-out 0.2s;
+}

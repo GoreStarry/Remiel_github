@@ -94,27 +94,27 @@ $(function () {
     //------menu hovver--------
     var $findLi = $(".menu").find("li"),
         i = 0;
-    $(".menuimg,.menu").hover(function () {
-        $(".menuimg").css({
-            "-webkit-transform": "rotate(-90deg)"
-        });
-        $findLi.each(function () {
-            $(this).stop(1).delay(i * 100).animate({
-                "left": i % 2 - 3 + "rem"
-            }, 300);
-            i++;
-        });
-    }, function () {
-        $(".menuimg").css({
-            "-webkit-transform": "rotate(90deg)"
-        });
-        $findLi.each(function () {
-            $(this).stop(1).delay(i * 50).animate({
-                "left": "-12rem"
-            }, 300);
-            i--;
-        });
-    });
+//    $(".menuimg").hover(function () {
+//        $(".menuimg").css({
+//            "-webkit-transform": "rotate(-90deg)"
+//        });
+//        $findLi.each(function () {
+//            $(this).stop(1).delay(i * 100).animate({
+//                "left": i % 2 - 3 + "rem"
+//            }, 300);
+//            i++;
+//        });
+//    }, function () {
+//        $(".menuimg").css({
+//            "-webkit-transform": "rotate(90deg)"
+//        });
+//        $findLi.each(function () {
+//            $(this).stop(1).delay(i * 50).animate({
+//                "left": "-12rem"
+//            }, 300);
+//            i--;
+//        });
+//    });
 
 
 
