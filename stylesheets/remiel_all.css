@@ -3608,3 +3608,13 @@ body.stop-scrolling {
 #backHome {
   transition: left 0.3s ease-out 0.2s;
 }
+
+/* line 3377, ../sass/remiel_all.scss */
+#FBbox {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  bottom: 0;
+}

@@ -3674,6 +3674,16 @@ body.stop-scrolling {
   transition: left 0.3s ease-out 0.2s;
 }
 
+/* line 3377, ../sass/remiel_all.scss */
+#FBbox {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  bottom: 0;
+}
+
 /* line 2, ../sass/ch01/ch01_all.scss */
 #frame {
   background-image: url(../images/ch01/bace.png);
