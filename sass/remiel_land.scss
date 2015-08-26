@@ -27,7 +27,10 @@
  }
 
  .tip {
-     top: -50vh
+    top: -50vh;
+    left: 10vw;
+    line-height: 5vh;
+    font-size: 3vh
  }
 
  @-webkit-keyframes tipdown {
@@ -208,4 +211,73 @@
     right: 2.5rem;
     top: 17.8rem;
     font-size: 1.2rem;
+}
+
+.countDown {
+    font-size: 70vh;
+    line-height: 85vh;
+    height: 80vh;
+}
+
+
+
+#frame {
+        background-position: center;
+}
+
+#ink {
+    top: 3vh;
+    width: .5vh;
+}
+
+.Mcircl {
+    border: 2vh solid #fff;
+}
+
+.McirclOut {
+    width: 90vh;
+    height: 90vh;
+    left: calc(50vw - 45vh - 3vh);
+    top: calc(50vh - 45vh - 2vh)
+}
+
+.McirclIn {
+    width: 74vh;
+    height: 74vh;
+    left: calc(50vw - 37vh - 3vh);
+    top: calc(50vh - 37vh - 2vh)
+}
+
+.card {
+    height: 50%;
+    width: 15vh;
+}
+
+.tipRelative {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.key {
+    margin-top: 7vh;
+}
+
+.clicLR {
+    border-radius: .5vh;
+    width: 10vh;
+    height: 6vh;
+    border: .8vh solid #000;
+    font-size: 0.5vw;
+}
+
+.cc {
+    height: 100%;
+    line-height: 6vh;
+}
+
+.bgLine {
+    background: linear-gradient(210deg, transparent 50%, #000 50%);
 }

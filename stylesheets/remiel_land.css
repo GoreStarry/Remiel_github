@@ -33,6 +33,9 @@ article {
 /* line 29, ../sass/remiel_land.scss */
 .tip {
   top: -50vh;
+  left: 10vw;
+  line-height: 5vh;
+  font-size: 3vh;
 }
 
 @-webkit-keyframes tipdown {
@@ -107,7 +110,7 @@ article {
     top: -50vh;
   }
 }
-/* line 109, ../sass/remiel_land.scss */
+/* line 112, ../sass/remiel_land.scss */
 .udMho {
   top: 0;
   height: 70vh;
@@ -121,33 +124,33 @@ article {
   font-size: 1.2rem;
 }
 
-/* line 122, ../sass/remiel_land.scss */
+/* line 125, ../sass/remiel_land.scss */
 .udMho:nth-of-type(1) {
   left: 0;
   top: -10vh;
   z-index: 3;
 }
 
-/* line 128, ../sass/remiel_land.scss */
+/* line 131, ../sass/remiel_land.scss */
 .udMho:nth-of-type(2) {
   left: 10vw;
   top: -20vh;
   z-index: 2;
 }
 
-/* line 134, ../sass/remiel_land.scss */
+/* line 137, ../sass/remiel_land.scss */
 .udMho:nth-of-type(3) {
   left: 20vw;
   top: -30vh;
   z-index: 1;
 }
 
-/* line 140, ../sass/remiel_land.scss */
+/* line 143, ../sass/remiel_land.scss */
 .udMhoho {
   bottom: 0;
 }
 
-/* line 144, ../sass/remiel_land.scss */
+/* line 147, ../sass/remiel_land.scss */
 .sticker {
   left: 130vw;
 }
@@ -168,30 +171,30 @@ article {
     height: 7.5vh;
   }
 }
-/* line 167, ../sass/remiel_land.scss */
+/* line 170, ../sass/remiel_land.scss */
 .sticker {
   width: 30rem;
   height: 25rem;
 }
 
-/* line 172, ../sass/remiel_land.scss */
+/* line 175, ../sass/remiel_land.scss */
 .sticker2 {
   width: 30rem;
   height: 2rem;
 }
 
-/* line 177, ../sass/remiel_land.scss */
+/* line 180, ../sass/remiel_land.scss */
 .kickstick {
   width: 7.6rem;
   height: 7.6rem;
 }
 
-/* line 182, ../sass/remiel_land.scss */
+/* line 185, ../sass/remiel_land.scss */
 .formS {
   height: 25rem;
 }
 
-/* line 186, ../sass/remiel_land.scss */
+/* line 189, ../sass/remiel_land.scss */
 #textStick {
   margin-top: 1rem;
   width: 28rem;
@@ -200,24 +203,103 @@ article {
   font-size: 1.5rem;
 }
 
-/* line 194, ../sass/remiel_land.scss */
+/* line 197, ../sass/remiel_land.scss */
 .name {
   font-size: 1.5rem;
   bottom: 2rem;
   padding-left: 1rem;
 }
 
-/* line 200, ../sass/remiel_land.scss */
+/* line 203, ../sass/remiel_land.scss */
 .formName {
   font-size: 2.5rem;
   width: 12.5rem;
 }
 
-/* line 205, ../sass/remiel_land.scss */
+/* line 208, ../sass/remiel_land.scss */
 .formSub {
   width: 5rem;
   height: 5rem;
   right: 2.5rem;
   top: 17.8rem;
   font-size: 1.2rem;
+}
+
+/* line 216, ../sass/remiel_land.scss */
+.countDown {
+  font-size: 70vh;
+  line-height: 85vh;
+  height: 80vh;
+}
+
+/* line 224, ../sass/remiel_land.scss */
+#frame {
+  background-position: center;
+}
+
+/* line 228, ../sass/remiel_land.scss */
+#ink {
+  top: 3vh;
+  width: .5vh;
+}
+
+/* line 233, ../sass/remiel_land.scss */
+.Mcircl {
+  border: 2vh solid #fff;
+}
+
+/* line 237, ../sass/remiel_land.scss */
+.McirclOut {
+  width: 90vh;
+  height: 90vh;
+  left: calc(50vw - 45vh - 3vh);
+  top: calc(50vh - 45vh - 2vh);
+}
+
+/* line 244, ../sass/remiel_land.scss */
+.McirclIn {
+  width: 74vh;
+  height: 74vh;
+  left: calc(50vw - 37vh - 3vh);
+  top: calc(50vh - 37vh - 2vh);
+}
+
+/* line 251, ../sass/remiel_land.scss */
+.card {
+  height: 50%;
+  width: 15vh;
+}
+
+/* line 256, ../sass/remiel_land.scss */
+.tipRelative {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 264, ../sass/remiel_land.scss */
+.key {
+  margin-top: 7vh;
+}
+
+/* line 268, ../sass/remiel_land.scss */
+.clicLR {
+  border-radius: .5vh;
+  width: 10vh;
+  height: 6vh;
+  border: .8vh solid #000;
+  font-size: 0.5vw;
+}
+
+/* line 276, ../sass/remiel_land.scss */
+.cc {
+  height: 100%;
+  line-height: 6vh;
+}
+
+/* line 281, ../sass/remiel_land.scss */
+.bgLine {
+  background: linear-gradient(210deg, transparent 50%, #000 50%);
 }

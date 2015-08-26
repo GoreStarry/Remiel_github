@@ -1,7 +1,7 @@
 /* line 1, ../../sass/ch02/ch02_port.scss */
 #bb {
   position: relative;
-  left: -100%;
+  left: -70%;
   transform-origin: 60% bottom;
 }
 

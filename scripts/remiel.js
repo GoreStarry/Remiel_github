@@ -31,7 +31,7 @@ $(function () {
             .removeClass('countStart')
             .html(cTime)
             .addClass('countStart');
-        if (cTime < 0) {
+        if (cTime == 0) {
             if (loadingState == true) {
                 clearInterval(countDown);
                 $(".loading").css("display", "none");
@@ -200,6 +200,10 @@ $(function () {
         }, 400);
     });
 
+
+
+
+
     //--------------
 
     //    port首頁破圖保險
@@ -218,12 +222,11 @@ $(function () {
                 nowPageHeigt = $newPage.innerHeight();
             $newPage.css("opacity", "1");
             window.location.href = "#article";
-//            alert(nowPageHeigt);
-//            if (nowPageHeigt > $article.innerHeight()) {
+            if (nowPageHeigt > $article.innerHeight()) {
                 $article.innerHeight(nowPageHeigt);
-//            } else {
-//                $article.innerHeight(vh);
-//            }
+            } else {
+                $article.innerHeight(vh);
+            }
         } else {
             var $under = $(".under");
             $under.show();
@@ -316,10 +319,11 @@ $(function () {
                 $(".LOGO2").css({
                     height: 0.15 * vh
                 });
-                $(".countDown").css({
-                    "font-size": 0.7 * vh,
-                    "line-height": 0.85 * vh
-                });
+//                $(".countDown").css({
+//                    "font-size": 0.7*vh,
+//                    "height": 0.8*vh,
+//                    "line-height": 1*vw
+//                });
 
                 if ($runPage.eq(lastPage).innerHeight() > $article.innerHeight()) {
                     var thisHeight = $runPage.eq(lastPage).innerHeight();
