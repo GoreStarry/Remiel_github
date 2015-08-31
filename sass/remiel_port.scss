@@ -18,7 +18,7 @@
 
 #article {
     overflow: hidden;
-    height: 100%
+    height: 100vh;
 }
 
 
@@ -148,7 +148,7 @@
 
 .card {
     width: 9rem;
-    height: 23rem;
+    height: 20rem;
 }
 
 .hole {
@@ -301,20 +301,18 @@
 .tipRelative {
     position: relative;
     width: 9rem;
-    height: 23rem;
+    height: 20rem;
 }
 
 .clicw {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .bgLine {
         background: linear-gradient(260deg, transparent 40%, #000 40%);
 }
 
-.loading {
-    position: relative;
-}
+
 
 .stickerMid{
     left: 5vw;

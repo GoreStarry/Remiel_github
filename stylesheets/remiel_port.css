@@ -23,7 +23,7 @@
 /* line 19, ../sass/remiel_port.scss */
 #article {
   overflow: hidden;
-  height: 100%;
+  height: 100vh;
 }
 
 @keyframes tipdown {
@@ -157,7 +157,7 @@
 /* line 149, ../sass/remiel_port.scss */
 .card {
   width: 9rem;
-  height: 23rem;
+  height: 20rem;
 }
 
 /* line 154, ../sass/remiel_port.scss */
@@ -326,12 +326,12 @@
 .tipRelative {
   position: relative;
   width: 9rem;
-  height: 23rem;
+  height: 20rem;
 }
 
 /* line 307, ../sass/remiel_port.scss */
 .clicw {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 /* line 311, ../sass/remiel_port.scss */
@@ -339,12 +339,7 @@
   background: linear-gradient(260deg, transparent 40%, #000 40%);
 }
 
-/* line 315, ../sass/remiel_port.scss */
-.loading {
-  position: relative;
-}
-
-/* line 319, ../sass/remiel_port.scss */
+/* line 317, ../sass/remiel_port.scss */
 .stickerMid {
   left: 5vw;
 }

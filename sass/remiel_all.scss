@@ -2258,7 +2258,9 @@ body {
     font-size: 1.1rem;
     text-indent: 2.6rem;
     letter-spacing: .2rem;
-    line-height: 2.5rem
+    line-height: 2.5rem;
+    font-weight: 100;
+    font-family: Heiti TC,Microsoft JhengHei;
 }
 
 .udMho a:active {
@@ -3381,4 +3383,10 @@ body.stop-scrolling {
     margin: auto;
     text-align: center;
     bottom: 0;
+}
+
+.relativeBox {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }

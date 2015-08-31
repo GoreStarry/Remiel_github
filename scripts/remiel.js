@@ -1,6 +1,6 @@
 $(function () {
 
-
+    var preloadlist = ["./images/p34.jpg"];
 
     var browserPass = false,
         nowPage = 0,
@@ -19,6 +19,7 @@ $(function () {
 
     $(window).load(function () {
         loadingState = true;
+        $.preload(preloadlist);
     });
 
     var cTime = 5;
@@ -51,7 +52,7 @@ $(function () {
     //-----進入動態----
     $('#logoa').bind('click', function (event) {
         if (browserPass == true) {
-            $("#article").show();
+            $("article").show();
             $("#LOGO2L,#LOGO2R").addClass("LOGOtran");
             $("#logoa").css({
                 "-webkit-animation": "0",
@@ -61,6 +62,7 @@ $(function () {
                 "-webkit-animation": "2.3s inka ease-out  forwards",
                 "-moz-animation": "2.3s inka ease-out  forwards"
             });
+            page0Default();
             $('html, body').stop();
             setTimeout(function () {
                 $('html, body').stop().animate({
@@ -122,10 +124,6 @@ $(function () {
                 "bottom": "-15vh"
             }, "swing");
             $sticker.addClass("stickerMid");
-//            $sticker.stop(true).animate({
-//                "left": "0",
-//                "right": "0"
-//            });
         },
         function () {
             hov();
@@ -134,10 +132,6 @@ $(function () {
     $(".share").hover(
         function () {
             $sticker.removeClass("stickerMid");
-
-//            $sticker.stop(true).animate({
-//                "left": "150vw"
-//            });
             $shareB.stop(true).animate({
                 "bottom": "45vh"
             }, "swing");
@@ -182,15 +176,7 @@ $(function () {
         }, 400);
     });
 
-
-
-
-
     //--------------
-
-    //    port首頁破圖保險
-    //    alert($runPage.eq(0).innerHeight() +"x/" +$runPage.eq(0).outerHeight(true)+"/" +$runPage.eq(0).height());
-
 
 
     //-----翻頁區----
@@ -204,7 +190,7 @@ $(function () {
                 nowPageHeigt = $newPage.innerHeight();
             $newPage.css("opacity", "1");
             window.location.href = "#article";
-            if (nowPageHeigt > $article.innerHeight()) {
+            if (nowPageHeigt > vh) {
                 $article.innerHeight(nowPageHeigt);
             } else {
                 $article.innerHeight(vh);
@@ -227,7 +213,7 @@ $(function () {
                 nowPageHeigt = $newPage.innerHeight();
             $runPage.eq(lastPage - nowPage).css("left", "0");
             window.location.href = "#article";
-            if (nowPageHeigt > $article.innerHeight()) {
+            if (nowPageHeigt > vh) {
                 $article.innerHeight(nowPageHeigt);
             } else {
                 $article.innerHeight(vh);
@@ -267,12 +253,14 @@ $(function () {
         screenState = vw > vh ? "land" : "port";
 
         if (screenState != oldScreenState) {
-//            deviceDetect();
+            iosDebug();
             if (screenState == "land") {
                 $(".pageM").css({
                     "font-size": "1.1rem",
                     "line-height": "2rem"
                 });
+            }else{
+
             }
         };
 
@@ -286,15 +274,13 @@ $(function () {
             if (navigator.userAgent.match(/FB/i)) {
                 swal("抱歉，FB內建瀏覽器太過陽春了～", "請擊點右上角改以Chrome或Safari開啟喔～", "warning");
             } else {
-//                if (/iPhone|iPad|iPod/.test(navigator.userAgent)) {
-                    iosDebug();
-//                }
+                iosDebug();
                 swal("桌上平台以獲得更佳瀏覽體驗喔!");
                 browserPass = true;
                 if (screenState == "land") {
                     breakPrevent();
                 } else {
-                    page0Default();
+
                 }
             }
         }
@@ -307,7 +293,7 @@ $(function () {
                 if (screenState == "land") {
                     breakPrevent();
                 } else {
-                    page0Default();
+
                 }
             }
         }
