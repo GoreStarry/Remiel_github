@@ -87,25 +87,25 @@ $(function () {
                 });
 
 //                resume特別解說
-                setTimeout(function () {
-                    swal({
-                        title: "作品集快速解說",
-                        text: "左上方設定可以以cookie記錄瀏覽頁數（欲節省閱讀時間直接跳到最後階段，請按繼續）",
-                        type: "warning",
-                        showCancelButton: true,
-                        confirmButtonColor: "#DD6B55",
-                        confirmButtonText: "是，繼續下階段",
-                        closeOnConfirm: false
-                    }, function () {
-                        var $under = $(".under");
-                        $under.show();
-                        $('html, body').stop().animate({
-                            scrollTop: $under.offset().top
-                        }, 1000, 'easeInOutExpo');
-                        event.preventDefault();
-                        swal("解說。", "留言是AJAX+php+mysql");
-                    });
-                }, 3000);
+//                setTimeout(function () {
+//                    swal({
+//                        title: "作品集快速解說",
+//                        text: "左上方設定可以以cookie記錄瀏覽頁數（欲節省閱讀時間直接跳到最後階段，請按繼續）",
+//                        type: "warning",
+//                        showCancelButton: true,
+//                        confirmButtonColor: "#DD6B55",
+//                        confirmButtonText: "是，繼續下階段",
+//                        closeOnConfirm: false
+//                    }, function () {
+//                        var $under = $(".under");
+//                        $under.show();
+//                        $('html, body').stop().animate({
+//                            scrollTop: $under.offset().top
+//                        }, 1000, 'easeInOutExpo');
+//                        event.preventDefault();
+//                        swal("解說。", "留言是AJAX+php+mysql");
+//                    });
+//                }, 3000);
 
             }, 14500);
         } else {
