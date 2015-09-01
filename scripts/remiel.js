@@ -15,7 +15,7 @@ $(function () {
 
 
     deviceDetect();
-    //啟動倒數--------------
+    //開頭倒數動畫--------------
 
     $(window).load(function () {
         loadingState = true;
@@ -47,14 +47,17 @@ $(function () {
         }
     }, 1500);
 
-    var $tip = $(".tip");
+    //--------------
 
-    //-----進入動態----
-    $('#logoa').bind('click', function (event) {
+    var $tip = $(".tip"),
+        $logoa = $('#logoa');
+
+    //-----進入動態腳本----
+    $logoa.bind('click', function (event) {
         if (browserPass == true) {
-            $("article").show();
+            $article.show();
             $("#LOGO2L,#LOGO2R").addClass("LOGOtran");
-            $("#logoa").css({
+            $logoa.css({
                 "-webkit-animation": "0",
                 "-moz-animation": "0"
             });
@@ -86,26 +89,8 @@ $(function () {
                     "-moz-animation": "tipdown .5s ease-in forwards"
                 });
 
-//                resume特別解說
-//                setTimeout(function () {
-//                    swal({
-//                        title: "作品集快速解說",
-//                        text: "左上方設定可以以cookie記錄瀏覽頁數（欲節省閱讀時間直接跳到最後階段，請按繼續）",
-//                        type: "warning",
-//                        showCancelButton: true,
-//                        confirmButtonColor: "#DD6B55",
-//                        confirmButtonText: "是，繼續下階段",
-//                        closeOnConfirm: false
-//                    }, function () {
-//                        var $under = $(".under");
-//                        $under.show();
-//                        $('html, body').stop().animate({
-//                            scrollTop: $under.offset().top
-//                        }, 1000, 'easeInOutExpo');
-//                        event.preventDefault();
-//                        swal("解說。", "留言是AJAX+php+mysql");
-//                    });
-//                }, 3000);
+                //resume特別解說
+                resumeSupport();
 
             }, 14500);
         } else {
@@ -115,15 +100,39 @@ $(function () {
     });
     //--------------
 
-    //    分享留言安三秒歸位
+    //-----resume特別解說-----
+    function resumeSupport() {
+        setTimeout(function () {
+            swal({
+                title: "作品集快速解說",
+                text: "左上方設定可以以cookie記錄瀏覽頁數（欲節省閱讀時間直接跳到最後階段，請按繼續）",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#DD6B55",
+                confirmButtonText: "是，繼續下階段",
+                closeOnConfirm: false
+            }, function () {
+                var $under = $(".under");
+                $under.show();
+                $('html, body').stop().animate({
+                    scrollTop: $under.offset().top
+                }, 1000, 'easeInOutExpo');
+                event.preventDefault();
+                swal("解說。", "留言是AJAX+php+mysql");
+            });
+        }, 3000);
+    }
+    //--------------
+
+    //---分享&留言三秒無動作歸位---
 
     var $sticker = $(".sticker"),
         $shareB = $(".shareB"),
         hovtest;
 
-        $("textarea,input").focus(function () {
-            clearInterval(hovtest);
-        })
+    $("textarea,input").focus(function () {
+        clearInterval(hovtest);
+    })
 
     function hov() {
         var i = 0;
@@ -165,7 +174,7 @@ $(function () {
             hov();
         });
 
-
+    //--------------
 
 
     //-----選單效果----
@@ -264,35 +273,39 @@ $(function () {
     });
     //--------------
 
+    //-----使用提示----
     $(".know").click(function () {
         $(".tip").css({
             "-webkit-animation": "knows .5s ease-in forwards",
             "-moz-animation": "knows .5s ease-in forwards"
         });
     });
+    //--------------
 
+    //-----resize重置----
     $(window).resize(function () {
-        var oldScreenState = screenState;
-        vw = window.innerWidth;
-        vh = window.innerHeight;
-        screenState = vw > vh ? "land" : "port";
+            var oldScreenState = screenState;
+            vw = window.innerWidth;
+            vh = window.innerHeight;
+            screenState = vw > vh ? "land" : "port";
 
-        if (screenState != oldScreenState) {
-            iosDebug();
-            if (screenState == "land") {
-                $(".pageM").css({
-                    "font-size": "1.1rem",
-                    "line-height": "2rem"
-                });
-            } else {
+            if (screenState != oldScreenState) {
+                iosDebug();
+                if (screenState == "land") {
+                    $(".pageM").css({
+                        "font-size": "1.1rem",
+                        "line-height": "2rem"
+                    });
+                } else {
 
-            }
-        };
+                }
+            };
 
-    })
+        })
+        //--------------
 
 
-    //瀏覽器偵測
+    //-----瀏覽器偵測----
     function deviceDetect() {
         //        手機
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
@@ -337,14 +350,16 @@ $(function () {
         });
 
     }
+    //--------------
 
-
+    //-----手機第一頁預設----
     function page0Default() {
         if ($runPage.eq(lastPage).innerHeight() > $article.innerHeight()) {
             var thisHeight = $runPage.eq(lastPage).innerHeight();
             $article.innerHeight(thisHeight);
         }
     }
+    //--------------
 
 
     //-----破頁保險----
@@ -389,17 +404,6 @@ $(function () {
 
         //--------------
     })();
-
-
-    function landStyle() {
-
-    }
-
-    function portStyle() {
-
-    }
-
-
 
 
 })
