@@ -1,3 +1,8 @@
+/**
+* @author      Taylor Wang  <sunrise91.t3@gmail.com>
+* @copyright   Copyright (c) 2015 Taylor Wang Design
+*/
+
 $(function () {
 
     var preloadlist = ["./images/p34.jpg"];
@@ -15,6 +20,8 @@ $(function () {
 
 
     deviceDetect();
+
+
     //啟動倒數--------------
 
     $(window).load(function () {
@@ -22,7 +29,7 @@ $(function () {
         $.preload(preloadlist);
     });
 
-    var cTime = 5;
+    var cTime = 5;//倒數秒數
     $('.opBoxBR').addClass('starBR');
     $('.opBoxBL').addClass('starBL');
     $('.whitelineL').addClass('rowLine');
@@ -48,6 +55,7 @@ $(function () {
     }, 1500);
 
     var $tip = $(".tip");
+    //--------------
 
     //-----進入動態----
     $('#logoa').bind('click', function (event) {
@@ -213,6 +221,7 @@ $(function () {
             nowPage++;
             var $newPage = $runPage.eq(lastPage - nowPage),
                 nowPageHeigt = $newPage.innerHeight();
+
             $newPage.css("opacity", "1");
             window.location.href = "#article";
             if (nowPageHeigt > vh) {

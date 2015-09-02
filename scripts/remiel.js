@@ -1,3 +1,8 @@
+/**
+* @author      Taylor Wang  <sunrise91.t3@gmail.com>
+* @copyright   Copyright (c) 2015 Taylor Wang Design
+*/
+
 $(function () {
 
     var preloadlist = ["./images/p34.jpg"];
