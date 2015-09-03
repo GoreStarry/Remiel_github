@@ -13,6 +13,18 @@
 
 <br/>
 
+<h2>components</h2>
+* jquery
+* github-fork-ribbon-css（GitHub連結）
+* sweetalert（作品解說）
+* jquery.easing（頁面y軸滑動）
+* jquery.cookie（閱讀書籤）
+* jquery.preload（圖片預載）
+* 其餘皆由自己刻成，未使用任何css framework。
+
+
+<br/>
+
 <h2>關於</h2>
 * 作者：Taylor Wang
 * email：<sunrise91.t3@gmail.com>
