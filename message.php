@@ -6,7 +6,7 @@
     if(!empty($_POST['name']) &&  !empty($_POST['comment'])){
 //        echo "連線成功<br>";
 
-        $conn = mysqli_connect("mysql.hostinger.com.hk","u361545854_gore","25571174","u361545854_msg");
+        $conn = mysqli_connect("?","?","?","?");
         if(mysqli_connect_errno($conn)){
     //        die("連不上去耶...");
             $data['success'] = false;
