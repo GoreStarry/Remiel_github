@@ -1,9 +1,13 @@
-/* line 2, ../../sass/ch01/ch01_all.scss */
+/**
+* @author      Taylor Wang  <sunrise91.t3@gmail.com>
+* @copyright   Copyright (c) 2015 Taylor Wang Design
+*/
+/* line 6, ../../sass/ch01/ch01_all.scss */
 #frame {
   background-image: url(../images/ch01/bace.png);
 }
 
-/* line 6, ../../sass/ch01/ch01_all.scss */
+/* line 10, ../../sass/ch01/ch01_all.scss */
 .under {
   background-image: url(../images/ch02/ptcTower.jpg);
 }
@@ -24,14 +28,14 @@
     right: 10vw;
   }
 }
-/* line 28, ../../sass/ch01/ch01_all.scss */
+/* line 32, ../../sass/ch01/ch01_all.scss */
 #cus {
   width: 110%;
   right: -10%;
   z-index: 2;
 }
 
-/* line 36, ../../sass/ch01/ch01_all.scss */
+/* line 40, ../../sass/ch01/ch01_all.scss */
 #cus img {
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -61,21 +65,21 @@
     left: calc(50vw - 65vh);
   }
 }
-/* line 67, ../../sass/ch01/ch01_all.scss */
+/* line 71, ../../sass/ch01/ch01_all.scss */
 #cus2,
 .title {
   height: 100%;
   left: 0;
 }
 
-/* line 73, ../../sass/ch01/ch01_all.scss */
+/* line 77, ../../sass/ch01/ch01_all.scss */
 #pi {
   height: 100%;
   position: absolute;
   top: 100%;
 }
 
-/* line 79, ../../sass/ch01/ch01_all.scss */
+/* line 83, ../../sass/ch01/ch01_all.scss */
 .addpi {
   -webkit-animation: cross 7s cubic-bezier(0.11, 1.065, 0, 0.995) forwards;
   animation: cross 7s cubic-bezier(0.11, 1.065, 0, 0.995) forwards;
@@ -103,19 +107,19 @@
     transform: rotate(0);
   }
 }
-/* line 108, ../../sass/ch01/ch01_all.scss */
+/* line 112, ../../sass/ch01/ch01_all.scss */
 #cus2 {
   position: relative;
   margin: auto;
 }
 
-/* line 115, ../../sass/ch01/ch01_all.scss */
+/* line 119, ../../sass/ch01/ch01_all.scss */
 .flyAct {
   -webkit-animation: fly 8s cubic-bezier(0, 0.995, 0, 1.005) forwards;
   animation: fly 8s cubic-bezier(0, 0.995, 0, 1.005) forwards;
 }
 
-/* line 120, ../../sass/ch01/ch01_all.scss */
+/* line 124, ../../sass/ch01/ch01_all.scss */
 .cusAct {
   -webkit-animation: cus 6s cubic-bezier(0.32, 0.01, 0, 0.995) forwards;
   animation: cus 6s cubic-bezier(0.32, 0.01, 0, 0.995) forwards;
@@ -137,14 +141,14 @@
     right: 10vw;
   }
 }
-/* line 144, ../../sass/ch01/ch01_all.scss */
+/* line 148, ../../sass/ch01/ch01_all.scss */
 #cus {
   width: 110%;
   right: -10%;
   z-index: 2;
 }
 
-/* line 151, ../../sass/ch01/ch01_all.scss */
+/* line 155, ../../sass/ch01/ch01_all.scss */
 #cus img {
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -174,21 +178,21 @@
     left: calc(50vw - 65vh);
   }
 }
-/* line 183, ../../sass/ch01/ch01_all.scss */
+/* line 187, ../../sass/ch01/ch01_all.scss */
 #cus2,
 .title {
   height: 100%;
   left: 0;
 }
 
-/* line 189, ../../sass/ch01/ch01_all.scss */
+/* line 193, ../../sass/ch01/ch01_all.scss */
 #pi {
   height: 100%;
   position: absolute;
   top: 100%;
 }
 
-/* line 195, ../../sass/ch01/ch01_all.scss */
+/* line 199, ../../sass/ch01/ch01_all.scss */
 .addpi {
   -webkit-animation: cross 7s cubic-bezier(0.11, 1.065, 0, 0.995) forwards;
   animation: cross 7s cubic-bezier(0.11, 1.065, 0, 0.995) forwards;
@@ -216,25 +220,25 @@
     transform: rotate(0);
   }
 }
-/* line 224, ../../sass/ch01/ch01_all.scss */
+/* line 228, ../../sass/ch01/ch01_all.scss */
 #cus2 {
   position: relative;
   margin: auto;
 }
 
-/* line 230, ../../sass/ch01/ch01_all.scss */
+/* line 234, ../../sass/ch01/ch01_all.scss */
 .flyAct {
   -webkit-animation: fly 8s cubic-bezier(0, 0.995, 0, 1.005) forwards;
   animation: fly 8s cubic-bezier(0, 0.995, 0, 1.005) forwards;
 }
 
-/* line 235, ../../sass/ch01/ch01_all.scss */
+/* line 239, ../../sass/ch01/ch01_all.scss */
 .cusAct {
   -webkit-animation: cus 6s cubic-bezier(0.32, 0.01, 0, 0.995) forwards;
   animation: cus 6s cubic-bezier(0.32, 0.01, 0, 0.995) forwards;
 }
 
-/* line 243, ../../sass/ch01/ch01_all.scss */
+/* line 247, ../../sass/ch01/ch01_all.scss */
 .under {
   background-image: url(../images/ch02/ptcTower.jpg);
 }

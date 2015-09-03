@@ -1,4 +1,8 @@
-/* line 1, ../sass/remiel_land.scss */
+/**
+* @author      Taylor Wang  <sunrise91.t3@gmail.com>
+* @copyright   Copyright (c) 2015 Taylor Wang Design
+*/
+/* line 6, ../sass/remiel_land.scss */
 .pageM {
   writing-mode: vertical-rl;
   -webkit-writing-mode: vertical-rl;
@@ -9,7 +13,7 @@
   background: #000;
 }
 
-/* line 11, ../sass/remiel_land.scss */
+/* line 16, ../sass/remiel_land.scss */
 article {
   width: 100vw;
   height: 100vh;
@@ -17,20 +21,20 @@ article {
   overflow: hidden;
 }
 
-/* line 18, ../sass/remiel_land.scss */
+/* line 23, ../sass/remiel_land.scss */
 .udMho,
 .udMhoho {
   position: absolute;
   width: 30vh;
 }
 
-/* line 24, ../sass/remiel_land.scss */
+/* line 29, ../sass/remiel_land.scss */
 .page {
   margin-top: 7vh;
   height: 90vh;
 }
 
-/* line 29, ../sass/remiel_land.scss */
+/* line 34, ../sass/remiel_land.scss */
 .tip {
   top: -50vh;
   left: 10vw;
@@ -110,7 +114,7 @@ article {
     top: -50vh;
   }
 }
-/* line 112, ../sass/remiel_land.scss */
+/* line 117, ../sass/remiel_land.scss */
 .udMho {
   top: 0;
   height: 70vh;
@@ -124,33 +128,33 @@ article {
   font-size: 1.2rem;
 }
 
-/* line 125, ../sass/remiel_land.scss */
+/* line 130, ../sass/remiel_land.scss */
 .udMho:nth-of-type(1) {
   left: 0;
   top: -10vh;
   z-index: 3;
 }
 
-/* line 131, ../sass/remiel_land.scss */
+/* line 136, ../sass/remiel_land.scss */
 .udMho:nth-of-type(2) {
   left: 10vw;
   top: -20vh;
   z-index: 2;
 }
 
-/* line 137, ../sass/remiel_land.scss */
+/* line 142, ../sass/remiel_land.scss */
 .udMho:nth-of-type(3) {
   left: 20vw;
   top: -30vh;
   z-index: 1;
 }
 
-/* line 143, ../sass/remiel_land.scss */
+/* line 148, ../sass/remiel_land.scss */
 .udMhoho {
   bottom: 0;
 }
 
-/* line 147, ../sass/remiel_land.scss */
+/* line 152, ../sass/remiel_land.scss */
 .sticker {
   left: 130vw;
 }
@@ -171,30 +175,30 @@ article {
     height: 7.5vh;
   }
 }
-/* line 170, ../sass/remiel_land.scss */
+/* line 175, ../sass/remiel_land.scss */
 .sticker {
   width: 24rem;
   height: 20rem;
 }
 
-/* line 177, ../sass/remiel_land.scss */
+/* line 182, ../sass/remiel_land.scss */
 .sticker2 {
   width: 24rem;
   height: 1.7rem;
 }
 
-/* line 184, ../sass/remiel_land.scss */
+/* line 189, ../sass/remiel_land.scss */
 .kickstick {
   width: 6.1rem;
   height: 6.1rem;
 }
 
-/* line 191, ../sass/remiel_land.scss */
+/* line 196, ../sass/remiel_land.scss */
 .formS {
   height: 20rem;
 }
 
-/* line 196, ../sass/remiel_land.scss */
+/* line 201, ../sass/remiel_land.scss */
 #textStick {
   margin-top: 1.2rem;
   width: 22rem;
@@ -203,20 +207,20 @@ article {
   font-size: 1.5rem;
 }
 
-/* line 206, ../sass/remiel_land.scss */
+/* line 211, ../sass/remiel_land.scss */
 .name {
   font-size: 1.2rem;
   bottom: 1.6rem;
   padding-left: 1rem;
 }
 
-/* line 214, ../sass/remiel_land.scss */
+/* line 219, ../sass/remiel_land.scss */
 .formName {
   font-size: 2rem;
   width: 10rem;
 }
 
-/* line 221, ../sass/remiel_land.scss */
+/* line 226, ../sass/remiel_land.scss */
 .formSub {
   width: 4rem;
   height: 4rem;
@@ -225,30 +229,30 @@ article {
   font-size: 1.2rem;
 }
 
-/* line 234, ../sass/remiel_land.scss */
+/* line 239, ../sass/remiel_land.scss */
 .countDown {
   font-size: 70vh;
   line-height: 85vh;
   height: 80vh;
 }
 
-/* line 242, ../sass/remiel_land.scss */
+/* line 247, ../sass/remiel_land.scss */
 #frame {
   background-position: center;
 }
 
-/* line 246, ../sass/remiel_land.scss */
+/* line 251, ../sass/remiel_land.scss */
 #ink {
   top: 3vh;
   width: .5vh;
 }
 
-/* line 251, ../sass/remiel_land.scss */
+/* line 256, ../sass/remiel_land.scss */
 .Mcircl {
   border: 2vh solid #fff;
 }
 
-/* line 255, ../sass/remiel_land.scss */
+/* line 260, ../sass/remiel_land.scss */
 .McirclOut {
   width: 90vh;
   height: 90vh;
@@ -256,7 +260,7 @@ article {
   top: calc(50vh - 45vh - 2vh);
 }
 
-/* line 262, ../sass/remiel_land.scss */
+/* line 267, ../sass/remiel_land.scss */
 .McirclIn {
   width: 74vh;
   height: 74vh;
@@ -264,13 +268,13 @@ article {
   top: calc(50vh - 37vh - 2vh);
 }
 
-/* line 269, ../sass/remiel_land.scss */
+/* line 274, ../sass/remiel_land.scss */
 .card {
   height: 50%;
   width: 15vh;
 }
 
-/* line 274, ../sass/remiel_land.scss */
+/* line 279, ../sass/remiel_land.scss */
 .tipRelative {
   position: absolute;
   top: 0;
@@ -279,12 +283,12 @@ article {
   height: 100%;
 }
 
-/* line 282, ../sass/remiel_land.scss */
+/* line 287, ../sass/remiel_land.scss */
 .key {
   margin-top: 7vh;
 }
 
-/* line 286, ../sass/remiel_land.scss */
+/* line 291, ../sass/remiel_land.scss */
 .clicLR {
   border-radius: .5vh;
   width: 10vh;
@@ -293,18 +297,18 @@ article {
   font-size: 0.5vw;
 }
 
-/* line 294, ../sass/remiel_land.scss */
+/* line 299, ../sass/remiel_land.scss */
 .cc {
   height: 100%;
   line-height: 6vh;
 }
 
-/* line 299, ../sass/remiel_land.scss */
+/* line 304, ../sass/remiel_land.scss */
 .bgLine {
   background: linear-gradient(210deg, transparent 50%, #000 50%);
 }
 
-/* line 304, ../sass/remiel_land.scss */
+/* line 309, ../sass/remiel_land.scss */
 .stickerMid {
   left: calc( 50vw - 12rem );
 }

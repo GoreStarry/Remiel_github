@@ -1,26 +1,30 @@
-/* line 1, ../sass/remiel_port.scss */
+/**
+* @author      Taylor Wang  <sunrise91.t3@gmail.com>
+* @copyright   Copyright (c) 2015 Taylor Wang Design
+*/
+/* line 6, ../sass/remiel_port.scss */
 .pageM {
   padding: 0 1rem;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 6, ../sass/remiel_port.scss */
+/* line 11, ../sass/remiel_port.scss */
 .pageM .center {
   text-align: center;
 }
 
-/* line 10, ../sass/remiel_port.scss */
+/* line 15, ../sass/remiel_port.scss */
 .page {
   padding: 5rem 0;
 }
 
-/* line 14, ../sass/remiel_port.scss */
+/* line 19, ../sass/remiel_port.scss */
 .tip {
   left: -50vw;
   top: 5rem;
 }
 
-/* line 19, ../sass/remiel_port.scss */
+/* line 24, ../sass/remiel_port.scss */
 #article {
   overflow: hidden;
   height: 100vh;
@@ -75,14 +79,14 @@
     left: -50vw;
   }
 }
-/* line 77, ../sass/remiel_port.scss */
+/* line 82, ../sass/remiel_port.scss */
 .sticker {
   left: 110vw;
   width: 90vw;
   height: 75vw;
 }
 
-/* line 84, ../sass/remiel_port.scss */
+/* line 89, ../sass/remiel_port.scss */
 .udMho {
   position: absolute;
   display: inline-block;
@@ -93,38 +97,38 @@
   z-index: 10;
 }
 
-/* line 94, ../sass/remiel_port.scss */
+/* line 99, ../sass/remiel_port.scss */
 .udMho:nth-of-type(1) {
   left: 68%;
 }
 
-/* line 98, ../sass/remiel_port.scss */
+/* line 103, ../sass/remiel_port.scss */
 .udMho:nth-of-type(2) {
   left: 37%;
 }
 
-/* line 102, ../sass/remiel_port.scss */
+/* line 107, ../sass/remiel_port.scss */
 .udMho:nth-of-type(3) {
   left: 5%;
 }
 
-/* line 106, ../sass/remiel_port.scss */
+/* line 111, ../sass/remiel_port.scss */
 .udMt {
   border: 0.3rem solid #fff;
 }
 
-/* line 110, ../sass/remiel_port.scss */
+/* line 115, ../sass/remiel_port.scss */
 #logoa {
   width: 40%;
 }
 
-/* line 114, ../sass/remiel_port.scss */
+/* line 119, ../sass/remiel_port.scss */
 #ink {
   top: 16%;
   width: 3%;
 }
 
-/* line 119, ../sass/remiel_port.scss */
+/* line 124, ../sass/remiel_port.scss */
 #LOGO2b {
   top: 0;
   margin-top: -10%;
@@ -148,37 +152,37 @@
     height: 41%;
   }
 }
-/* line 144, ../sass/remiel_port.scss */
+/* line 149, ../sass/remiel_port.scss */
 .paperS {
   width: 100%;
   height: 100%;
 }
 
-/* line 149, ../sass/remiel_port.scss */
+/* line 154, ../sass/remiel_port.scss */
 .card {
   width: 9rem;
   height: 20rem;
 }
 
-/* line 154, ../sass/remiel_port.scss */
+/* line 159, ../sass/remiel_port.scss */
 .hole {
   width: 2rem;
   height: 2rem;
   margin: 0.5rem auto;
 }
 
-/* line 160, ../sass/remiel_port.scss */
+/* line 165, ../sass/remiel_port.scss */
 .rebon {
   height: 40%;
   top: -34%;
 }
 
-/* line 165, ../sass/remiel_port.scss */
+/* line 170, ../sass/remiel_port.scss */
 .key {
   display: none;
 }
 
-/* line 169, ../sass/remiel_port.scss */
+/* line 174, ../sass/remiel_port.scss */
 .keypic {
   width: 2rem;
   height: 2rem;
@@ -186,23 +190,23 @@
   border: 0.3rem solid #888;
 }
 
-/* line 176, ../sass/remiel_port.scss */
+/* line 181, ../sass/remiel_port.scss */
 .keyb {
   font-size: 1rem;
   border-radius: 0.3rem;
 }
 
-/* line 181, ../sass/remiel_port.scss */
+/* line 186, ../sass/remiel_port.scss */
 #keyup {
   margin-bottom: 0.3rem;
 }
 
-/* line 185, ../sass/remiel_port.scss */
+/* line 190, ../sass/remiel_port.scss */
 .or {
   font-size: 2rem;
 }
 
-/* line 189, ../sass/remiel_port.scss */
+/* line 194, ../sass/remiel_port.scss */
 .clicLR {
   width: 5rem;
   height: 7rem;
@@ -212,54 +216,54 @@
   background-color: black;
 }
 
-/* line 198, ../sass/remiel_port.scss */
+/* line 203, ../sass/remiel_port.scss */
 .pcb {
   display: none;
 }
 
-/* line 202, ../sass/remiel_port.scss */
+/* line 207, ../sass/remiel_port.scss */
 .cc {
   height: 90%;
   line-height: 2rem;
   font-size: 1.5rem;
 }
 
-/* line 208, ../sass/remiel_port.scss */
+/* line 213, ../sass/remiel_port.scss */
 .cardtext {
   font-size: 5rem;
   line-height: 6rem;
 }
 
-/* line 217, ../sass/remiel_port.scss */
+/* line 222, ../sass/remiel_port.scss */
 .under {
   background-position: 70% center;
 }
 
-/* line 221, ../sass/remiel_port.scss */
+/* line 226, ../sass/remiel_port.scss */
 .udMt {
   padding: .5rem;
   border-radius: 1rem;
   font-size: 4vw;
 }
 
-/* line 227, ../sass/remiel_port.scss */
+/* line 232, ../sass/remiel_port.scss */
 .sticker2 {
   width: 90vw;
   height: 6vw;
 }
 
-/* line 232, ../sass/remiel_port.scss */
+/* line 237, ../sass/remiel_port.scss */
 .kickstick {
   width: 22.8vw;
   height: 22.8vw;
 }
 
-/* line 237, ../sass/remiel_port.scss */
+/* line 242, ../sass/remiel_port.scss */
 .formS {
   height: 75vw;
 }
 
-/* line 241, ../sass/remiel_port.scss */
+/* line 246, ../sass/remiel_port.scss */
 #textStick {
   margin-top: 3vw;
   width: 84vw;
@@ -268,20 +272,20 @@
   font-size: 4.5vw;
 }
 
-/* line 249, ../sass/remiel_port.scss */
+/* line 254, ../sass/remiel_port.scss */
 .name {
   font-size: 4.5vw;
   bottom: 6vw;
   padding-left: 3vw;
 }
 
-/* line 255, ../sass/remiel_port.scss */
+/* line 260, ../sass/remiel_port.scss */
 .formName {
   font-size: 7.5vw;
   width: 37.5vw;
 }
 
-/* line 260, ../sass/remiel_port.scss */
+/* line 265, ../sass/remiel_port.scss */
 .formSub {
   width: 15vw;
   height: 15vw;
@@ -290,19 +294,19 @@
   font-size: 3.6vw;
 }
 
-/* line 268, ../sass/remiel_port.scss */
+/* line 273, ../sass/remiel_port.scss */
 .shareB {
   bottom: -100px;
 }
 
-/* line 276, ../sass/remiel_port.scss */
+/* line 281, ../sass/remiel_port.scss */
 .countDown {
   font-size: 100vw;
   line-height: 85vw;
   height: 80vw;
 }
 
-/* line 284, ../sass/remiel_port.scss */
+/* line 289, ../sass/remiel_port.scss */
 .Mcircl {
   left: 50%;
   top: 50%;
@@ -310,36 +314,36 @@
   border: 1rem solid #fff;
 }
 
-/* line 291, ../sass/remiel_port.scss */
+/* line 296, ../sass/remiel_port.scss */
 .McirclOut {
   width: 90vw;
   height: 90vw;
 }
 
-/* line 296, ../sass/remiel_port.scss */
+/* line 301, ../sass/remiel_port.scss */
 .McirclIn {
   width: 120vw;
   height: 120vw;
 }
 
-/* line 301, ../sass/remiel_port.scss */
+/* line 306, ../sass/remiel_port.scss */
 .tipRelative {
   position: relative;
   width: 9rem;
   height: 20rem;
 }
 
-/* line 307, ../sass/remiel_port.scss */
+/* line 312, ../sass/remiel_port.scss */
 .clicw {
   margin-top: 3rem;
 }
 
-/* line 311, ../sass/remiel_port.scss */
+/* line 316, ../sass/remiel_port.scss */
 .bgLine {
   background: linear-gradient(260deg, transparent 40%, #000 40%);
 }
 
-/* line 317, ../sass/remiel_port.scss */
+/* line 322, ../sass/remiel_port.scss */
 .stickerMid {
   left: 5vw;
 }
